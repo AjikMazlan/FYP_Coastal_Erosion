@@ -1,0 +1,13 @@
+{
+  "site_id": "BUKIT_KELUANG",
+  "site_name": "Pantai Bukit Keluang, Besut",
+  "sitename": "BUKIT_KELUANG_2025_PILOT",
+  "earth_engine_project": "coastal-erosion-fyp",
+  "roi_file": "bukit_keluang_roi.geojson",
+  "dates": ["2025-03-01", "2025-05-01"],
+  "sat_list": ["S2"],
+  "output_epsg": 32648,
+  "jps_station_ids": [3, 4, 5],
+  "status": "pilot_roi_requires_image_review",
+  "notes": "Initial imagery pilot only. Dates cover March-April 2025, not a complete annual sample. JPS station IDs identify the study area; prediction transects will be defined separately after image review."
+}

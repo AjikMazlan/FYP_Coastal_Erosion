@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BUKIT_KELUANG_PILOT_ROI",
+        "status": "draft",
+        "description": "Initial WGS84 imagery bounding box around JPS stations 3, 4 and 5. This polygon is a study-area envelope, not a surveyed or predicted shoreline."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [102.598, 5.794],
+            [102.616, 5.794],
+            [102.616, 5.807],
+            [102.598, 5.807],
+            [102.598, 5.794]
+          ]
+        ]
+      }
+    }
+  ]
+}

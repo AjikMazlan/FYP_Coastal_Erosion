@@ -1,0 +1,46 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+credentials*.json
+client_secret*.json
+*service-account*.json
+token.json
+token.pickle
+
+# Flutter and Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android local configuration and signing keys
+.gradle/
+local.properties
+key.properties
+*.jks
+*.keystore
+
+# Editor and operating system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

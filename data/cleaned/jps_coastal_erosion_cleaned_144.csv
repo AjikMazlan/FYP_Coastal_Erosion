@@ -1,0 +1,145 @@
+No,Coastal_Cell,District,Area_Location,Longitude_DMS,Latitude_DMS,Longitude_DD,Latitude_DD,Annual_Erosion_Rate_m_yr,Physical_Erosion_Score,Economic_Score,Total_Score,ISMP_2022_Category,NCES_2015_Category,Is_Protected,Original_Total_Score,Total_Score_Cleaned,Is_Erosion_Outlier
+1,C1,Besut,North of Kampung Teluk Budu,"102°32'47.8""E","5°50'18.7""N",102.546611,5.838528,4.94,5.0,3.4,17.0,1,1,0,17.0,17.0,False
+2,C1,Besut,Breakwater near Sungai Besut river mouth,"102°33'26.7""E","5°50'03.3""N",102.557417,5.83425,0.0,0.0,3.2,0.0,3,2,0,0.0,0.0,False
+3,C1,Besut,Pantai Bukit Keluang,"102°36'17.9""E","5°48'08.2""N",102.604972,5.802278,1.92,2.0,2.3,4.6,3,2,0,4.6,4.6,False
+4,C1,Besut,Pantai Bukit Keluang,"102°36'35.9""E","5°47'56.6""N",102.609972,5.799056,0.94,0.94,1.4,1.32,3,3,0,1.32,1.32,False
+5,C1,Besut,Pantai Bukit Keluang,"102°36'40.1""E","5°47'51.6""N",102.611139,5.797667,5.28,5.0,1.0,5.0,3,3,0,5.0,5.0,False
+6,C1,Besut,North of Sungai Keluang river mouth,"102°36'48.2""E","5°47'42.0""N",102.613389,5.795,0.69,0.69,1.0,0.69,3,3,0,0.69,0.69,False
+7,C1,Besut,North of Sungai Keluang river mouth,"102°36'50.8""E","5°47'36.2""N",102.614111,5.793389,1.08,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+8,C1,Besut,South of Sungai Keluang river mouth,"102°36'55.1""E","5°47'35.1""N",102.615306,5.793083,1.97,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+9,C1,Besut,South of Sungai Keluang river mouth,"102°36'58.1""E","5°47'33.1""N",102.616139,5.792528,0.55,0.55,1.0,0.55,3,3,0,0.55,0.55,False
+10,C2,Besut,North of Kampung Beting,"102°39'24.5""E","5°44'38.0""N",102.656806,5.743889,2.33,3.0,1.1,3.3,3,3,0,3.3,3.3,False
+11,C2,Besut,Southeast of Kampung Beting Lintang,"102°39'48.7""E","5°44'08.4""N",102.663528,5.735667,1.79,2.0,2.0,4.0,3,3,0,4.0,4.0,False
+12,C2,Besut,Southeast of Kampung Beting Lintang,"102°39'52.4""E","5°44'04.1""N",102.664556,5.734472,2.94,3.0,2.1,6.3,2,3,0,6.3,6.3,False
+13,C2,Besut,North of Kampung Bating Lintang,"102°39'59.4""E","5°43'55.9""N",102.6665,5.732194,3.31,4.0,1.7,6.8,2,3,0,6.8,6.8,False
+14,C2,Setiu,North of Sungai Setiu river mouth,"102°40'33.4""E","5°43'16.1""N",102.675944,5.721139,2.95,3.0,1.2,3.6,3,3,0,3.6,3.6,False
+15,C2,Setiu,North of Sungai Setiu river mouth,"102°41'27.2""E","5°42'18.6""N",102.690889,5.705167,2.75,3.0,1.4,4.2,3,3,0,4.2,4.2,False
+16,C2,Setiu,North of Sungai Setiu river mouth,"102°42'39.6""E","5°41'10.1""N",102.711,5.686139,4.25,5.0,1.7,8.5,2,2,0,8.5,8.5,False
+17,C2,Setiu,North of Sungai Setiu river mouth,"102°43'01.0""E","5°40'50.0""N",102.716944,5.680556,7.32,5.0,1.2,6.0,2,2,0,6.0,6.0,True
+18,C2,Setiu,Sungai Setiu river mouth,"102°43'24.4""E","5°40'28.7""N",102.723444,5.674639,15.52,5.0,1.3,6.5,2,2,0,6.5,6.5,True
+19,C2,Setiu,Sungai Setiu river mouth,"102°43'32.4""E","5°40'23.4""N",102.725667,5.673167,7.09,5.0,1.3,6.5,2,2,0,6.5,6.5,True
+20,C2,Setiu,Sungai Setiu river mouth,"102°43'37.2""E","5°40'31.4""N",102.727,5.675389,7.52,5.0,1.3,6.5,2,2,0,6.5,6.5,True
+21,C2,Setiu,Sand spit near Sungai Setiu,"102°44'29.8""E","5°39'54.9""N",102.741611,5.66525,8.76,5.0,1.2,6.0,2,3,0,6.0,6.0,True
+22,C3,Setiu,West of Sungai Merang river mouth,"102°55'44.8""E","5°32'05.5""N",102.929111,5.534861,12.59,5.0,2.8,14.0,1,2,0,14.0,14.0,True
+23,C3,Setiu,Sungai Merang river mouth,"102°56'40.8""E","5°31'59.9""N",102.944667,5.533306,0.5,0.5,1.0,0.5,3,3,0,0.5,0.5,False
+24,C3,Setiu,Sungai Merang river mouth,"102°56'43.9""E","5°31'58.3""N",102.945528,5.532861,0.99,0.99,1.0,0.99,3,3,0,0.99,0.99,False
+25,C3,Setiu,Sungai Merang river mouth,"102°56'49.4""E","5°31'57.4""N",102.947056,5.532611,0.64,0.64,1.0,0.64,3,3,0,0.64,0.64,False
+26,C3,Setiu,Sungai Merang river mouth,"102°56'51.6""E","5°31'52.2""N",102.947667,5.531167,0.51,0.51,1.0,0.51,3,3,0,0.51,0.51,False
+27,C3,Setiu,Sungai Merang river mouth,"102°56'48.8""E","5°31'51.0""N",102.946889,5.530833,1.01,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+28,C4,Setiu,South of Sungai Mengabang Tapah Besar river mouth,"102°58'56.6""E","5°30'58.4""N",102.982389,5.516222,0.0,0.0,3.7,0.0,3,2,0,0.0,0.0,False
+29,C4,Kuala Terengganu,North of Kampung Batu Rakit,"103°02'28.3""E","5°27'28.3""N",103.041194,5.457861,0.29,0.29,2.3,0.67,3,3,0,0.67,0.67,False
+30,C4,Kuala Terengganu,Kampung Batu Rakit,"103°02'46.8""E","5°27'10.8""N",103.046333,5.453,1.19,2.0,2.6,5.2,2,3,0,5.2,5.2,False
+31,C4,Kuala Terengganu,Southeast of Tanjung Batu Rakit,"103°03'02.5""E","5°26'58.5""N",103.050694,5.449583,1.48,2.0,2.6,5.2,2,3,0,5.2,5.2,False
+32,C4,Kuala Terengganu,Southeast of Kampung Tanjung Kapur,"103°03'04.4""E","5°26'56.6""N",103.051222,5.449056,1.77,2.0,2.6,5.2,2,3,0,5.2,5.2,False
+33,C4,Kuala Terengganu,Southeast of Kampung Tanjung Kapur,"103°03'18.5""E","5°26'44.4""N",103.055139,5.445667,3.8,4.0,1.6,6.4,2,3,0,6.4,6.4,False
+34,C4,Kuala Terengganu,Kampung Padang Maras,"103°03'31.9""E","5°26'32.0""N",103.058861,5.442222,7.85,5.0,2.6,13.0,1,3,0,13.0,13.0,True
+35,C4,Kuala Terengganu,Southeast of Kampung Pengkalan Maras,"103°04'24.6""E","5°25'43.1""N",103.0735,5.428639,10.18,5.0,2.6,13.0,1,3,0,13.0,13.0,True
+36,C4,Kuala Terengganu,North of Kampung Pak Tuyu,"103°04'50.8""E","5°25'19.0""N",103.080778,5.421944,,,3.3,0.0,Protected,2,1,0.0,0.0,False
+37,C4,Kuala Terengganu,Kampung Pak Tuyu,"103°05'21.4""E","5°24'49.5""N",103.089278,5.41375,,,2.7,0.0,Protected,1,1,0.0,0.0,False
+38,C5,Kuala Terengganu,Kampung Seberang Takir,"103°07'59.0""E","5°21'09.1""N",103.133056,5.352528,,,4.0,0.0,Protected,1,1,0.0,0.0,False
+39,C6,Kuala Terengganu,North of Kampung Pantai Batu Buruk,"103°09'21.5""E","5°19'20.2""N",103.155972,5.322278,0.0,0.0,4.0,0.0,3,3,0,0.0,0.0,False
+40,C6,Kuala Terengganu,North of Kampung Pantai Batu Buruk,"103°09'22.5""E","5°19'18.2""N",103.15625,5.321722,0.0,0.0,4.0,0.0,3,3,0,0.0,0.0,False
+41,C6,Kuala Terengganu,North of Kampung Gong Pantai,"103°09'58.8""E","5°18'11.6""N",103.166333,5.303222,1.44,2.0,1.5,3.0,3,3,0,3.0,3.0,False
+42,C6,Kuala Terengganu,North of Kampung Gong Pantai,"103°10'01.6""E","5°18'06.7""N",103.167111,5.301861,0.74,0.74,2.4,1.78,3,3,0,1.78,1.78,False
+43,C6,Kuala Terengganu,North of Kampung Gong Pantai,"103°10'04.2""E","5°18'02.2""N",103.167833,5.300611,1.24,2.0,2.6,5.2,2,3,0,5.2,5.2,False
+44,C6,Kuala Terengganu,Kampung Gong Pantai,"103°10'06.1""E","5°17'59.0""N",103.168361,5.299722,1.4,2.0,2.6,5.2,2,2,0,5.2,5.2,False
+45,C6,Kuala Terengganu,East of Kampung Dusun,"103°10'17.5""E","5°17'38.3""N",103.171528,5.293972,3.56,4.0,3.3,13.2,1,2,0,13.2,13.2,False
+46,C6,Kuala Terengganu,Kampung Aur,"103°10'48.5""E","5°16'38.8""N",103.180139,5.277444,1.62,2.0,2.5,5.0,3,1,0,5.0,5.0,False
+47,C6,Kuala Terengganu,North of Tanjung Chendering,"103°11'04.3""E","5°16'09.9""N",103.184528,5.269417,2.27,3.0,1.2,3.6,3,3,0,3.6,3.6,False
+48,C7,Kuala Terengganu,Taman Rashidah,"103°11'02.6""E","5°15'10.3""N",103.184056,5.252861,3.0,4.0,3.5,14.0,1,2,0,14.0,14.0,False
+49,C7,Marang,Taman Rashidah,"103°11'11.8""E","5°14'50.2""N",103.186611,5.247278,3.0,4.0,3.5,14.0,1,2,0,14.0,14.0,False
+50,C7,Marang,Southeast of Taman Rashidah,"103°11'15.6""E","5°14'42.7""N",103.187667,5.245194,2.5,3.0,3.5,10.5,2,3,0,10.5,10.5,False
+51,C7,Marang,Southeast of Taman Rashidah,"103°11'18.1""E","5°14'38.0""N",103.188361,5.243889,2.5,3.0,3.5,10.5,2,3,0,10.5,10.5,False
+52,C7,Marang,Kampung Ru Sila,"103°11'21.4""E","5°14'31.6""N",103.189278,5.242111,1.68,2.0,3.5,7.0,2,2,0,7.0,7.0,False
+53,C7,Marang,Kampung Ru Sila,"103°11'24.3""E","5°14'26.4""N",103.190083,5.240667,2.51,3.0,3.5,10.5,2,3,0,10.5,10.5,False
+54,C7,Marang,North of Kampung Ru Dua,"103°11'30.9""E","5°14'14.0""N",103.191917,5.237222,1.09,2.0,2.6,5.2,2,3,0,5.2,5.2,False
+55,C7,Marang,North of Kampung Ru Dua,"103°11'33.3""E","5°14'09.7""N",103.192583,5.236028,0.95,0.95,2.5,2.38,3,3,0,2.38,2.38,False
+56,C7,Marang,Southeast of Kampung Ru Dua,"103°11'39.6""E","5°13'58.2""N",103.194333,5.232833,1.62,2.0,2.5,5.0,3,3,0,5.0,5.0,False
+57,C7,Marang,Southeast of Kampung Ru Dua,"103°11'42.0""E","5°13'54.0""N",103.195,5.231667,2.38,3.0,2.1,6.3,2,3,0,6.3,6.3,False
+58,C7,Marang,Taman Istiqomah,"103°11'51.6""E","5°13'38.0""N",103.197667,5.227222,0.14,0.14,1.1,0.15,3,3,0,0.15,0.15,False
+59,C7,Marang,Taman Istiqomah,"103°11'54.2""E","5°13'33.7""N",103.198389,5.226028,0.94,0.94,1.1,1.03,3,3,0,1.03,1.03,False
+60,C7,Marang,Taman Istiqomah,"103°11'56.4""E","5°13'30.3""N",103.199,5.225083,1.57,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+61,C7,Marang,Taman Istiqomah,"103°11'58.9""E","5°13'26.4""N",103.199694,5.224,0.39,0.39,1.0,0.39,3,3,0,0.39,0.39,False
+62,C7,Marang,Taman Istiqomah,"103°12'01.9""E","5°13'21.6""N",103.200528,5.222667,1.36,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+63,C8,Marang,South of Sungai Marang river mouth,"103°12'58.4""E","5°12'06.7""N",103.216222,5.201861,1.75,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+64,C8,Marang,Kampung Ru Muda,"103°13'16.5""E","5°11'37.1""N",103.22125,5.193639,0.65,0.65,1.0,0.65,3,3,0,0.65,0.65,False
+65,C8,Marang,Kampung Ru Muda,"103°13'18.9""E","5°11'32.9""N",103.221917,5.192472,0.72,0.72,1.9,1.37,3,3,0,1.37,1.37,False
+66,C8,Marang,Kampung Ru Muda,"103°13'20.9""E","5°11'29.1""N",103.222472,5.191417,1.01,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+67,C8,Marang,Sungai Pulau Kerengga river mouth,"103°14'42.8""E","5°08'31.7""N",103.245222,5.142139,0.21,0.21,1.0,0.21,3,3,0,0.21,0.21,False
+68,C8,Marang,Sungai Pulau Kerengga river mouth,"103°14'44.4""E","5°08'28.4""N",103.245667,5.141222,0.58,0.58,1.0,0.58,3,3,0,0.58,0.58,False
+69,C8,Marang,Sungai Pulau Kerengga river mouth,"103°15'28.6""E","5°07'00.9""N",103.257944,5.116917,1.49,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+70,C8,Marang,Sungai Mercang river mouth,"103°15'30.5""E","5°06'57.3""N",103.258472,5.115917,0.64,0.64,1.0,0.64,3,3,0,0.64,0.64,False
+71,C8,Marang,Sungai Mercang river mouth,"103°15'35.6""E","5°06'47.1""N",103.259889,5.113083,1.3,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+72,C8,Marang,Sungai Mercang river mouth,"103°15'39.5""E","5°06'39.0""N",103.260972,5.110833,1.3,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+73,C8,Marang,Sungai Mercang river mouth,"103°15'41.3""E","5°06'35.5""N",103.261472,5.109861,2.19,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+74,C8,Marang,Sungai Mercang river mouth,"103°15'43.5""E","5°06'31.6""N",103.262083,5.108778,0.13,0.13,1.0,0.13,3,3,0,0.13,0.13,False
+75,C8,Marang,Sungai Mercang river mouth,"103°15'45.0""E","5°06'28.8""N",103.2625,5.108,2.33,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+76,C8,Marang,Sungai Mercang river mouth,"103°15'48.7""E","5°06'21.8""N",103.263528,5.106056,1.56,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+77,C8,Marang,Sungai Mercang river mouth,"103°15'51.5""E","5°06'15.2""N",103.264306,5.104222,1.42,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+78,C8,Marang,Sungai Mercang river mouth,"103°15'53.7""E","5°06'11.4""N",103.264917,5.103167,1.52,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+79,C8,Marang,Sungai Mercang river mouth,"103°15'56.9""E","5°06'05.6""N",103.265806,5.101556,0.18,0.18,1.0,0.18,3,3,0,0.18,0.18,False
+80,C8,Marang,Sungai Mercang river mouth,"103°16'00.6""E","5°05'58.3""N",103.266833,5.099528,1.64,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+81,C8,Marang,Sungai Mercang river mouth,"103°16'02.2""E","5°05'54.7""N",103.267278,5.098528,0.57,0.57,1.0,0.57,3,3,0,0.57,0.57,False
+82,C8,Marang,Sungai Mercang river mouth,"103°16'55.6""E","5°04'10.0""N",103.282111,5.069444,1.67,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+83,C8,Marang,Sungai Mercang river mouth,"103°17'59.6""E","5°02'06.5""N",103.299889,5.035139,2.82,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+84,C8,Marang,Sungai Mercang river mouth,"103°18'03.5""E","5°01'59.0""N",103.300972,5.033056,2.75,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+85,C8,Marang,Sungai Mercang river mouth,"103°18'06.3""E","5°01'53.8""N",103.30175,5.031611,0.85,0.85,1.0,0.85,3,3,0,0.85,0.85,False
+86,C8,Marang,Sungai Mercang river mouth,"103°18'08.2""E","5°01'51.0""N",103.302278,5.030833,3.36,4.0,1.0,4.0,3,3,0,4.0,4.0,False
+87,C8,Marang,Sungai Mercang river mouth,"103°18'08.8""E","5°01'49.5""N",103.302444,5.030417,0.82,0.82,1.0,0.82,3,3,0,0.82,0.82,False
+88,C8,Marang,Sungai Mercang river mouth,"103°18'13.4""E","5°01'40.6""N",103.303722,5.027944,1.35,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+89,C8,Marang,North Sungai Mercang river mouth,"103°18'17.0""E","5°01'33.1""N",103.304722,5.025861,2.8,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+90,C8,Marang,South Sungai Mercang river mouth,"103°18'22.9""E","5°01'22.2""N",103.306361,5.022833,0.84,0.84,1.0,0.84,3,3,0,0.84,0.84,False
+91,C8,Marang,South Sungai Mercang river mouth,"103°18'24.5""E","5°01'19.0""N",103.306806,5.021944,2.08,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+92,C8,Marang,Kampung Gong Balai,"103°18'32.0""E","5°01'05.1""N",103.308889,5.018083,2.19,3.0,1.1,3.3,3,3,0,3.3,3.3,False
+93,C8,Marang,Kampung Gong Balai,"103°18'36.2""E","5°00'57.4""N",103.310056,5.015944,2.95,3.0,1.1,3.3,3,3,0,3.3,3.3,False
+94,C8,Marang,Kampung Ru Tebal,"103°19'53.6""E","4°58'39.6""N",103.331556,4.977667,2.54,3.0,2.3,6.9,2,3,0,6.9,6.9,False
+95,C8,Marang,Kampung Penarik,"103°20'07.1""E","4°58'15.1""N",103.335306,4.970861,3.77,4.0,1.6,6.4,2,3,0,6.4,6.4,False
+96,C8,Marang,Southeast of Kampung Penarik,"103°20'18.3""E","4°57'54.9""N",103.338417,4.96525,2.72,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+97,C8,Marang,North of Kampung Jambu Bongkok,"103°20'48.4""E","4°57'00.0""N",103.346778,4.95,2.78,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+98,C8,Marang,North of Kampung Jambu Bongkok,"103°20'51.1""E","4°56'54.7""N",103.347528,4.948528,2.42,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+99,C8,Marang,North of Kampung Jambu Bongkok,"103°20'57.0""E","4°56'44.1""N",103.349167,4.945583,2.13,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+100,C8,Marang,North of Kampung Jambu Bongkok,"103°20'59.4""E","4°56'40.5""N",103.349833,4.944583,1.91,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+101,C8,Marang,Kampung Jambu Bongkok,"103°21'04.9""E","4°56'30.1""N",103.351361,4.941694,0.98,0.98,1.1,1.08,3,3,0,1.08,1.08,False
+102,C8,Marang,Kampung Jambu Bongkok,"103°21'06.9""E","4°56'26.2""N",103.351917,4.940611,2.66,3.0,1.1,3.3,3,3,0,3.3,3.3,False
+103,C8,Marang,Kampung Jambu Bongkok,"103°21'08.9""E","4°56'22.9""N",103.352472,4.939694,1.66,2.0,1.1,2.2,3,3,0,2.2,2.2,False
+104,C8,Marang,Kampung Jambu Bongkok,"103°21'11.4""E","4°56'17.8""N",103.353167,4.938278,1.16,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+105,C8,Marang,Kampung Jambu Bongkok,"103°21'14.0""E","4°56'13.4""N",103.353889,4.937056,2.03,3.0,1.0,3.0,3,3,0,3.0,3.0,False
+106,C8,Marang,South of Kampung Jambu Bongkok,"103°21'19.8""E","4°56'02.8""N",103.3555,4.934111,3.3,4.0,1.0,4.0,3,3,0,4.0,4.0,False
+107,C8,Dungun,Sungai Kuala Abang river mouth,"103°23'18.9""E","4°52'36.3""N",103.388583,4.87675,3.4,4.0,1.0,4.0,3,3,0,4.0,4.0,False
+108,C8,Dungun,Kampung Teluk Bedara,"103°26'13.9""E","4°47'08.7""N",103.437194,4.78575,3.91,4.0,1.0,4.0,3,3,0,4.0,4.0,False
+109,C9,Dungun,Pantai Teluk Lipat (north),"103°25'34.7""E","4°46'34.5""N",103.426306,4.77625,2.63,3.0,2.8,8.4,2,1,0,8.4,8.4,False
+110,C9,Dungun,Kampung Sura,"103°25'26.3""E","4°45'18.5""N",103.423972,4.755139,,,2.1,0.0,Protected,3,1,0.0,0.0,False
+111,C9,Dungun,Kampung Sura,"103°25'31.1""E","4°45'00.7""N",103.425306,4.750194,,,2.5,0.0,Protected,2,1,0.0,0.0,False
+112,C9,Dungun,Kampung Balai Besar,"103°25'34.2""E","4°44'51.7""N",103.426167,4.747694,,,2.5,0.0,Protected,2,1,0.0,0.0,False
+113,C9,Dungun,North of Kampung Sura Atas,"103°25'58.1""E","4°43'51.6""N",103.432806,4.731,3.74,4.0,2.5,10.0,2,3,0,10.0,10.0,False
+114,C9,Dungun,North of Kampung Sura Atas,"103°26'01.1""E","4°43'44.6""N",103.433639,4.729056,1.79,2.0,2.5,5.0,3,3,0,5.0,5.0,False
+115,C9,Dungun,North of Kampung Sura Atas,"103°26'02.5""E","4°43'41.2""N",103.434028,4.728111,1.0,2.0,2.1,4.2,3,3,0,4.2,4.2,False
+116,C9,Dungun,North of Kampung Sura Atas,"103°26'04.1""E","4°43'37.4""N",103.434472,4.727056,1.4,2.0,2.1,4.2,3,2,0,4.2,4.2,False
+117,C9,Dungun,North of Kampung Sura Atas,"103°26'05.3""E","4°43'34.9""N",103.434806,4.726361,2.53,3.0,2.1,6.3,2,3,0,6.3,6.3,False
+118,C9,Dungun,North of Kampung Sura Atas,"103°26'07.8""E","4°43'29.1""N",103.4355,4.72475,1.58,2.0,2.1,4.2,3,3,0,4.2,4.2,False
+119,C9,Dungun,North of Tanjung Gadung,"103°26'47.5""E","4°41'57.5""N",103.446528,4.699306,0.14,0.14,1.2,0.17,3,3,0,0.17,0.17,False
+120,C10,Dungun,Sand spit near Sungai Paka river mouth,"103°26'22.8""E","4°38'50.8""N",103.439667,4.647444,,,1.1,0.0,Protected,1,1,0.0,0.0,False
+121,C10,Dungun,Kampung Cacar,"103°26'36.0""E","4°37'33.2""N",103.443333,4.625889,5.0,5.0,3.1,15.5,1,3,0,15.5,15.5,False
+122,C10,Dungun,Kampung Cacar,"103°26'37.9""E","4°37'28.4""N",103.443861,4.624556,4.0,5.0,3.1,15.5,1,3,0,15.5,15.5,False
+123,C10,Dungun,Kampung Cacar,"103°26'39.3""E","4°37'24.0""N",103.44425,4.623333,3.0,4.0,3.1,12.4,1,3,0,12.4,12.4,False
+124,C10,Dungun,Northeast of Taman Indah Paka,"103°26'41.3""E","4°37'18.5""N",103.444806,4.621806,2.39,3.0,2.4,7.2,2,3,0,7.2,7.2,False
+125,C10,Dungun,Northeast of Taman Indah Paka,"103°26'42.8""E","4°37'14.0""N",103.445222,4.620556,1.5,2.0,2.4,4.8,3,3,0,4.8,4.8,False
+126,C10,Dungun,Taman Indah Paka,"103°26'44.8""E","4°37'08.8""N",103.445778,4.619111,2.17,3.0,2.4,7.2,2,3,0,7.2,7.2,False
+127,C10,Dungun,Southeast of Taman Indah Paka,"103°26'48.3""E","4°36'58.3""N",103.44675,4.616194,0.99,0.99,2.4,2.38,3,3,0,2.38,2.38,False
+128,C10,Kemaman,Petronas Kertih Refinery,"103°27'27.6""E","4°35'33.9""N",103.457667,4.59275,8.19,5.0,3.1,9.3,2,3,0,9.3,15.5,True
+129,C10,Kemaman,Petronas Kertih Refinery,"103°27'33.5""E","4°35'00.4""N",103.459306,4.583444,1.47,2.0,3.1,6.2,2,3,0,6.2,6.2,False
+130,C10,Kemaman,Petronas Kertih Refinery,"103°27'41.2""E","4°34'41.0""N",103.461444,4.578056,0.69,0.69,3.1,2.14,3,3,0,2.14,2.14,False
+131,C10,Kemaman,Petronas Kertih Refinery,"103°27'52.8""E","4°34'16.4""N",103.464667,4.571222,0.69,0.69,3.1,2.14,3,3,0,2.14,2.14,False
+132,C10,Kemaman,South of Tanjung Batu Lama,"103°28'21.7""E","4°32'09.1""N",103.472694,4.535861,0.39,0.39,1.0,0.39,3,3,0,0.39,0.39,False
+133,C10,Kemaman,North of Sungai Kerteh river mouth,"103°27'25.7""E","4°30'58.9""N",103.457139,4.516361,0.43,0.43,1.5,0.65,3,2,0,0.65,0.64,False
+134,C11,Kemaman,Kelab Golf and Rekreasi Petronas,"103°26'53.5""E","4°27'20.0""N",103.448194,4.455556,0.7,0.7,1.0,0.7,3,3,0,0.7,0.7,False
+135,C11,Kemaman,Southeast of Kelab Golf dan Rekreasi Petronas,"103°26'59.7""E","4°26'58.7""N",103.449917,4.449639,1.25,2.0,1.5,3.0,3,3,0,3.0,3.0,False
+136,C11,Kemaman,Southeast of Kelab Golf dan Rekreasi Petronas,"103°27'02.5""E","4°26'51.4""N",103.450694,4.447611,1.42,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+137,C11,Kemaman,Southeast of Kelab Golf dan Rekreasi Petronas,"103°27'05.9""E","4°26'40.3""N",103.451639,4.444528,1.25,2.0,1.0,2.0,3,3,0,2.0,2.0,False
+138,C11,Kemaman,Pantai Kemasik (north),"103°27'18.7""E","4°25'33.9""N",103.455194,4.426083,,,2.8,0.0,Protected,1,1,0.0,0.0,False
+139,C11,Kemaman,Kampung Tengah,"103°27'20.3""E","4°25'25.2""N",103.455639,4.423667,,,2.8,0.0,Protected,1,1,0.0,0.0,False
+140,C11,Kemaman,North of Sungai Kemasik,"103°27'23.1""E","4°25'16.0""N",103.456417,4.421111,0.0,0.0,2.5,0.0,3,2,0,0.0,0.0,False
+141,C11,Kemaman,Kampung Ibai,"103°29'03.2""E","4°20'23.8""N",103.484222,4.339944,2.97,3.0,1.9,5.7,2,3,0,5.7,5.7,False
+142,C12,Kemaman,Teluk Mak Nik,"103°28'40.9""E","4°17'10.7""N",103.478028,4.286306,2.11,3.0,2.0,6.0,2,3,0,6.0,6.0,False
+143,C12,Kemaman,North of Sungai Kemaman river mouth,"103°27'07.1""E","4°14'30.2""N",103.451972,4.241722,4.02,5.0,1.0,5.0,3,3,0,5.0,5.0,False
+144,C12,Kemaman,Kampung Geliga Cik Akob,"103°26'22.3""E","4°12'40.5""N",103.439528,4.21125,10.56,5.0,2.4,12.0,2,1,0,12.0,12.0,True

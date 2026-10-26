@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "KUALA_MERANG_2019_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[270147.862142175901681,612062.35292276146356],[270158.235764900920913,612373.561604512506165]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[270346.027241862961091,612014.423344686045311],[270384.719976513239089,612364.8075529076159]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[270649.120329956524074,611896.195544365793467],[270662.017908173264004,612246.579752587364055]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[271074.740411109116394,611830.727025321102701],[271033.898080089420546,612185.410426281625405]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[271425.124619330686983,611834.535904079559259],[271274.65287346864352,612150.526570389745757]]}},
+{"type":"Feature","properties":{"name":"6"},"geometry":{"type":"LineString","coordinates":[[272070.003530167916324,612126.881010325741954],[271874.390260547283106,612490.162796764052473]]}},
+{"type":"Feature","properties":{"name":"7"},"geometry":{"type":"LineString","coordinates":[[272388.143792847637087,612354.738225488224998],[272183.932137749216054,612638.484946256619878]]}},
+{"type":"Feature","properties":{"name":"8"},"geometry":{"type":"LineString","coordinates":[[272631.048182596336119,612608.390597084187903],[272624.599393487966154,612894.28691422205884]]}},
+{"type":"Feature","properties":{"name":"9"},"geometry":{"type":"LineString","coordinates":[[272856.755801389401313,612579.446166655281559],[272953.487638015008997,612824.500152773456648]]}},
+{"type":"Feature","properties":{"name":"10"},"geometry":{"type":"LineString","coordinates":[[273140.502522157796193,612437.572806271025911],[273211.439202349924017,612719.169930669944733]]}},
+{"type":"Feature","properties":{"name":"11"},"geometry":{"type":"LineString","coordinates":[[273370.509333689755294,612336.541776906582527],[273430.698032034561038,612648.233250477933325]]}}
+]
+}

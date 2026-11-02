@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C4_JPS_036",
+        "coastal_cell": "C4",
+        "district": "Kuala Terengganu",
+        "station_ids": [
+          36,
+          37
+        ],
+        "approx_area_km2": 5.877,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.07401043277541,
+              5.407012666187567
+            ],
+            [
+              103.09604556722458,
+              5.407012666187567
+            ],
+            [
+              103.09604556722458,
+              5.428681333812433
+            ],
+            [
+              103.07401043277541,
+              5.428681333812433
+            ],
+            [
+              103.07401043277541,
+              5.407012666187567
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

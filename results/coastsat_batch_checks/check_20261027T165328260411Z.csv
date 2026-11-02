@@ -1,0 +1,4 @@
+﻿roi_id,sitename,start_date,end_date_exclusive,L8_local,L8_new,S2_local,S2_new,status,error
+ROI_C1_JPS_003,JPS_BATCH_ROI_C1_JPS_003_2024_V1,2024-01-01,2025-01-01,0,20,0,42,available,
+ROI_C3_JPS_022,JPS_BATCH_ROI_C3_JPS_022_2024_V1,2024-01-01,2025-01-01,0,17,0,81,available,
+ROI_C12_JPS_144,JPS_BATCH_ROI_C12_JPS_144_2024_V1,2024-01-01,2025-01-01,0,17,0,46,available,

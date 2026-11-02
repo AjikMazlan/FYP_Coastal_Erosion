@@ -1,0 +1,1472 @@
+[
+  {
+    "site_id": "JPS_001",
+    "name": "North of Kampung Teluk Budu",
+    "district": "Besut",
+    "coastal_cell": "C1",
+    "station_ids": [
+      1
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C1_JPS_001"
+    ],
+    "center_lat": 5.838528,
+    "center_lon": 102.546611,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_002",
+    "name": "Breakwater near Sungai Besut river mouth",
+    "district": "Besut",
+    "coastal_cell": "C1",
+    "station_ids": [
+      2
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C1_JPS_001"
+    ],
+    "center_lat": 5.83425,
+    "center_lon": 102.557417,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_003",
+    "name": "Pantai Bukit Keluang",
+    "district": "Besut",
+    "coastal_cell": "C1",
+    "station_ids": [
+      3,
+      4,
+      5
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1,
+      "Stable": 1,
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C1_JPS_003"
+    ],
+    "center_lat": 5.7996669999999995,
+    "center_lon": 102.60869433333333,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_006",
+    "name": "North of Sungai Keluang river mouth",
+    "district": "Besut",
+    "coastal_cell": "C1",
+    "station_ids": [
+      6,
+      7
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 2
+    },
+    "roi_ids": [
+      "ROI_C1_JPS_003"
+    ],
+    "center_lat": 5.7941945,
+    "center_lon": 102.61375,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_008",
+    "name": "South of Sungai Keluang river mouth",
+    "district": "Besut",
+    "coastal_cell": "C1",
+    "station_ids": [
+      8,
+      9
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 2
+    },
+    "roi_ids": [
+      "ROI_C1_JPS_003"
+    ],
+    "center_lat": 5.7928055,
+    "center_lon": 102.6157225,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_010",
+    "name": "North of Kampung Beting",
+    "district": "Besut",
+    "coastal_cell": "C2",
+    "station_ids": [
+      10
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C2_JPS_010"
+    ],
+    "center_lat": 5.743889,
+    "center_lon": 102.656806,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_011",
+    "name": "Southeast of Kampung Beting Lintang",
+    "district": "Besut",
+    "coastal_cell": "C2",
+    "station_ids": [
+      11,
+      12
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1,
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C2_JPS_010"
+    ],
+    "center_lat": 5.7350695,
+    "center_lon": 102.664042,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_013",
+    "name": "North of Kampung Bating Lintang",
+    "district": "Besut",
+    "coastal_cell": "C2",
+    "station_ids": [
+      13
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C2_JPS_010"
+    ],
+    "center_lat": 5.732194,
+    "center_lon": 102.6665,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_014",
+    "name": "North of Sungai Setiu river mouth",
+    "district": "Setiu",
+    "coastal_cell": "C2",
+    "station_ids": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 2,
+      "Critical": 2
+    },
+    "roi_ids": [
+      "ROI_C2_JPS_014",
+      "ROI_C2_JPS_016"
+    ],
+    "center_lat": 5.69825025,
+    "center_lon": 102.69869425,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_018",
+    "name": "Sungai Setiu river mouth",
+    "district": "Setiu",
+    "coastal_cell": "C2",
+    "station_ids": [
+      18,
+      19,
+      20
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 3
+    },
+    "roi_ids": [
+      "ROI_C2_JPS_016"
+    ],
+    "center_lat": 5.674398333333333,
+    "center_lon": 102.72537033333333,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_021",
+    "name": "Sand spit near Sungai Setiu",
+    "district": "Setiu",
+    "coastal_cell": "C2",
+    "station_ids": [
+      21
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C2_JPS_016"
+    ],
+    "center_lat": 5.66525,
+    "center_lon": 102.741611,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_022",
+    "name": "West of Sungai Merang river mouth",
+    "district": "Setiu",
+    "coastal_cell": "C3",
+    "station_ids": [
+      22
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C3_JPS_022"
+    ],
+    "center_lat": 5.534861,
+    "center_lon": 102.929111,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_023",
+    "name": "Sungai Merang river mouth",
+    "district": "Setiu",
+    "coastal_cell": "C3",
+    "station_ids": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 5
+    },
+    "roi_ids": [
+      "ROI_C3_JPS_022"
+    ],
+    "center_lat": 5.5321556,
+    "center_lon": 102.9463614,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_028",
+    "name": "South of Sungai Mengabang Tapah Besar river mouth",
+    "district": "Setiu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      28
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_028"
+    ],
+    "center_lat": 5.516222,
+    "center_lon": 102.982389,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_029",
+    "name": "North of Kampung Batu Rakit",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      29
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_029"
+    ],
+    "center_lat": 5.457861,
+    "center_lon": 103.041194,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_030",
+    "name": "Kampung Batu Rakit",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      30
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_029"
+    ],
+    "center_lat": 5.453,
+    "center_lon": 103.046333,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_031",
+    "name": "Southeast of Tanjung Batu Rakit",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      31
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_029"
+    ],
+    "center_lat": 5.449583,
+    "center_lon": 103.050694,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_032",
+    "name": "Southeast of Kampung Tanjung Kapur",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      32,
+      33
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1,
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_029"
+    ],
+    "center_lat": 5.4473614999999995,
+    "center_lon": 103.0531805,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_034",
+    "name": "Kampung Padang Maras",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      34
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_029"
+    ],
+    "center_lat": 5.442222,
+    "center_lon": 103.058861,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_035",
+    "name": "Southeast of Kampung Pengkalan Maras",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      35
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_029"
+    ],
+    "center_lat": 5.428639,
+    "center_lon": 103.0735,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_036",
+    "name": "North of Kampung Pak Tuyu",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      36
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_036"
+    ],
+    "center_lat": 5.421944,
+    "center_lon": 103.080778,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_037",
+    "name": "Kampung Pak Tuyu",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C4",
+    "station_ids": [
+      37
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 1
+    },
+    "roi_ids": [
+      "ROI_C4_JPS_036"
+    ],
+    "center_lat": 5.41375,
+    "center_lon": 103.089278,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_038",
+    "name": "Kampung Seberang Takir",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C5",
+    "station_ids": [
+      38
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 1
+    },
+    "roi_ids": [
+      "ROI_C5_JPS_038"
+    ],
+    "center_lat": 5.352528,
+    "center_lon": 103.133056,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_039",
+    "name": "North of Kampung Pantai Batu Buruk",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C6",
+    "station_ids": [
+      39,
+      40
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 2
+    },
+    "roi_ids": [
+      "ROI_C6_JPS_039"
+    ],
+    "center_lat": 5.322,
+    "center_lon": 103.15611100000001,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_041",
+    "name": "North of Kampung Gong Pantai",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C6",
+    "station_ids": [
+      41,
+      42,
+      43
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1,
+      "Warning": 2
+    },
+    "roi_ids": [
+      "ROI_C6_JPS_039"
+    ],
+    "center_lat": 5.301898,
+    "center_lon": 103.16709233333334,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_044",
+    "name": "Kampung Gong Pantai",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C6",
+    "station_ids": [
+      44
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C6_JPS_039"
+    ],
+    "center_lat": 5.299722,
+    "center_lon": 103.168361,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_045",
+    "name": "East of Kampung Dusun",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C6",
+    "station_ids": [
+      45
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C6_JPS_039"
+    ],
+    "center_lat": 5.293972,
+    "center_lon": 103.171528,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_046",
+    "name": "Kampung Aur",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C6",
+    "station_ids": [
+      46
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C6_JPS_046"
+    ],
+    "center_lat": 5.277444,
+    "center_lon": 103.180139,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_047",
+    "name": "North of Tanjung Chendering",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C6",
+    "station_ids": [
+      47
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C6_JPS_046"
+    ],
+    "center_lat": 5.269417,
+    "center_lon": 103.184528,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_048",
+    "name": "Taman Rashidah",
+    "district": "Kuala Terengganu",
+    "coastal_cell": "C7",
+    "station_ids": [
+      48
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C7_JPS_048"
+    ],
+    "center_lat": 5.252861,
+    "center_lon": 103.184056,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_049",
+    "name": "Taman Rashidah",
+    "district": "Marang",
+    "coastal_cell": "C7",
+    "station_ids": [
+      49
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C7_JPS_049"
+    ],
+    "center_lat": 5.247278,
+    "center_lon": 103.186611,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_050",
+    "name": "Southeast of Taman Rashidah",
+    "district": "Marang",
+    "coastal_cell": "C7",
+    "station_ids": [
+      50,
+      51
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 2
+    },
+    "roi_ids": [
+      "ROI_C7_JPS_049"
+    ],
+    "center_lat": 5.2445415,
+    "center_lon": 103.18801400000001,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_052",
+    "name": "Kampung Ru Sila",
+    "district": "Marang",
+    "coastal_cell": "C7",
+    "station_ids": [
+      52,
+      53
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 2
+    },
+    "roi_ids": [
+      "ROI_C7_JPS_049"
+    ],
+    "center_lat": 5.241389,
+    "center_lon": 103.18968050000001,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_054",
+    "name": "North of Kampung Ru Dua",
+    "district": "Marang",
+    "coastal_cell": "C7",
+    "station_ids": [
+      54,
+      55
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 2
+    },
+    "roi_ids": [
+      "ROI_C7_JPS_049"
+    ],
+    "center_lat": 5.236625,
+    "center_lon": 103.19225,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_056",
+    "name": "Southeast of Kampung Ru Dua",
+    "district": "Marang",
+    "coastal_cell": "C7",
+    "station_ids": [
+      56,
+      57
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 2
+    },
+    "roi_ids": [
+      "ROI_C7_JPS_049"
+    ],
+    "center_lat": 5.2322500000000005,
+    "center_lon": 103.1946665,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_058",
+    "name": "Taman Istiqomah",
+    "district": "Marang",
+    "coastal_cell": "C7",
+    "station_ids": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 5
+    },
+    "roi_ids": [
+      "ROI_C7_JPS_049"
+    ],
+    "center_lat": 5.225,
+    "center_lon": 103.1990556,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_063",
+    "name": "South of Sungai Marang river mouth",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      63
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_063"
+    ],
+    "center_lat": 5.201861,
+    "center_lon": 103.216222,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_064",
+    "name": "Kampung Ru Muda",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      64,
+      65,
+      66
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 3
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_063"
+    ],
+    "center_lat": 5.192509333333334,
+    "center_lon": 103.22187966666667,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_067",
+    "name": "Sungai Pulau Kerengga river mouth",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      67,
+      68,
+      69
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 3
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_067",
+      "ROI_C8_JPS_069"
+    ],
+    "center_lat": 5.133426,
+    "center_lon": 103.249611,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_070",
+    "name": "Sungai Mercang river mouth",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 19
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_069",
+      "ROI_C8_JPS_082",
+      "ROI_C8_JPS_083"
+    ],
+    "center_lat": 5.080945947368421,
+    "center_lon": 103.27638010526316,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_089",
+    "name": "North Sungai Mercang river mouth",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      89
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_083"
+    ],
+    "center_lat": 5.025861,
+    "center_lon": 103.304722,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_090",
+    "name": "South Sungai Mercang river mouth",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      90,
+      91
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 2
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_083"
+    ],
+    "center_lat": 5.0223885,
+    "center_lon": 103.30658349999999,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_092",
+    "name": "Kampung Gong Balai",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      92,
+      93
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 2
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_083"
+    ],
+    "center_lat": 5.0170135,
+    "center_lon": 103.3094725,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_094",
+    "name": "Kampung Ru Tebal",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      94
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_094"
+    ],
+    "center_lat": 4.977667,
+    "center_lon": 103.331556,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_095",
+    "name": "Kampung Penarik",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      95
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_094"
+    ],
+    "center_lat": 4.970861,
+    "center_lon": 103.335306,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_096",
+    "name": "Southeast of Kampung Penarik",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      96
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_094"
+    ],
+    "center_lat": 4.96525,
+    "center_lon": 103.338417,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_097",
+    "name": "North of Kampung Jambu Bongkok",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 4
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_094"
+    ],
+    "center_lat": 4.9471735,
+    "center_lon": 103.3483265,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_101",
+    "name": "Kampung Jambu Bongkok",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 5
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_101"
+    ],
+    "center_lat": 4.9394666,
+    "center_lon": 103.3525612,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_106",
+    "name": "South of Kampung Jambu Bongkok",
+    "district": "Marang",
+    "coastal_cell": "C8",
+    "station_ids": [
+      106
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_101"
+    ],
+    "center_lat": 4.934111,
+    "center_lon": 103.3555,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_107",
+    "name": "Sungai Kuala Abang river mouth",
+    "district": "Dungun",
+    "coastal_cell": "C8",
+    "station_ids": [
+      107
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_107"
+    ],
+    "center_lat": 4.87675,
+    "center_lon": 103.388583,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_108",
+    "name": "Kampung Teluk Bedara",
+    "district": "Dungun",
+    "coastal_cell": "C8",
+    "station_ids": [
+      108
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C8_JPS_108"
+    ],
+    "center_lat": 4.78575,
+    "center_lon": 103.437194,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_109",
+    "name": "Pantai Teluk Lipat (north)",
+    "district": "Dungun",
+    "coastal_cell": "C9",
+    "station_ids": [
+      109
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C9_JPS_109"
+    ],
+    "center_lat": 4.77625,
+    "center_lon": 103.426306,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_110",
+    "name": "Kampung Sura",
+    "district": "Dungun",
+    "coastal_cell": "C9",
+    "station_ids": [
+      110,
+      111
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 2
+    },
+    "roi_ids": [
+      "ROI_C9_JPS_109"
+    ],
+    "center_lat": 4.7526665,
+    "center_lon": 103.42463900000001,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_112",
+    "name": "Kampung Balai Besar",
+    "district": "Dungun",
+    "coastal_cell": "C9",
+    "station_ids": [
+      112
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 1
+    },
+    "roi_ids": [
+      "ROI_C9_JPS_109"
+    ],
+    "center_lat": 4.747694,
+    "center_lon": 103.426167,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_113",
+    "name": "North of Kampung Sura Atas",
+    "district": "Dungun",
+    "coastal_cell": "C9",
+    "station_ids": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 6
+    },
+    "roi_ids": [
+      "ROI_C9_JPS_113"
+    ],
+    "center_lat": 4.727722333333333,
+    "center_lon": 103.4342085,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_119",
+    "name": "North of Tanjung Gadung",
+    "district": "Dungun",
+    "coastal_cell": "C9",
+    "station_ids": [
+      119
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C9_JPS_119"
+    ],
+    "center_lat": 4.699306,
+    "center_lon": 103.446528,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_120",
+    "name": "Sand spit near Sungai Paka river mouth",
+    "district": "Dungun",
+    "coastal_cell": "C10",
+    "station_ids": [
+      120
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 1
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_120"
+    ],
+    "center_lat": 4.647444,
+    "center_lon": 103.439667,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_121",
+    "name": "Kampung Cacar",
+    "district": "Dungun",
+    "coastal_cell": "C10",
+    "station_ids": [
+      121,
+      122,
+      123
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 2,
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_120"
+    ],
+    "center_lat": 4.624592666666667,
+    "center_lon": 103.44381466666665,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_124",
+    "name": "Northeast of Taman Indah Paka",
+    "district": "Dungun",
+    "coastal_cell": "C10",
+    "station_ids": [
+      124,
+      125
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 2
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_120"
+    ],
+    "center_lat": 4.621181,
+    "center_lon": 103.445014,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_126",
+    "name": "Taman Indah Paka",
+    "district": "Dungun",
+    "coastal_cell": "C10",
+    "station_ids": [
+      126
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_120"
+    ],
+    "center_lat": 4.619111,
+    "center_lon": 103.445778,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_127",
+    "name": "Southeast of Taman Indah Paka",
+    "district": "Dungun",
+    "coastal_cell": "C10",
+    "station_ids": [
+      127
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_120"
+    ],
+    "center_lat": 4.616194,
+    "center_lon": 103.44675,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_128",
+    "name": "Petronas Kertih Refinery",
+    "district": "Kemaman",
+    "coastal_cell": "C10",
+    "station_ids": [
+      128,
+      129,
+      130,
+      131
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1,
+      "Warning": 3
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_128"
+    ],
+    "center_lat": 4.581367999999999,
+    "center_lon": 103.460771,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_132",
+    "name": "South of Tanjung Batu Lama",
+    "district": "Kemaman",
+    "coastal_cell": "C10",
+    "station_ids": [
+      132
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_132"
+    ],
+    "center_lat": 4.535861,
+    "center_lon": 103.472694,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_133",
+    "name": "North of Sungai Kerteh river mouth",
+    "district": "Kemaman",
+    "coastal_cell": "C10",
+    "station_ids": [
+      133
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C10_JPS_133"
+    ],
+    "center_lat": 4.516361,
+    "center_lon": 103.457139,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_134",
+    "name": "Kelab Golf and Rekreasi Petronas",
+    "district": "Kemaman",
+    "coastal_cell": "C11",
+    "station_ids": [
+      134
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C11_JPS_134"
+    ],
+    "center_lat": 4.455556,
+    "center_lon": 103.448194,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_135",
+    "name": "Southeast of Kelab Golf dan Rekreasi Petronas",
+    "district": "Kemaman",
+    "coastal_cell": "C11",
+    "station_ids": [
+      135,
+      136,
+      137
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 3
+    },
+    "roi_ids": [
+      "ROI_C11_JPS_134"
+    ],
+    "center_lat": 4.447259333333334,
+    "center_lon": 103.45075000000001,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_138",
+    "name": "Pantai Kemasik (north)",
+    "district": "Kemaman",
+    "coastal_cell": "C11",
+    "station_ids": [
+      138
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 1
+    },
+    "roi_ids": [
+      "ROI_C11_JPS_134"
+    ],
+    "center_lat": 4.426083,
+    "center_lon": 103.455194,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_139",
+    "name": "Kampung Tengah",
+    "district": "Kemaman",
+    "coastal_cell": "C11",
+    "station_ids": [
+      139
+    ],
+    "risk_counts_original_jps": {
+      "Protected": 1
+    },
+    "roi_ids": [
+      "ROI_C11_JPS_134"
+    ],
+    "center_lat": 4.423667,
+    "center_lon": 103.455639,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_140",
+    "name": "North of Sungai Kemasik",
+    "district": "Kemaman",
+    "coastal_cell": "C11",
+    "station_ids": [
+      140
+    ],
+    "risk_counts_original_jps": {
+      "Warning": 1
+    },
+    "roi_ids": [
+      "ROI_C11_JPS_134"
+    ],
+    "center_lat": 4.421111,
+    "center_lon": 103.456417,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_141",
+    "name": "Kampung Ibai",
+    "district": "Kemaman",
+    "coastal_cell": "C11",
+    "station_ids": [
+      141
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C11_JPS_141"
+    ],
+    "center_lat": 4.339944,
+    "center_lon": 103.484222,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_142",
+    "name": "Teluk Mak Nik",
+    "district": "Kemaman",
+    "coastal_cell": "C12",
+    "station_ids": [
+      142
+    ],
+    "risk_counts_original_jps": {
+      "Stable": 1
+    },
+    "roi_ids": [
+      "ROI_C12_JPS_142"
+    ],
+    "center_lat": 4.286306,
+    "center_lon": 103.478028,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_143",
+    "name": "North of Sungai Kemaman river mouth",
+    "district": "Kemaman",
+    "coastal_cell": "C12",
+    "station_ids": [
+      143
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C12_JPS_143"
+    ],
+    "center_lat": 4.241722,
+    "center_lon": 103.451972,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  },
+  {
+    "site_id": "JPS_144",
+    "name": "Kampung Geliga Cik Akob",
+    "district": "Kemaman",
+    "coastal_cell": "C12",
+    "station_ids": [
+      144
+    ],
+    "risk_counts_original_jps": {
+      "Critical": 1
+    },
+    "roi_ids": [
+      "ROI_C12_JPS_144"
+    ],
+    "center_lat": 4.21125,
+    "center_lon": 103.439528,
+    "catalog_status": "draft_name_and_location_review",
+    "lr_link_status": "not_yet_matched_to_existing_models"
+  }
+]

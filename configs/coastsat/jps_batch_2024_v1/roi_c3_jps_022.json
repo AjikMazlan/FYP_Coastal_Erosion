@@ -1,0 +1,28 @@
+{
+  "site_id": "JPS_BATCH_ROI_C3_JPS_022",
+  "site_name": "ROI_C3_JPS_022 - Setiu",
+  "sitename": "JPS_BATCH_ROI_C3_JPS_022_2024_V1",
+  "earth_engine_project": "coastal-erosion-fyp",
+  "roi_file": "roi_c3_jps_022.geojson",
+  "dates": [
+    "2024-01-01",
+    "2025-01-01"
+  ],
+  "sat_list": [
+    "L8",
+    "S2"
+  ],
+  "output_epsg": 32648,
+  "jps_station_ids": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "source_roi_id": "ROI_C3_JPS_022",
+  "status": "draft_roi_requires_satellite_image_review",
+  "download_enabled": false,
+  "notes": "Availability check only. ROI geometry remains a draft. JPS stations locate the area; they are not CoastSat transects. This batch does not reuse or overwrite existing Merang/Bukit Keluang folders."
+}

@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_063",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          63,
+          64,
+          65,
+          66
+        ],
+        "approx_area_km2": 5.826,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.2094568787592,
+              5.184679666187567
+            ],
+            [
+              103.2292371212408,
+              5.184679666187567
+            ],
+            [
+              103.2292371212408,
+              5.208598333812433
+            ],
+            [
+              103.2094568787592,
+              5.208598333812433
+            ],
+            [
+              103.2094568787592,
+              5.184679666187567
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

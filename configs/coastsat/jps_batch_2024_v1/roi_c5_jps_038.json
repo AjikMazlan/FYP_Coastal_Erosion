@@ -1,0 +1,23 @@
+{
+  "site_id": "JPS_BATCH_ROI_C5_JPS_038",
+  "site_name": "ROI_C5_JPS_038 - Kuala Terengganu",
+  "sitename": "JPS_BATCH_ROI_C5_JPS_038_2024_V1",
+  "earth_engine_project": "coastal-erosion-fyp",
+  "roi_file": "roi_c5_jps_038.geojson",
+  "dates": [
+    "2024-01-01",
+    "2025-01-01"
+  ],
+  "sat_list": [
+    "L8",
+    "S2"
+  ],
+  "output_epsg": 32648,
+  "jps_station_ids": [
+    38
+  ],
+  "source_roi_id": "ROI_C5_JPS_038",
+  "status": "draft_roi_requires_satellite_image_review",
+  "download_enabled": false,
+  "notes": "Availability check only. ROI geometry remains a draft. JPS stations locate the area; they are not CoastSat transects. This batch does not reuse or overwrite existing Merang/Bukit Keluang folders."
+}

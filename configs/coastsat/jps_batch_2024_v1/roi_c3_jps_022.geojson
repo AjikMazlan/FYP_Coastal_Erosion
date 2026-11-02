@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C3_JPS_022",
+        "coastal_cell": "C3",
+        "district": "Setiu",
+        "station_ids": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "approx_area_km2": 6.913,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.92234213336991,
+              5.524095666187567
+            ],
+            [
+              102.95443586663009,
+              5.524095666187567
+            ],
+            [
+              102.95443586663009,
+              5.541598333812433
+            ],
+            [
+              102.92234213336991,
+              5.541598333812433
+            ],
+            [
+              102.92234213336991,
+              5.524095666187567
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

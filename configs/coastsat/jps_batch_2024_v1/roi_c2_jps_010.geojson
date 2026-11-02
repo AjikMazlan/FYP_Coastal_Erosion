@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C2_JPS_010",
+        "coastal_cell": "C2",
+        "district": "Besut",
+        "station_ids": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "approx_area_km2": 7.195,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.65003475579705,
+              5.725456666187567
+            ],
+            [
+              102.67327124420295,
+              5.725456666187567
+            ],
+            [
+              102.67327124420295,
+              5.750626333812433
+            ],
+            [
+              102.65003475579705,
+              5.750626333812433
+            ],
+            [
+              102.65003475579705,
+              5.725456666187567
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

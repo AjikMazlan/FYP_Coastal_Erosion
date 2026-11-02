@@ -1,0 +1,74 @@
+﻿site_id,name,district,coastal_cell,station_ids,risk_counts_original_jps,roi_ids,center_lat,center_lon,catalog_status,lr_link_status
+JPS_001,North of Kampung Teluk Budu,Besut,C1,[1],"{""Critical"": 1}","[""ROI_C1_JPS_001""]",5.838528,102.546611,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_002,Breakwater near Sungai Besut river mouth,Besut,C1,[2],"{""Warning"": 1}","[""ROI_C1_JPS_001""]",5.83425,102.557417,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_003,Pantai Bukit Keluang,Besut,C1,"[3, 4, 5]","{""Warning"": 1, ""Stable"": 1, ""Critical"": 1}","[""ROI_C1_JPS_003""]",5.7996669999999995,102.60869433333333,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_006,North of Sungai Keluang river mouth,Besut,C1,"[6, 7]","{""Stable"": 2}","[""ROI_C1_JPS_003""]",5.7941945,102.61375,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_008,South of Sungai Keluang river mouth,Besut,C1,"[8, 9]","{""Stable"": 2}","[""ROI_C1_JPS_003""]",5.7928055,102.6157225,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_010,North of Kampung Beting,Besut,C2,[10],"{""Stable"": 1}","[""ROI_C2_JPS_010""]",5.743889,102.656806,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_011,Southeast of Kampung Beting Lintang,Besut,C2,"[11, 12]","{""Stable"": 1, ""Warning"": 1}","[""ROI_C2_JPS_010""]",5.7350695,102.664042,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_013,North of Kampung Bating Lintang,Besut,C2,[13],"{""Stable"": 1}","[""ROI_C2_JPS_010""]",5.732194,102.6665,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_014,North of Sungai Setiu river mouth,Setiu,C2,"[14, 15, 16, 17]","{""Stable"": 2, ""Critical"": 2}","[""ROI_C2_JPS_014"", ""ROI_C2_JPS_016""]",5.69825025,102.69869425,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_018,Sungai Setiu river mouth,Setiu,C2,"[18, 19, 20]","{""Critical"": 3}","[""ROI_C2_JPS_016""]",5.674398333333333,102.72537033333333,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_021,Sand spit near Sungai Setiu,Setiu,C2,[21],"{""Critical"": 1}","[""ROI_C2_JPS_016""]",5.66525,102.741611,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_022,West of Sungai Merang river mouth,Setiu,C3,[22],"{""Critical"": 1}","[""ROI_C3_JPS_022""]",5.534861,102.929111,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_023,Sungai Merang river mouth,Setiu,C3,"[23, 24, 25, 26, 27]","{""Stable"": 5}","[""ROI_C3_JPS_022""]",5.5321556,102.9463614,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_028,South of Sungai Mengabang Tapah Besar river mouth,Setiu,C4,[28],"{""Warning"": 1}","[""ROI_C4_JPS_028""]",5.516222,102.982389,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_029,North of Kampung Batu Rakit,Kuala Terengganu,C4,[29],"{""Warning"": 1}","[""ROI_C4_JPS_029""]",5.457861,103.041194,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_030,Kampung Batu Rakit,Kuala Terengganu,C4,[30],"{""Warning"": 1}","[""ROI_C4_JPS_029""]",5.453,103.046333,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_031,Southeast of Tanjung Batu Rakit,Kuala Terengganu,C4,[31],"{""Warning"": 1}","[""ROI_C4_JPS_029""]",5.449583,103.050694,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_032,Southeast of Kampung Tanjung Kapur,Kuala Terengganu,C4,"[32, 33]","{""Warning"": 1, ""Stable"": 1}","[""ROI_C4_JPS_029""]",5.4473614999999995,103.0531805,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_034,Kampung Padang Maras,Kuala Terengganu,C4,[34],"{""Critical"": 1}","[""ROI_C4_JPS_029""]",5.442222,103.058861,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_035,Southeast of Kampung Pengkalan Maras,Kuala Terengganu,C4,[35],"{""Critical"": 1}","[""ROI_C4_JPS_029""]",5.428639,103.0735,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_036,North of Kampung Pak Tuyu,Kuala Terengganu,C4,[36],"{""Protected"": 1}","[""ROI_C4_JPS_036""]",5.421944,103.080778,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_037,Kampung Pak Tuyu,Kuala Terengganu,C4,[37],"{""Protected"": 1}","[""ROI_C4_JPS_036""]",5.41375,103.089278,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_038,Kampung Seberang Takir,Kuala Terengganu,C5,[38],"{""Protected"": 1}","[""ROI_C5_JPS_038""]",5.352528,103.133056,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_039,North of Kampung Pantai Batu Buruk,Kuala Terengganu,C6,"[39, 40]","{""Warning"": 2}","[""ROI_C6_JPS_039""]",5.322,103.15611100000001,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_041,North of Kampung Gong Pantai,Kuala Terengganu,C6,"[41, 42, 43]","{""Stable"": 1, ""Warning"": 2}","[""ROI_C6_JPS_039""]",5.301898,103.16709233333334,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_044,Kampung Gong Pantai,Kuala Terengganu,C6,[44],"{""Warning"": 1}","[""ROI_C6_JPS_039""]",5.299722,103.168361,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_045,East of Kampung Dusun,Kuala Terengganu,C6,[45],"{""Warning"": 1}","[""ROI_C6_JPS_039""]",5.293972,103.171528,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_046,Kampung Aur,Kuala Terengganu,C6,[46],"{""Warning"": 1}","[""ROI_C6_JPS_046""]",5.277444,103.180139,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_047,North of Tanjung Chendering,Kuala Terengganu,C6,[47],"{""Stable"": 1}","[""ROI_C6_JPS_046""]",5.269417,103.184528,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_048,Taman Rashidah,Kuala Terengganu,C7,[48],"{""Warning"": 1}","[""ROI_C7_JPS_048""]",5.252861,103.184056,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_049,Taman Rashidah,Marang,C7,[49],"{""Warning"": 1}","[""ROI_C7_JPS_049""]",5.247278,103.186611,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_050,Southeast of Taman Rashidah,Marang,C7,"[50, 51]","{""Warning"": 2}","[""ROI_C7_JPS_049""]",5.2445415,103.18801400000001,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_052,Kampung Ru Sila,Marang,C7,"[52, 53]","{""Warning"": 2}","[""ROI_C7_JPS_049""]",5.241389,103.18968050000001,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_054,North of Kampung Ru Dua,Marang,C7,"[54, 55]","{""Warning"": 2}","[""ROI_C7_JPS_049""]",5.236625,103.19225,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_056,Southeast of Kampung Ru Dua,Marang,C7,"[56, 57]","{""Warning"": 2}","[""ROI_C7_JPS_049""]",5.2322500000000005,103.1946665,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_058,Taman Istiqomah,Marang,C7,"[58, 59, 60, 61, 62]","{""Stable"": 5}","[""ROI_C7_JPS_049""]",5.225,103.1990556,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_063,South of Sungai Marang river mouth,Marang,C8,[63],"{""Stable"": 1}","[""ROI_C8_JPS_063""]",5.201861,103.216222,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_064,Kampung Ru Muda,Marang,C8,"[64, 65, 66]","{""Stable"": 3}","[""ROI_C8_JPS_063""]",5.192509333333334,103.22187966666667,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_067,Sungai Pulau Kerengga river mouth,Marang,C8,"[67, 68, 69]","{""Stable"": 3}","[""ROI_C8_JPS_067"", ""ROI_C8_JPS_069""]",5.133426,103.249611,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_070,Sungai Mercang river mouth,Marang,C8,"[70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]","{""Stable"": 19}","[""ROI_C8_JPS_069"", ""ROI_C8_JPS_082"", ""ROI_C8_JPS_083""]",5.080945947368421,103.27638010526316,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_089,North Sungai Mercang river mouth,Marang,C8,[89],"{""Stable"": 1}","[""ROI_C8_JPS_083""]",5.025861,103.304722,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_090,South Sungai Mercang river mouth,Marang,C8,"[90, 91]","{""Stable"": 2}","[""ROI_C8_JPS_083""]",5.0223885,103.30658349999999,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_092,Kampung Gong Balai,Marang,C8,"[92, 93]","{""Stable"": 2}","[""ROI_C8_JPS_083""]",5.0170135,103.3094725,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_094,Kampung Ru Tebal,Marang,C8,[94],"{""Warning"": 1}","[""ROI_C8_JPS_094""]",4.977667,103.331556,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_095,Kampung Penarik,Marang,C8,[95],"{""Stable"": 1}","[""ROI_C8_JPS_094""]",4.970861,103.335306,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_096,Southeast of Kampung Penarik,Marang,C8,[96],"{""Stable"": 1}","[""ROI_C8_JPS_094""]",4.96525,103.338417,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_097,North of Kampung Jambu Bongkok,Marang,C8,"[97, 98, 99, 100]","{""Stable"": 4}","[""ROI_C8_JPS_094""]",4.9471735,103.3483265,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_101,Kampung Jambu Bongkok,Marang,C8,"[101, 102, 103, 104, 105]","{""Stable"": 5}","[""ROI_C8_JPS_101""]",4.9394666,103.3525612,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_106,South of Kampung Jambu Bongkok,Marang,C8,[106],"{""Stable"": 1}","[""ROI_C8_JPS_101""]",4.934111,103.3555,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_107,Sungai Kuala Abang river mouth,Dungun,C8,[107],"{""Stable"": 1}","[""ROI_C8_JPS_107""]",4.87675,103.388583,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_108,Kampung Teluk Bedara,Dungun,C8,[108],"{""Stable"": 1}","[""ROI_C8_JPS_108""]",4.78575,103.437194,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_109,Pantai Teluk Lipat (north),Dungun,C9,[109],"{""Warning"": 1}","[""ROI_C9_JPS_109""]",4.77625,103.426306,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_110,Kampung Sura,Dungun,C9,"[110, 111]","{""Protected"": 2}","[""ROI_C9_JPS_109""]",4.7526665,103.42463900000001,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_112,Kampung Balai Besar,Dungun,C9,[112],"{""Protected"": 1}","[""ROI_C9_JPS_109""]",4.747694,103.426167,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_113,North of Kampung Sura Atas,Dungun,C9,"[113, 114, 115, 116, 117, 118]","{""Warning"": 6}","[""ROI_C9_JPS_113""]",4.727722333333333,103.4342085,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_119,North of Tanjung Gadung,Dungun,C9,[119],"{""Stable"": 1}","[""ROI_C9_JPS_119""]",4.699306,103.446528,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_120,Sand spit near Sungai Paka river mouth,Dungun,C10,[120],"{""Protected"": 1}","[""ROI_C10_JPS_120""]",4.647444,103.439667,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_121,Kampung Cacar,Dungun,C10,"[121, 122, 123]","{""Critical"": 2, ""Warning"": 1}","[""ROI_C10_JPS_120""]",4.624592666666667,103.44381466666665,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_124,Northeast of Taman Indah Paka,Dungun,C10,"[124, 125]","{""Warning"": 2}","[""ROI_C10_JPS_120""]",4.621181,103.445014,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_126,Taman Indah Paka,Dungun,C10,[126],"{""Warning"": 1}","[""ROI_C10_JPS_120""]",4.619111,103.445778,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_127,Southeast of Taman Indah Paka,Dungun,C10,[127],"{""Warning"": 1}","[""ROI_C10_JPS_120""]",4.616194,103.44675,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_128,Petronas Kertih Refinery,Kemaman,C10,"[128, 129, 130, 131]","{""Critical"": 1, ""Warning"": 3}","[""ROI_C10_JPS_128""]",4.581367999999999,103.460771,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_132,South of Tanjung Batu Lama,Kemaman,C10,[132],"{""Stable"": 1}","[""ROI_C10_JPS_132""]",4.535861,103.472694,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_133,North of Sungai Kerteh river mouth,Kemaman,C10,[133],"{""Stable"": 1}","[""ROI_C10_JPS_133""]",4.516361,103.457139,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_134,Kelab Golf and Rekreasi Petronas,Kemaman,C11,[134],"{""Stable"": 1}","[""ROI_C11_JPS_134""]",4.455556,103.448194,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_135,Southeast of Kelab Golf dan Rekreasi Petronas,Kemaman,C11,"[135, 136, 137]","{""Stable"": 3}","[""ROI_C11_JPS_134""]",4.447259333333334,103.45075000000001,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_138,Pantai Kemasik (north),Kemaman,C11,[138],"{""Protected"": 1}","[""ROI_C11_JPS_134""]",4.426083,103.455194,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_139,Kampung Tengah,Kemaman,C11,[139],"{""Protected"": 1}","[""ROI_C11_JPS_134""]",4.423667,103.455639,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_140,North of Sungai Kemasik,Kemaman,C11,[140],"{""Warning"": 1}","[""ROI_C11_JPS_134""]",4.421111,103.456417,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_141,Kampung Ibai,Kemaman,C11,[141],"{""Stable"": 1}","[""ROI_C11_JPS_141""]",4.339944,103.484222,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_142,Teluk Mak Nik,Kemaman,C12,[142],"{""Stable"": 1}","[""ROI_C12_JPS_142""]",4.286306,103.478028,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_143,North of Sungai Kemaman river mouth,Kemaman,C12,[143],"{""Critical"": 1}","[""ROI_C12_JPS_143""]",4.241722,103.451972,draft_name_and_location_review,not_yet_matched_to_existing_models
+JPS_144,Kampung Geliga Cik Akob,Kemaman,C12,[144],"{""Critical"": 1}","[""ROI_C12_JPS_144""]",4.21125,103.439528,draft_name_and_location_review,not_yet_matched_to_existing_models

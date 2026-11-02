@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C10_JPS_128",
+        "coastal_cell": "C10",
+        "district": "Kemaman",
+        "station_ids": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "approx_area_km2": 8.851,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.45090807077077,
+              4.564484666187567
+            ],
+            [
+              103.47142592922924,
+              4.564484666187567
+            ],
+            [
+              103.47142592922924,
+              4.599487333812433
+            ],
+            [
+              103.45090807077077,
+              4.599487333812433
+            ],
+            [
+              103.45090807077077,
+              4.564484666187567
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

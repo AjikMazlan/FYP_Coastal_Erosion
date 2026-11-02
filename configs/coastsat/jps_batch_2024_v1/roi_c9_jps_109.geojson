@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C9_JPS_109",
+        "coastal_cell": "C9",
+        "district": "Dungun",
+        "station_ids": [
+          109,
+          110,
+          111,
+          112
+        ],
+        "approx_area_km2": 8.211,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.41721137526768,
+              4.740956666187567
+            ],
+            [
+              103.43306662473232,
+              4.740956666187567
+            ],
+            [
+              103.43306662473232,
+              4.782987333812433
+            ],
+            [
+              103.41721137526768,
+              4.782987333812433
+            ],
+            [
+              103.41721137526768,
+              4.740956666187567
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

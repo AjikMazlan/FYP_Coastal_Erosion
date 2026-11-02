@@ -1,0 +1,1549 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C1_JPS_001",
+        "coastal_cell": "C1",
+        "district": "Besut",
+        "station_ids": [
+          1,
+          2
+        ],
+        "approx_area_km2": 5.317,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.53983856007042,
+              5.827512666187567
+            ],
+            [
+              102.56418943992958,
+              5.827512666187567
+            ],
+            [
+              102.56418943992958,
+              5.845265333812433
+            ],
+            [
+              102.53983856007042,
+              5.845265333812433
+            ],
+            [
+              102.53983856007042,
+              5.827512666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C1_JPS_003",
+        "coastal_cell": "C1",
+        "district": "Besut",
+        "station_ids": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "approx_area_km2": 7.06,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.59820004462951,
+              5.785790666187567
+            ],
+            [
+              102.6229109553705,
+              5.785790666187567
+            ],
+            [
+              102.6229109553705,
+              5.809015333812433
+            ],
+            [
+              102.59820004462951,
+              5.809015333812433
+            ],
+            [
+              102.59820004462951,
+              5.785790666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C2_JPS_010",
+        "coastal_cell": "C2",
+        "district": "Besut",
+        "station_ids": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "approx_area_km2": 7.195,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.65003475579705,
+              5.725456666187567
+            ],
+            [
+              102.67327124420295,
+              5.725456666187567
+            ],
+            [
+              102.67327124420295,
+              5.750626333812433
+            ],
+            [
+              102.65003475579705,
+              5.750626333812433
+            ],
+            [
+              102.65003475579705,
+              5.725456666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C2_JPS_014",
+        "coastal_cell": "C2",
+        "district": "Setiu",
+        "station_ids": [
+          14,
+          15
+        ],
+        "approx_area_km2": 10.32,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.66917303305861,
+              5.698429666187567
+            ],
+            [
+              102.69765996694139,
+              5.698429666187567
+            ],
+            [
+              102.69765996694139,
+              5.727876333812433
+            ],
+            [
+              102.66917303305861,
+              5.727876333812433
+            ],
+            [
+              102.66917303305861,
+              5.698429666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C2_JPS_016",
+        "coastal_cell": "C2",
+        "district": "Setiu",
+        "station_ids": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "approx_area_km2": 18.668,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.70422947254632,
+              5.658512666187567
+            ],
+            [
+              102.74838152745369,
+              5.658512666187567
+            ],
+            [
+              102.74838152745369,
+              5.692876333812433
+            ],
+            [
+              102.70422947254632,
+              5.692876333812433
+            ],
+            [
+              102.70422947254632,
+              5.658512666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C3_JPS_022",
+        "coastal_cell": "C3",
+        "district": "Setiu",
+        "station_ids": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "approx_area_km2": 6.913,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.92234213336991,
+              5.524095666187567
+            ],
+            [
+              102.95443586663009,
+              5.524095666187567
+            ],
+            [
+              102.95443586663009,
+              5.541598333812433
+            ],
+            [
+              102.92234213336991,
+              5.541598333812433
+            ],
+            [
+              102.92234213336991,
+              5.524095666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C4_JPS_028",
+        "coastal_cell": "C4",
+        "district": "Setiu",
+        "station_ids": [
+          28
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.97562032058156,
+              5.509484666187567
+            ],
+            [
+              102.98915767941844,
+              5.509484666187567
+            ],
+            [
+              102.98915767941844,
+              5.522959333812433
+            ],
+            [
+              102.97562032058156,
+              5.522959333812433
+            ],
+            [
+              102.97562032058156,
+              5.509484666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C4_JPS_029",
+        "coastal_cell": "C4",
+        "district": "Kuala Terengganu",
+        "station_ids": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "approx_area_km2": 24.091,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.03442611008192,
+              5.421901666187567
+            ],
+            [
+              103.08026788991808,
+              5.421901666187567
+            ],
+            [
+              103.08026788991808,
+              5.464598333812433
+            ],
+            [
+              103.03442611008192,
+              5.464598333812433
+            ],
+            [
+              103.03442611008192,
+              5.421901666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C4_JPS_036",
+        "coastal_cell": "C4",
+        "district": "Kuala Terengganu",
+        "station_ids": [
+          36,
+          37
+        ],
+        "approx_area_km2": 5.877,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.07401043277541,
+              5.407012666187567
+            ],
+            [
+              103.09604556722458,
+              5.407012666187567
+            ],
+            [
+              103.09604556722458,
+              5.428681333812433
+            ],
+            [
+              103.07401043277541,
+              5.428681333812433
+            ],
+            [
+              103.07401043277541,
+              5.407012666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C5_JPS_038",
+        "coastal_cell": "C5",
+        "district": "Kuala Terengganu",
+        "station_ids": [
+          38
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.126289160029,
+              5.345790666187567
+            ],
+            [
+              103.13982283997099,
+              5.345790666187567
+            ],
+            [
+              103.13982283997099,
+              5.359265333812433
+            ],
+            [
+              103.126289160029,
+              5.359265333812433
+            ],
+            [
+              103.126289160029,
+              5.345790666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C6_JPS_039",
+        "coastal_cell": "C6",
+        "district": "Kuala Terengganu",
+        "station_ids": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "approx_area_km2": 14.962,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.14920567043319,
+              5.287234666187567
+            ],
+            [
+              103.17829432956681,
+              5.287234666187567
+            ],
+            [
+              103.17829432956681,
+              5.329015333812433
+            ],
+            [
+              103.14920567043319,
+              5.329015333812433
+            ],
+            [
+              103.14920567043319,
+              5.287234666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C6_JPS_046",
+        "coastal_cell": "C6",
+        "district": "Kuala Terengganu",
+        "station_ids": [
+          46,
+          47
+        ],
+        "approx_area_km2": 4.744,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.17337302871135,
+              5.262679666187567
+            ],
+            [
+              103.19129397128864,
+              5.262679666187567
+            ],
+            [
+              103.19129397128864,
+              5.284181333812433
+            ],
+            [
+              103.17337302871135,
+              5.284181333812433
+            ],
+            [
+              103.17337302871135,
+              5.262679666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C7_JPS_048",
+        "coastal_cell": "C7",
+        "district": "Kuala Terengganu",
+        "station_ids": [
+          48
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.17729025246534,
+              5.246123666187567
+            ],
+            [
+              103.19082174753466,
+              5.246123666187567
+            ],
+            [
+              103.19082174753466,
+              5.259598333812433
+            ],
+            [
+              103.17729025246534,
+              5.259598333812433
+            ],
+            [
+              103.17729025246534,
+              5.246123666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C7_JPS_049",
+        "coastal_cell": "C7",
+        "district": "Marang",
+        "station_ids": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "approx_area_km2": 12.872,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.1798454523048,
+              5.215929666187567
+            ],
+            [
+              103.2072935476952,
+              5.215929666187567
+            ],
+            [
+              103.2072935476952,
+              5.254015333812433
+            ],
+            [
+              103.1798454523048,
+              5.254015333812433
+            ],
+            [
+              103.1798454523048,
+              5.215929666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_063",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          63,
+          64,
+          65,
+          66
+        ],
+        "approx_area_km2": 5.826,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.2094568787592,
+              5.184679666187567
+            ],
+            [
+              103.2292371212408,
+              5.184679666187567
+            ],
+            [
+              103.2292371212408,
+              5.208598333812433
+            ],
+            [
+              103.2094568787592,
+              5.208598333812433
+            ],
+            [
+              103.2094568787592,
+              5.184679666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_067",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          67,
+          68
+        ],
+        "approx_area_km2": 2.477,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.23845744653524,
+              5.134484666187567
+            ],
+            [
+              103.25243155346476,
+              5.134484666187567
+            ],
+            [
+              103.25243155346476,
+              5.148876333812433
+            ],
+            [
+              103.23845744653524,
+              5.148876333812433
+            ],
+            [
+              103.23845744653524,
+              5.134484666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_069",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "approx_area_km2": 8.971,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.25117980928364,
+              5.091790666187567
+            ],
+            [
+              103.27404219071636,
+              5.091790666187567
+            ],
+            [
+              103.27404219071636,
+              5.123654333812433
+            ],
+            [
+              103.25117980928364,
+              5.123654333812433
+            ],
+            [
+              103.25117980928364,
+              5.091790666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_082",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          82
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.27534720847626,
+              5.062706666187567
+            ],
+            [
+              103.28887479152374,
+              5.062706666187567
+            ],
+            [
+              103.28887479152374,
+              5.076181333812433
+            ],
+            [
+              103.27534720847626,
+              5.076181333812433
+            ],
+            [
+              103.27534720847626,
+              5.062706666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_083",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "approx_area_km2": 9.534,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.29312565422418,
+              5.009206666187567
+            ],
+            [
+              103.31681934577581,
+              5.009206666187567
+            ],
+            [
+              103.31681934577581,
+              5.041876333812433
+            ],
+            [
+              103.29312565422418,
+              5.041876333812433
+            ],
+            [
+              103.29312565422418,
+              5.009206666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_094",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100
+        ],
+        "approx_area_km2": 18.239,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.32479336771533,
+              4.937845666187567
+            ],
+            [
+              103.35659563228468,
+              4.937845666187567
+            ],
+            [
+              103.35659563228468,
+              4.984404333812433
+            ],
+            [
+              103.32479336771533,
+              4.984404333812433
+            ],
+            [
+              103.32479336771533,
+              4.937845666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_101",
+        "coastal_cell": "C8",
+        "district": "Marang",
+        "station_ids": [
+          101,
+          102,
+          103,
+          104,
+          105,
+          106
+        ],
+        "approx_area_km2": 4.582,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.34459856106598,
+              4.927373666187567
+            ],
+            [
+              103.36226243893402,
+              4.927373666187567
+            ],
+            [
+              103.36226243893402,
+              4.948431333812433
+            ],
+            [
+              103.34459856106598,
+              4.948431333812433
+            ],
+            [
+              103.34459856106598,
+              4.927373666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_107",
+        "coastal_cell": "C8",
+        "district": "Dungun",
+        "station_ids": [
+          107
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.38182118758417,
+              4.870012666187567
+            ],
+            [
+              103.39534481241583,
+              4.870012666187567
+            ],
+            [
+              103.39534481241583,
+              4.883487333812433
+            ],
+            [
+              103.38182118758417,
+              4.883487333812433
+            ],
+            [
+              103.38182118758417,
+              4.870012666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C8_JPS_108",
+        "coastal_cell": "C8",
+        "district": "Dungun",
+        "station_ids": [
+          108
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.43043309523895,
+              4.779012666187567
+            ],
+            [
+              103.44395490476106,
+              4.779012666187567
+            ],
+            [
+              103.44395490476106,
+              4.792487333812433
+            ],
+            [
+              103.43043309523895,
+              4.792487333812433
+            ],
+            [
+              103.43043309523895,
+              4.779012666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C9_JPS_109",
+        "coastal_cell": "C9",
+        "district": "Dungun",
+        "station_ids": [
+          109,
+          110,
+          111,
+          112
+        ],
+        "approx_area_km2": 8.211,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.41721137526768,
+              4.740956666187567
+            ],
+            [
+              103.43306662473232,
+              4.740956666187567
+            ],
+            [
+              103.43306662473232,
+              4.782987333812433
+            ],
+            [
+              103.41721137526768,
+              4.782987333812433
+            ],
+            [
+              103.41721137526768,
+              4.740956666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C9_JPS_113",
+        "coastal_cell": "C9",
+        "district": "Dungun",
+        "station_ids": [
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ],
+        "approx_area_km2": 3.941,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.42604566498963,
+              4.718012666187567
+            ],
+            [
+              103.44226033501037,
+              4.718012666187567
+            ],
+            [
+              103.44226033501037,
+              4.737737333812433
+            ],
+            [
+              103.42604566498963,
+              4.737737333812433
+            ],
+            [
+              103.42604566498963,
+              4.718012666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C9_JPS_119",
+        "coastal_cell": "C9",
+        "district": "Dungun",
+        "station_ids": [
+          119
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.4397679414343,
+              4.692568666187567
+            ],
+            [
+              103.4532880585657,
+              4.692568666187567
+            ],
+            [
+              103.4532880585657,
+              4.706043333812433
+            ],
+            [
+              103.4397679414343,
+              4.706043333812433
+            ],
+            [
+              103.4397679414343,
+              4.692568666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C10_JPS_120",
+        "coastal_cell": "C10",
+        "district": "Dungun",
+        "station_ids": [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "approx_area_km2": 11.355,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.4329076576718,
+              4.609456666187567
+            ],
+            [
+              103.45350934232819,
+              4.609456666187567
+            ],
+            [
+              103.45350934232819,
+              4.654181333812433
+            ],
+            [
+              103.4329076576718,
+              4.654181333812433
+            ],
+            [
+              103.4329076576718,
+              4.609456666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C10_JPS_128",
+        "coastal_cell": "C10",
+        "district": "Kemaman",
+        "station_ids": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "approx_area_km2": 8.851,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.45090807077077,
+              4.564484666187567
+            ],
+            [
+              103.47142592922924,
+              4.564484666187567
+            ],
+            [
+              103.47142592922924,
+              4.599487333812433
+            ],
+            [
+              103.45090807077077,
+              4.599487333812433
+            ],
+            [
+              103.45090807077077,
+              4.564484666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C10_JPS_132",
+        "coastal_cell": "C10",
+        "district": "Kemaman",
+        "station_ids": [
+          132
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.46593549877468,
+              4.529123666187567
+            ],
+            [
+              103.47945250122532,
+              4.529123666187567
+            ],
+            [
+              103.47945250122532,
+              4.542598333812433
+            ],
+            [
+              103.46593549877468,
+              4.542598333812433
+            ],
+            [
+              103.46593549877468,
+              4.529123666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C10_JPS_133",
+        "coastal_cell": "C10",
+        "district": "Kemaman",
+        "station_ids": [
+          133
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.45038068085532,
+              4.509623666187567
+            ],
+            [
+              103.46389731914468,
+              4.509623666187567
+            ],
+            [
+              103.46389731914468,
+              4.523098333812433
+            ],
+            [
+              103.45038068085532,
+              4.523098333812433
+            ],
+            [
+              103.45038068085532,
+              4.509623666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C11_JPS_134",
+        "coastal_cell": "C11",
+        "district": "Kemaman",
+        "station_ids": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140
+        ],
+        "approx_area_km2": 12.841,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.44143640168727,
+              4.414373666187567
+            ],
+            [
+              103.46317459831273,
+              4.414373666187567
+            ],
+            [
+              103.46317459831273,
+              4.462293333812433
+            ],
+            [
+              103.44143640168727,
+              4.462293333812433
+            ],
+            [
+              103.44143640168727,
+              4.414373666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C11_JPS_141",
+        "coastal_cell": "C11",
+        "district": "Kemaman",
+        "station_ids": [
+          141
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.47746529213491,
+              4.333206666187567
+            ],
+            [
+              103.4909787078651,
+              4.333206666187567
+            ],
+            [
+              103.4909787078651,
+              4.346681333812433
+            ],
+            [
+              103.47746529213491,
+              4.346681333812433
+            ],
+            [
+              103.47746529213491,
+              4.333206666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C12_JPS_142",
+        "coastal_cell": "C12",
+        "district": "Kemaman",
+        "station_ids": [
+          142
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.47127176918133,
+              4.279568666187567
+            ],
+            [
+              103.48478423081866,
+              4.279568666187567
+            ],
+            [
+              103.48478423081866,
+              4.293043333812433
+            ],
+            [
+              103.47127176918133,
+              4.293043333812433
+            ],
+            [
+              103.47127176918133,
+              4.279568666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C12_JPS_143",
+        "coastal_cell": "C12",
+        "district": "Kemaman",
+        "station_ids": [
+          143
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.44521616114616,
+              4.234984666187567
+            ],
+            [
+              103.45872783885383,
+              4.234984666187567
+            ],
+            [
+              103.45872783885383,
+              4.248459333812433
+            ],
+            [
+              103.44521616114616,
+              4.248459333812433
+            ],
+            [
+              103.44521616114616,
+              4.234984666187567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "roi_id": "ROI_C12_JPS_144",
+        "coastal_cell": "C12",
+        "district": "Kemaman",
+        "station_ids": [
+          144
+        ],
+        "approx_area_km2": 2.245,
+        "status": "draft_requires_image_review",
+        "download_enabled": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.43277242666456,
+              4.204512666187567
+            ],
+            [
+              103.44628357333544,
+              4.204512666187567
+            ],
+            [
+              103.44628357333544,
+              4.217987333812433
+            ],
+            [
+              103.43277242666456,
+              4.217987333812433
+            ],
+            [
+              103.43277242666456,
+              4.204512666187567
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

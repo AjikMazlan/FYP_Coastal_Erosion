@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "JPS_BATCH_ROI_C12_JPS_144_2024_V1_transects_300m",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[326524.14114835934015,466058.548435916134622],[326817.294057536229957,466122.277329215488862]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[326525.635957474238239,465885.336385429603979],[326824.483353861025535,465911.608684013015591]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[326546.815932385681663,465655.847975313838106],[326842.906234729976859,465704.123568087292369]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[326588.015546449052636,465447.370548407314345],[326885.566279041289818,465485.62707116920501]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[326636.463746411900502,465130.869991184328683],[326914.835013162868563,465242.715589432395063]]}}
+]
+}

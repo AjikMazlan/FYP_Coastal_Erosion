@@ -1,4 +1,4 @@
-
+from database import db, CoastalPoint, configure_database
 from flask import Flask, jsonify, request
 from pathlib import Path
 import pandas as pd
@@ -8,6 +8,7 @@ import math
 from pyproj import Transformer
 
 app = Flask(__name__)
+configure_database(app)
 
 # Main FYP folder
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,7 +22,6 @@ LR_MODEL_PATH = (
 )
 
 # Load existing coastal dataset and model
-points = pd.read_csv(DATA_PATH)
 lr_model = joblib.load(LR_MODEL_PATH)
 
 # Shoreline prediction assets
@@ -67,8 +67,8 @@ shoreline_transformer = Transformer.from_crs(
 )
 
 print("=== COASTAL EROSION BACKEND ===")
-print("Coastal points:", len(points))
-print("K-Means results: Loaded from CSV")
+print("Coastal data source: SQLite")
+print("K-Means results: Loaded from database")
 print("Linear Regression model: Loaded")
 
 
@@ -77,7 +77,9 @@ print("Linear Regression model: Loaded")
 def health():
     return jsonify({
         "status": "ok",
-        "total_locations": len(points),
+         "total_locations": db.session.scalar(
+            db.select(db.func.count()).select_from(CoastalPoint)
+        ),
         "kmeans_ready": True,
         "linear_regression_ready": True
     })
@@ -86,14 +88,8 @@ def health():
 # API 2: Get K-Means and LR results
 @app.route("/assessment", methods=["GET"])
 def assessment():
-
-    transect_id = request.args.get(
-        "transect_id", type=int
-    )
-
-    years = request.args.get(
-        "years", default=10, type=int
-    )
+    transect_id = request.args.get("transect_id", type=int)
+    years = request.args.get("years", default=10, type=int)
 
     if transect_id is None or years is None:
         return jsonify({
@@ -105,16 +101,23 @@ def assessment():
             "error": "Years must be between 1 and 10"
         }), 400
 
-    selected = points[
-        points["Transect_ID"] == transect_id
-    ]
+    point = db.session.get(CoastalPoint, transect_id)
 
-    if selected.empty:
+    if point is None:
         return jsonify({
             "error": "Location not found"
         }), 404
 
-    row = selected.iloc[0]
+    row = {
+        "Risk_Label": point.risk_label,
+        "Projection_Source": point.projection_source,
+        "Primary_Rate_m_yr": point.primary_rate_m_yr,
+        "Source_Type": point.source_type,
+        "Longitude_DD": point.longitude,
+        "Latitude_DD": point.latitude,
+        "Coastal_Cell": point.coastal_cell,
+        "Area_Location": point.location,
+    }
 
     # Previously generated K-Means classification
     risk = str(row["Risk_Label"])
@@ -174,25 +177,25 @@ def assessment():
 # API 3: Coastal locations for map markers
 @app.route("/locations", methods=["GET"])
 def locations():
-    locations_data = []
+    coastal_points = db.session.scalars(
+        db.select(CoastalPoint).order_by(CoastalPoint.point_id)
+    ).all()
 
-    for row in points.itertuples(index=False):
-        rate = row.Primary_Rate_m_yr
-
-        locations_data.append({
-            "transect_id": int(row.Transect_ID),
-            "location": str(row.Area_Location),
-            "district": str(row.District),
-            "coastal_cell": str(row.Coastal_Cell),
-            "latitude": float(row.Latitude_DD),
-            "longitude": float(row.Longitude_DD),
-            "risk_label": str(row.Risk_Label),
-            "source_type": str(row.Source_Type),
-            "projection_source": str(row.Projection_Source),
-            "primary_rate_m_yr": (
-                float(rate) if pd.notna(rate) else None
-            )
-        })
+    locations_data = [
+        {
+            "transect_id": point.point_id,
+            "location": point.location,
+            "district": point.district,
+            "coastal_cell": point.coastal_cell,
+            "latitude": point.latitude,
+            "longitude": point.longitude,
+            "risk_label": point.risk_label,
+            "source_type": point.source_type,
+            "projection_source": point.projection_source,
+            "primary_rate_m_yr": point.primary_rate_m_yr,
+        }
+        for point in coastal_points
+    ]
 
     return jsonify({
         "total_locations": len(locations_data),

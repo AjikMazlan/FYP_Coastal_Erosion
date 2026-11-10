@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "BUKIT_KELUANG_2025_PILOT_transects_300m",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[234111.21532235579798,642318.199157138820738],[234384.493300393747631,642441.969697735039517]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[234161.54628033618792,642245.962107069441117],[234425.918779238738352,642387.761901935446076]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[234212.527093067532405,642175.972622205503285],[234477.951134926697705,642315.794215684989467]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[234300.742935211135773,642058.64634684054181],[234535.275726400112035,642245.71416838420555]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[234372.50341245951131,641970.817819922347553],[234580.008733728493098,642187.477787717594765]]}}
+]
+}

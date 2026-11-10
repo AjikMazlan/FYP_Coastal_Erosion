@@ -1,0 +1,20 @@
+{
+  "site_id": "bukit_keluang",
+  "acquisition_date": "2024-03-18",
+  "source": "Copernicus Sentinel-2 / ESA; processed with CoastSat",
+  "source_file": "2024-03-18-03-46-35_S2_47NRG_BUKIT_KELUANG_2024_ms.tif",
+  "source_crs": "EPSG:32647",
+  "source_pixel_size": [
+    10.0,
+    10.0
+  ],
+  "display_crs": "EPSG:3857",
+  "bounds": {
+    "south": 5.793270219715682,
+    "west": 102.59759960071763,
+    "north": 5.807566286775427,
+    "east": 102.61612649514751
+  },
+  "version": "672af2ee60b74976",
+  "note": "Historical image for visual context; not a live shoreline or independent validation."
+}

@@ -1,6 +1,7 @@
 from database import db, CoastalPoint, configure_database
 from flask import Flask, jsonify, request
 from pathlib import Path
+from flask import send_from_directory
 import pandas as pd
 import joblib
 import json
@@ -25,45 +26,256 @@ LR_MODEL_PATH = (
 lr_model = joblib.load(LR_MODEL_PATH)
 
 # Shoreline prediction assets
-SHORELINE_MODEL_PATH = (
-    BASE_DIR / "models" /
-    "kuala_merang_shoreline_lr.joblib"
-)
+# Shoreline prediction assets for each supported location
+SHORELINE_SITES = {
+    "kuala_merang": {
+        "site": "Kuala Merang",
+        "model": (
+            BASE_DIR / "models"
+            / "kuala_merang_shoreline_lr.joblib"
+        ),
+        "geometry": (
+            BASE_DIR / "data" / "coastsat"
+            / "KUALA_MERANG_2019_transects.geojson"
+        ),
+        "transect_ids": {1, 2, 3, 4},
+    },
+    "bukit_keluang": {
+        "site": "Bukit Keluang",
+        "model": (
+            BASE_DIR / "models"
+            / "bukit_keluang_shoreline_lr.joblib"
+        ),
+        "geometry": (
+            BASE_DIR / "data" / "coastsat"
+            / "BUKIT_KELUANG_transects_300m.geojson"
+        ),
+        "transect_ids": {1, 2, 3, 4, 5},
+    },
+}
 
-SHORELINE_GEOMETRY_PATH = (
-    BASE_DIR / "data" / "coastsat" /
-    "KUALA_MERANG_2019_transects.geojson"
-)
+shoreline_assets = {}
+shoreline_load_errors = {}
 
-shoreline_bundle = (
-    joblib.load(SHORELINE_MODEL_PATH)
-    if SHORELINE_MODEL_PATH.exists()
-    else None
-)
 
-shoreline_transects = {}
+def load_shoreline_site(config):
+    bundle = joblib.load(config["model"])
+    model_ids = set(bundle["models"])
 
-if SHORELINE_GEOMETRY_PATH.exists():
-    shoreline_geo = json.loads(
-        SHORELINE_GEOMETRY_PATH.read_text(
-            encoding="utf-8-sig"
+    if (
+        bundle["site"] != config["site"]
+        or model_ids != config["transect_ids"]
+    ):
+        raise ValueError(
+            "Model site or transect IDs do not match configuration."
         )
+
+    reference_year = int(bundle["reference_year"])
+
+    if not 1900 <= reference_year <= 2200:
+        raise ValueError("Invalid reference year.")
+
+    geometry = json.loads(
+        config["geometry"].read_text(encoding="utf-8-sig")
     )
 
-    for feature in shoreline_geo["features"]:
-        transect_id = int(
-            feature["properties"]["name"]
+    crs = (
+        geometry.get("crs", {})
+        .get("properties", {})
+        .get("name", "")
+    )
+
+    if crs not in (
+        "EPSG:32648",
+        "urn:ogc:def:crs:EPSG::32648",
+    ):
+        raise ValueError(
+            "Transect geometry must use EPSG:32648."
         )
 
-        if transect_id in (1, 2, 3, 4):
-            shoreline_transects[transect_id] = (
-                feature["geometry"]["coordinates"]
+    transects = {}
+
+    for feature in geometry["features"]:
+        transect_id = int(feature["properties"]["name"])
+
+        if transect_id not in model_ids:
+            continue
+
+        coords = feature["geometry"]["coordinates"]
+
+        if (
+            feature["geometry"]["type"] != "LineString"
+            or len(coords) != 2
+            or any(len(point) != 2 for point in coords)
+            or not all(
+                math.isfinite(float(value))
+                for point in coords
+                for value in point
             )
+            or transect_id in transects
+        ):
+            raise ValueError(
+                "Invalid or duplicate transect geometry."
+            )
+
+        coords = [
+            [float(value) for value in point]
+            for point in coords
+        ]
+
+        length = math.dist(coords[0], coords[-1])
+
+        reference = float(
+            bundle["reference_positions_m"][transect_id]
+        )
+
+        if (
+            length <= 0
+            or not math.isfinite(reference)
+            or not 0 <= reference <= length
+        ):
+            raise ValueError(
+                "Invalid transect length or reference position."
+            )
+
+        transects[transect_id] = coords
+
+    if set(transects) != model_ids:
+        raise ValueError(
+            "Matching transect geometry is missing."
+        )
+
+    return {
+        "bundle": bundle,
+        "transects": transects,
+    }
+
+
+for site_id, config in SHORELINE_SITES.items():
+    try:
+        shoreline_assets[site_id] = load_shoreline_site(config)
+        print(f"Shoreline ready: {config['site']}")
+
+    except Exception as error:
+        shoreline_load_errors[site_id] = str(error)
+
+        app.logger.warning(
+            "Shoreline unavailable: %s: %s",
+            site_id,
+            error,
+        )
+
+SHORELINE_IMAGERY_DIR = BASE_DIR / "data" / "coastsat" / "imagery"
+
+
+def shoreline_imagery_info(site_id):
+    metadata_path = SHORELINE_IMAGERY_DIR / f"{site_id}.json"
+    image_path = SHORELINE_IMAGERY_DIR / f"{site_id}.png"
+
+    if not metadata_path.is_file() or not image_path.is_file():
+        return None
+
+    try:
+        metadata = json.loads(
+            metadata_path.read_text(encoding="utf-8")
+        )
+        bounds = metadata["bounds"]
+
+        south, west, north, east = [
+            float(bounds[key])
+            for key in ("south", "west", "north", "east")
+        ]
+
+        if (
+            metadata["site_id"] != site_id
+            or metadata["display_crs"] != "EPSG:3857"
+            or not all(
+                math.isfinite(value)
+                for value in (south, west, north, east)
+            )
+            or not -90 <= south < north <= 90
+            or not -180 <= west < east <= 180
+        ):
+            raise ValueError("Invalid satellite overlay metadata.")
+
+        return {
+            "image_url": (
+                f"/shoreline-imagery/{site_id}.png"
+                f"?v={metadata['version']}"
+            ),
+            "acquisition_date": metadata["acquisition_date"],
+            "source": metadata["source"],
+            "source_pixel_size": metadata.get("source_pixel_size"),
+            "bounds": {
+                "south": south,
+                "west": west,
+                "north": north,
+                "east": east,
+            },
+            "note": metadata["note"],
+        }
+
+    except (KeyError, ValueError, TypeError, OSError) as error:
+        app.logger.warning(
+            "Satellite overlay unavailable for %s: %s",
+            site_id,
+            error,
+        )
+        return None
+
+
+@app.route("/shoreline-imagery/<site_id>.png", methods=["GET"])
+def shoreline_imagery(site_id):
+    if (
+        site_id not in SHORELINE_SITES
+        or shoreline_imagery_info(site_id) is None
+    ):
+        return jsonify({"error": "Satellite image unavailable."}), 404
+
+    return send_from_directory(
+        str(SHORELINE_IMAGERY_DIR),
+        f"{site_id}.png",
+        mimetype="image/png",
+        max_age=3600,
+    )
+
+def shoreline_site_info(site_id):
+    bundle = shoreline_assets[site_id]["bundle"]
+    reference_year = int(bundle["reference_year"])
+
+    return {
+        "site_id": site_id,
+        "imagery": shoreline_imagery_info(site_id),
+        "site": SHORELINE_SITES[site_id]["site"],
+        "reference_year": reference_year,
+        "first_forecast_year": reference_year + 1,
+        "last_forecast_year": reference_year + 10,
+        "transect_count": len(bundle["models"]),
+        "model_status": bundle.get(
+            "model_status",
+            "Experimental",
+        ),
+        "qc_status": bundle.get(
+            "qc_status",
+            "UNVALIDATED",
+        ),
+        "tide_corrected": bundle.get(
+            "tide_corrected",
+            False,
+        ),
+        "quality_warning": bundle.get(
+            "quality_warning",
+            "Experimental forecast based on unvalidated, "
+            "tide-uncorrected observations.",
+        ),
+        "evaluation": bundle.get("evaluation"),
+    }
+
 
 shoreline_transformer = Transformer.from_crs(
     "EPSG:32648",
     "EPSG:4326",
-    always_xy=True
+    always_xy=True,
 )
 
 print("=== COASTAL EROSION BACKEND ===")
@@ -226,36 +438,71 @@ def shoreline_map_point(coords, position_m):
     }
 
 
-# API 4: Temporal shoreline prediction for Kuala Merang
+# API 4: Available shoreline prediction locations
+@app.route("/shoreline-sites", methods=["GET"])
+def shoreline_sites():
+    sites = [
+        shoreline_site_info(site_id)
+        for site_id in SHORELINE_SITES
+        if site_id in shoreline_assets
+    ]
+
+    unavailable = [
+        {
+            "site_id": site_id,
+            "site": SHORELINE_SITES[site_id]["site"],
+            "reason": (
+                "Model or geometry unavailable. "
+                "Check Flask startup output."
+            ),
+        }
+        for site_id in shoreline_load_errors
+    ]
+
+    return jsonify({
+        "total_sites": len(sites),
+        "sites": sites,
+        "unavailable_sites": unavailable,
+    })
+
+
+# API 5: Temporal shoreline prediction for the selected location
 @app.route("/shoreline-prediction", methods=["GET"])
 def shoreline_prediction():
+    site_id = (
+        request.args.get("site", "kuala_merang")
+        .strip()
+        .lower()
+        .replace(" ", "_")
+    )
 
-    if shoreline_bundle is None:
+    if site_id not in SHORELINE_SITES:
+        return jsonify({
+            "error": "Unknown shoreline location."
+        }), 400
+
+    if site_id not in shoreline_assets:
         return jsonify({
             "error": (
-                "Export the shoreline model "
-                "in Notebook 09 Step 9 first"
+                "The model or geometry for this "
+                "location is unavailable."
             )
         }), 503
 
-    reference_year = int(
-        shoreline_bundle["reference_year"]
-    )
+    asset = shoreline_assets[site_id]
+    bundle = asset["bundle"]
+    info = shoreline_site_info(site_id)
 
-    first_year = reference_year + 1
-    last_year = reference_year + 10
+    first_year = info["first_forecast_year"]
+    last_year = info["last_forecast_year"]
 
     error_message = (
-        f"Year must be between "
-        f"{first_year} and {last_year}"
+        f"Year must be between {first_year} and {last_year}"
     )
 
     try:
         forecast_year = int(
-            request.args.get(
-                "year",
-                str(first_year)
-            )
+            request.args.get("year", str(first_year))
         )
     except (TypeError, ValueError):
         return jsonify({
@@ -267,71 +514,64 @@ def shoreline_prediction():
             "error": error_message
         }), 400
 
-    model_ids = set(
-        shoreline_bundle["models"]
-    )
-
-    if (
-        not model_ids
-        or not model_ids.issubset(shoreline_transects)
-    ):
-        return jsonify({
-            "error": (
-                "Matching shoreline transect "
-                "geometry is missing"
-            )
-        }), 503
-
     results = []
 
-    for transect_id in sorted(model_ids):
-
-        model = shoreline_bundle[
-            "models"
-        ][transect_id]
-
-        reference = float(
-            shoreline_bundle[
-                "reference_positions_m"
-            ][transect_id]
-        )
-
-        predicted = float(
-            model.predict(
-                pd.DataFrame({
-                    "Year": [forecast_year]
-                })
-            )[0]
-        )
-
-        coords = shoreline_transects[transect_id]
-
-        results.append({
-            "transect_id": int(transect_id),
-            "reference_position_m": round(
-                reference, 4
-            ),
-            "predicted_position_m": round(
-                predicted, 4
-            ),
-            "change_from_reference_m": round(
-                predicted - reference, 4
-            ),
-            "reference_point": shoreline_map_point(
-                coords, reference
-            ),
-            "predicted_point": shoreline_map_point(
-                coords, predicted
+    try:
+        for transect_id in sorted(bundle["models"]):
+            reference = float(
+                bundle["reference_positions_m"][transect_id]
             )
-        })
+
+            predicted = float(
+                bundle["models"][transect_id].predict(
+                    pd.DataFrame({
+                        "Year": [forecast_year]
+                    })
+                )[0]
+            )
+
+            if not math.isfinite(predicted):
+                raise ValueError(
+                    "Non-finite predicted position."
+                )
+
+            coords = asset["transects"][transect_id]
+
+            results.append({
+                "transect_id": int(transect_id),
+                "reference_position_m": round(reference, 4),
+                "predicted_position_m": round(predicted, 4),
+                "change_from_reference_m": round(
+                    predicted - reference,
+                    4,
+                ),
+                "reference_point": shoreline_map_point(
+                    coords,
+                    reference,
+                ),
+                "predicted_point": shoreline_map_point(
+                    coords,
+                    predicted,
+                ),
+            })
+
+    except Exception:
+        app.logger.exception(
+            "Shoreline prediction failed for %s",
+            site_id,
+        )
+
+        return jsonify({
+            "error": "Unable to generate this forecast."
+        }), 503
 
     return jsonify({
-        "site": "Kuala Merang",
-        "reference_year": reference_year,
+        **info,
         "forecast_year": forecast_year,
-        "years_ahead": forecast_year - reference_year,
-        "model_status": "Experimental",
-        "transects": results
+        "years_ahead": (
+            forecast_year - info["reference_year"]
+        ),
+        "transects": results,
     })
 
 if __name__ == "__main__":

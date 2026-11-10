@@ -1,0 +1,62 @@
+{
+  "status": "ready",
+  "model_sha256": "a07215d20f39d9a36edc7a89f8f79bd87cad7ce0ee88b922d0791dab1b1fb2a5",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_utara_t1_t4\\measurements_2020.csv",
+      "sha256": "e6b0d949e99cff415ed6c7d3902e3c9a5b1e17a91953f5d8a2a227f43a65a9a4",
+      "rows": 216,
+      "valid_rows": 190
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_utara_t1_t4\\measurements_2021.csv",
+      "sha256": "1fae28e64a523f41c7931b35cfe633b8c793c078ddaa10299a6610e4a664bcd7",
+      "rows": 136,
+      "valid_rows": 128
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_utara_t1_t4\\measurements_2022.csv",
+      "sha256": "05396b937799bfedd1d330845c00717d652ed07645e950fb555a2f24a8106aa1",
+      "rows": 160,
+      "valid_rows": 143
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_utara_t1_t4\\measurements_2023.csv",
+      "sha256": "bb4807dabd45b99ce330c0e612de5086c34eb95d045c15a7a3177d53de5fb7fc",
+      "rows": 152,
+      "valid_rows": 142
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_utara_t1_t4\\measurements_2024.csv",
+      "sha256": "29acb0a48faa07cfc374b9239a4cc45cab88702128423b95f01317eae9fb5781",
+      "rows": 168,
+      "valid_rows": 135
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_utara_t1_t4\\measurements_2025.csv",
+      "sha256": "d55970783131e35254ec5c6354e368fed1708bf89fc05dd0407324fd878573c2",
+      "rows": 140,
+      "valid_rows": 129
+    }
+  ],
+  "site_id": "sungai_setiu_utara_t1_t4",
+  "site": "Utara Sungai Setiu (T1-T4)",
+  "model": "results/shoreline_pipeline/monthly_v1/sungai_setiu_utara_t1_t4/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/sungai_setiu_utara_t1_t4/transects.geojson",
+  "geometry_sha256": "26c029a84f94dace3e8a4638b447ed12b9934f5a2e4bac7aec25fc2cbe90fc98",
+  "transect_ids": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

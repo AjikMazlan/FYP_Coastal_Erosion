@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:32648"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            242081.7135847659,
+            633237.4591576293
+          ],
+          [
+            242336.65677534393,
+            633395.585593047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            242519.1823947252,
+            632736.2545491235
+          ],
+          [
+            242750.8864318031,
+            632926.814878683
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            242971.186010183,
+            632241.0929711281
+          ],
+          [
+            243221.5844933018,
+            632406.3219021655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            243514.218674999,
+            631650.5242436625
+          ],
+          [
+            243761.5891973547,
+            631820.252923235
+          ]
+        ]
+      }
+    }
+  ]
+}

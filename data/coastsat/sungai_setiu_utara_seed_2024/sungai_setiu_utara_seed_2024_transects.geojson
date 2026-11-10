@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "sungai_setiu_utara_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[241980.781204288592562,633174.85667153459508],[242472.240155811567092,633479.68007937783841]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[242431.737478672002908,632664.337234986247495],[242848.726636768726166,633007.281589308870025]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[242844.829541833256371,632157.714893373427913],[243417.7024973492953,632535.733102115336806]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[243378.731547994480934,631557.562273308984004],[243912.633554155676393,631923.889197244425304]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[243990.575452865363332,630898.953229212318547],[244508.889079284650506,631354.913336663856171]]}}
+]
+}

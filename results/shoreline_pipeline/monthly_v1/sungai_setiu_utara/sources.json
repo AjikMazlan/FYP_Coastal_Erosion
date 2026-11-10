@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2020,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_utara\\2020\\measurements.csv",
+    "sha256": "c91f424ae96c37085f77f887f85bbc48091b8a8a001e6f51ea0c720488b389a1",
+    "rows": 270,
+    "valid_rows": 194
+  },
+  {
+    "year": 2021,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_utara\\2021\\measurements.csv",
+    "sha256": "f21e449974aaee795c899b1acc2bf9694acc349702778f9ddd48b38e5c25d216",
+    "rows": 170,
+    "valid_rows": 130
+  },
+  {
+    "year": 2022,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_utara\\2022\\measurements.csv",
+    "sha256": "efeb8a2c89c8a847b33d3acf3c437962b3dc1726fc92f7acf1a4ac48f64a70ea",
+    "rows": 200,
+    "valid_rows": 143
+  },
+  {
+    "year": 2023,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_utara\\2023\\measurements.csv",
+    "sha256": "2c177ed46e015caa5653da3a3b4ec18ddcac90cb7516d5ea5a8c78fe37101576",
+    "rows": 190,
+    "valid_rows": 145
+  },
+  {
+    "year": 2024,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_utara\\2024\\measurements.csv",
+    "sha256": "1c72a33272dfa99b9b7ffb7a2f3f902629a0151c384f867cb5bbeae6f11c8459",
+    "rows": 210,
+    "valid_rows": 137
+  },
+  {
+    "year": 2025,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_utara\\2025\\measurements.csv",
+    "sha256": "820f7ec197a1414e70768a4d7dcac735121096fca0e295ca6cbae84fa96ea55d",
+    "rows": 175,
+    "valid_rows": 131
+  }
+]

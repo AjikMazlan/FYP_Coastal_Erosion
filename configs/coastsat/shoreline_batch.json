@@ -32,6 +32,37 @@
       "existing_inputs": {
         "2024": "JPS_BATCH_ROI_C2_JPS_010_2024_V1"
       }
+    },
+    {
+      "id": "sungai_setiu_utara",
+      "name": "Utara Sungai Setiu",
+      "input_prefix": "SUNGAI_SETIU_UTARA_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c2_jps_014.json",
+      "reference": "data/coastsat/sungai_setiu_utara_seed_2024/reference.geojson",
+      "transects": "data/coastsat/sungai_setiu_utara_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C2_JPS_014_2024_V1"
+      }
+    },
+    {
+      "id": "sungai_setiu_utara_t1_t4",
+      "name": "Utara Sungai Setiu (T1-T4)",
+      "input_prefix": "SUNGAI_SETIU_UTARA_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c2_jps_014.json",
+      "reference": "data/coastsat/sungai_setiu_utara_seed_2024/reference.geojson",
+      "transects": "data/coastsat/sungai_setiu_utara_t1_t4/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C2_JPS_014_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "data/coastsat/sungai_setiu_utara_t1_t4/measurements_2020.csv",
+        "2021": "data/coastsat/sungai_setiu_utara_t1_t4/measurements_2021.csv",
+        "2022": "data/coastsat/sungai_setiu_utara_t1_t4/measurements_2022.csv",
+        "2023": "data/coastsat/sungai_setiu_utara_t1_t4/measurements_2023.csv",
+        "2024": "data/coastsat/sungai_setiu_utara_t1_t4/measurements_2024.csv",
+        "2025": "data/coastsat/sungai_setiu_utara_t1_t4/measurements_2025.csv"
+      },
+      "subset_reason": "Transect 5 has insufficient monthly coverage in every training year; original data retained for later review."
     }
   ]
 }

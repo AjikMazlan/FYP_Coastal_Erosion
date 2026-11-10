@@ -1,0 +1,63 @@
+{
+  "status": "ready",
+  "model_sha256": "85b7c2263e5e20fb8ce4095688b974bf1d4dedb5034fff1ef8b867c2d8f5e644",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\beting_lintang\\2020\\measurements.csv",
+      "sha256": "873ada6d0bd5ab5a5fe96c08f32dd03f3b9f35558038e16afd04045a8a57328a",
+      "rows": 280,
+      "valid_rows": 214
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\beting_lintang\\2021\\measurements.csv",
+      "sha256": "3373cb4f4eadba08309f66888a3c13135e0332ea8c9f674195a74a16c2b756b0",
+      "rows": 185,
+      "valid_rows": 173
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\beting_lintang\\2022\\measurements.csv",
+      "sha256": "1c7e70a51c5c90cdcdb8d1df30d92c7f806043a5edb2813ca6613637d91def9a",
+      "rows": 200,
+      "valid_rows": 177
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\beting_lintang\\2023\\measurements.csv",
+      "sha256": "454f9ecf632d687e6337c9608cffa32119b338f4c0591019d66814777f3eef0a",
+      "rows": 210,
+      "valid_rows": 185
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\beting_lintang\\2024\\measurements.csv",
+      "sha256": "3f23e0d41e7dbaaf897698ab700c2d7978d388f0d84d0c4fb8e4e8721de429d9",
+      "rows": 200,
+      "valid_rows": 166
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\beting_lintang\\2025\\measurements.csv",
+      "sha256": "28ae4611f433915f31a3feaae5093e2af0541e674d3bdbe2a117625987254c61",
+      "rows": 190,
+      "valid_rows": 161
+    }
+  ],
+  "site_id": "beting_lintang",
+  "site": "Beting Lintang",
+  "model": "results/shoreline_pipeline/monthly_v1/beting_lintang/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/beting_lintang/transects.geojson",
+  "geometry_sha256": "a1a2b77c2339eb67bd22f559c474832c2864326d17a96aa9ee44acc106925754",
+  "transect_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

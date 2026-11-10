@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "beting_lintang_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[239894.746732221305138,635724.541434665909037],[240421.308815729746129,636050.367852829978801]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[240219.922894803399686,635282.348438585991971],[240761.858671953901649,635648.071969178388827]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[240632.193056562071433,634760.361217649653554],[241210.701186771824723,635162.657101301243529]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[241044.463218320743181,634248.348274820367806],[241619.646589161478914,634630.695602257736027]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[241493.305733138637152,633706.412497669807635],[241985.370119753846666,634078.785547000239603]]}}
+]
+}

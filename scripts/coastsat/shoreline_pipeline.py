@@ -194,10 +194,19 @@ def prepare_job(batch, site):
 
 def year_paths(job, year):
     site = job["site"]
+
+    sitename = site.get("existing_inputs", {}).get(
+        str(year),
+        f"{site['input_prefix']}_{year}",
+    )
+
+    if not re.fullmatch(r"[A-Z0-9_]+", sitename):
+        raise ValueError("Invalid cached input sitename.")
+
     folder = (
         path(job["batch"]["coastsat_root"])
         / "data"
-        / f"{site['input_prefix']}_{year}"
+        / sitename
     )
     cached = job["work"] / str(year) / "measurements.csv"
     imported = (
@@ -270,7 +279,11 @@ def process_year(job, year):
 
     config = dict(
         job["base"],
-        site_id=job["site"]["input_prefix"],
+        site_id=(
+            job["base"]["site_id"]
+            if str(year) in job["site"].get("existing_inputs", {})
+            else job["site"]["input_prefix"]
+        ),
         sitename=folder.name,
         dates=[f"{year}-01-01", f"{year + 1}-01-01"],
     )

@@ -1,6 +1,13 @@
 {
   "coastsat_root": "D:/CoastSat-master",
-  "years": [2020, 2021, 2022, 2023, 2024, 2025],
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
   "min_months_per_year": 6,
   "jump_flag_m": 40,
   "sites": [
@@ -13,6 +20,17 @@
       "transects": "data/coastsat/geliga_2024/JPS_BATCH_ROI_C12_JPS_144_2024_V1_transects_300m.geojson",
       "existing_measurements": {
         "2024": "data/coastsat/geliga_2024/JPS_BATCH_ROI_C12_JPS_144_2024_V1_measurements.csv"
+      }
+    },
+    {
+      "id": "beting_lintang",
+      "name": "Beting Lintang",
+      "input_prefix": "BETING_LINTANG_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c2_jps_010.json",
+      "reference": "data/coastsat/beting_lintang_seed_2024/reference.geojson",
+      "transects": "data/coastsat/beting_lintang_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C2_JPS_010_2024_V1"
       }
     }
   ]

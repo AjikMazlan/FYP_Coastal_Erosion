@@ -1,0 +1,63 @@
+{
+  "status": "ready",
+  "model_sha256": "cf5e723856483fe6b699dffd7ec68d21ceecad898bd3742f990b0db1cfb2874f",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\geliga\\2020\\measurements.csv",
+      "sha256": "d08bcc97835881ade7bcc21413c548cabf29658cb3076d19a2cbd3e24fb68e32",
+      "rows": 130,
+      "valid_rows": 104
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\geliga\\2021\\measurements.csv",
+      "sha256": "477e6963c33e8b58210fb1ccc7bc366e1d13c56e092cac9fb079d0fcaa6642b8",
+      "rows": 140,
+      "valid_rows": 111
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\geliga\\2022\\measurements.csv",
+      "sha256": "e411db936f508590f76af64f476f587018d3377f58943a413feed002986b33b7",
+      "rows": 145,
+      "valid_rows": 123
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\geliga\\2023\\measurements.csv",
+      "sha256": "d2e9d6ae42480e4041229b1a015d0b04d7bd0f61157f54e1de1536676104a0e0",
+      "rows": 130,
+      "valid_rows": 101
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\geliga_2024\\JPS_BATCH_ROI_C12_JPS_144_2024_V1_measurements.csv",
+      "sha256": "7e3ce78a3a3a79c92dd508f442e81352edd630ee556e4eaf92bc9f91e1728406",
+      "rows": 60,
+      "valid_rows": 60
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\geliga\\2025\\measurements.csv",
+      "sha256": "bed5721ef828b0a677520b277a09249a4d3b22bf740380f146e8b84b2d9c7e6c",
+      "rows": 165,
+      "valid_rows": 136
+    }
+  ],
+  "site_id": "geliga",
+  "site": "Geliga",
+  "model": "results/shoreline_pipeline/monthly_v1/geliga/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/geliga/transects.geojson",
+  "geometry_sha256": "57f853bfbeedf35cd7bfbd2a8ed4c885c0537e826f2941f7d41c4a80089fbd73",
+  "transect_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

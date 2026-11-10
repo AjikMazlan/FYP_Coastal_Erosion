@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "name": "JPS_BATCH_ROI_C12_JPS_144_2024_V1_transects_300m",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::32648"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            326524.14114835934,
+            466058.54843591613
+          ],
+          [
+            326817.29405753623,
+            466122.2773292155
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            326525.63595747424,
+            465885.3363854296
+          ],
+          [
+            326824.483353861,
+            465911.608684013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            326546.8159323857,
+            465655.84797531384
+          ],
+          [
+            326842.90623473,
+            465704.1235680873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            326588.01554644905,
+            465447.3705484073
+          ],
+          [
+            326885.5662790413,
+            465485.6270711692
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            326636.4637464119,
+            465130.8699911843
+          ],
+          [
+            326914.83501316287,
+            465242.7155894324
+          ]
+        ]
+      }
+    }
+  ]
+}

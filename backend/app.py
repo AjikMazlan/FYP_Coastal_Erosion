@@ -5,6 +5,7 @@ from flask import send_from_directory
 import pandas as pd
 import joblib
 import json
+import hashlib
 import math
 from pyproj import Transformer
 
@@ -53,6 +54,86 @@ SHORELINE_SITES = {
         "transect_ids": {1, 2, 3, 4, 5},
     },
 }
+
+def load_pipeline_sites():
+    discovered = {}
+
+    pattern = (
+        "results/shoreline_pipeline/monthly_v1/"
+        "*/build_status.json"
+    )
+
+    for status_path in sorted(BASE_DIR.glob(pattern)):
+        try:
+            status = json.loads(
+                status_path.read_text(encoding="utf-8")
+            )
+
+            if status.get("status") != "ready":
+                continue
+
+            site_id = status["site_id"]
+
+            if site_id in SHORELINE_SITES:
+                continue
+
+            model_path = BASE_DIR / status["model"]
+            geometry_path = BASE_DIR / status["geometry"]
+
+            model_hash = hashlib.sha256(
+                model_path.read_bytes()
+            ).hexdigest()
+
+            geometry_hash = hashlib.sha256(
+                geometry_path.read_bytes()
+            ).hexdigest()
+
+            if (
+                model_hash != status["model_sha256"]
+                or geometry_hash != status["geometry_sha256"]
+            ):
+                raise ValueError(
+                    "Pipeline model/geometry changed "
+                    "after its completed build."
+                )
+
+            ids = {
+                int(value)
+                for value in status["transect_ids"]
+            }
+
+            if (
+                not ids
+                or len(ids) != len(status["transect_ids"])
+            ):
+                raise ValueError(
+                    "Invalid pipeline transect IDs."
+                )
+
+            discovered[site_id] = dict(
+                site=status["site"],
+                model=model_path,
+                geometry=geometry_path,
+                transect_ids=ids,
+            )
+
+        except (
+            KeyError,
+            ValueError,
+            TypeError,
+            OSError,
+        ) as error:
+            app.logger.warning(
+                "Pipeline site unavailable: %s: %s",
+                status_path,
+                error,
+            )
+
+    return discovered
+
+
+SHORELINE_SITES.update(load_pipeline_sites())
+
 
 shoreline_assets = {}
 shoreline_load_errors = {}

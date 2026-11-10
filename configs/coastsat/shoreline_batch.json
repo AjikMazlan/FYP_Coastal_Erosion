@@ -1,0 +1,19 @@
+{
+  "coastsat_root": "D:/CoastSat-master",
+  "years": [2020, 2021, 2022, 2023, 2024, 2025],
+  "min_months_per_year": 6,
+  "jump_flag_m": 40,
+  "sites": [
+    {
+      "id": "geliga",
+      "name": "Geliga",
+      "input_prefix": "GELIGA_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c12_jps_144.json",
+      "reference": "data/coastsat/geliga_2024/JPS_BATCH_ROI_C12_JPS_144_2024_V1_reference_shoreline.geojson",
+      "transects": "data/coastsat/geliga_2024/JPS_BATCH_ROI_C12_JPS_144_2024_V1_transects_300m.geojson",
+      "existing_measurements": {
+        "2024": "data/coastsat/geliga_2024/JPS_BATCH_ROI_C12_JPS_144_2024_V1_measurements.csv"
+      }
+    }
+  ]
+}

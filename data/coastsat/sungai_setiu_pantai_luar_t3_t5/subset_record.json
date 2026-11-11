@@ -1,0 +1,212 @@
+{
+  "parent_site": "sungai_setiu_pantai_luar",
+  "kept_transects": [
+    "3",
+    "4",
+    "5"
+  ],
+  "excluded_transects": [
+    "1",
+    "2"
+  ],
+  "reason": "Excluded transects fail the existing 6-month coverage rule in at least one required year. Selection uses coverage, not prediction error.",
+  "min_months_per_year": 6,
+  "parent_coverage": [
+    {
+      "Year": 2020,
+      "Transect_ID": "1",
+      "Months_Covered": 12
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "2",
+      "Months_Covered": 12
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "3",
+      "Months_Covered": 12
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "4",
+      "Months_Covered": 12
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "5",
+      "Months_Covered": 12
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "1",
+      "Months_Covered": 6
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "2",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "3",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "4",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "5",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "1",
+      "Months_Covered": 1
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "2",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "3",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "4",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "5",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "1",
+      "Months_Covered": 1
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "2",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "3",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "4",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "5",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "1",
+      "Months_Covered": 3
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "2",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "3",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "4",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "5",
+      "Months_Covered": 11
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "1",
+      "Months_Covered": 0
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "2",
+      "Months_Covered": 2
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "3",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "4",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "5",
+      "Months_Covered": 9
+    }
+  ],
+  "source_measurements": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_pantai_luar\\2020\\measurements.csv",
+      "sha256": "be7195aee23d372ddf8007a50e93f279b110674622445634ae5c7ef569397f53",
+      "rows": 280,
+      "valid_rows": 229
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_pantai_luar\\2021\\measurements.csv",
+      "sha256": "3d7997096fd6f8abdba711c72fce956f68fede05ddfbb5d07992098f766e674e",
+      "rows": 175,
+      "valid_rows": 138
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_pantai_luar\\2022\\measurements.csv",
+      "sha256": "0458b97823e31ba97c34b6e1ac622edea95d03bb4cf974d9e50e2f80ae07793b",
+      "rows": 165,
+      "valid_rows": 115
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_pantai_luar\\2023\\measurements.csv",
+      "sha256": "3b94a07f59de76a0debfb806bd869cb9de01a8af5c6ea1bf3380db564d27b1c1",
+      "rows": 200,
+      "valid_rows": 126
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_pantai_luar\\2024\\measurements.csv",
+      "sha256": "582d2cd982d564e5c7dc2f779e5d3761d4b6e4077c85efcb0b203d834742f115",
+      "rows": 230,
+      "valid_rows": 124
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\sungai_setiu_pantai_luar\\2025\\measurements.csv",
+      "sha256": "b91157a1f597f5cdc95c121af0ded960e6057af6b98ab3178f43bf8adec23e97",
+      "rows": 170,
+      "valid_rows": 83
+    }
+  ],
+  "source_geometry_sha256": "6f1e257ae454eb30ea5dba2cd39b9dbc65e95d9bb10fdf11557b1cdbd49d1f24",
+  "scope_note": "Spatial coverage is limited to retained transects. The original site remains available for review."
+}

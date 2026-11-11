@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "sungai_setiu_pantai_luar_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[245759.897007697232766,629256.387211171211675],[246184.145442846755031,629551.128229275112972]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[246233.747557356895413,628747.366143238847144],[246728.486963377858046,629182.905962214572355]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[247142.884072694578208,628168.055898581864312],[247489.624511102447286,628599.367175625753589]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[248056.249129964067833,627660.630866765393876],[248449.503529621753842,628134.227563127409667]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[248923.100225983711425,627055.949370517628267],[249320.583167573204264,627554.91731847031042]]}}
+]
+}

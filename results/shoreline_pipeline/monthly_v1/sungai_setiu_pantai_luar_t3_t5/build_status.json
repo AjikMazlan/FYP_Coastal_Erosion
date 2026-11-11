@@ -1,0 +1,61 @@
+{
+  "status": "ready",
+  "model_sha256": "dd5a4ed2aeed0587b246df152d7b85055ed240680f7b8a2c78340443c0d11fbe",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_pantai_luar_t3_t5\\measurements_2020.csv",
+      "sha256": "2aa4be9190a97ca41636329c569e22dfad59bca65e4805f2c4eedd74807e631d",
+      "rows": 168,
+      "valid_rows": 148
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_pantai_luar_t3_t5\\measurements_2021.csv",
+      "sha256": "a41b5c3d7f8dc5ed645e8d1e305f0ddad5fd20832abdc1cb1023f8dbf9e7f749",
+      "rows": 105,
+      "valid_rows": 100
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_pantai_luar_t3_t5\\measurements_2022.csv",
+      "sha256": "7f36442a47099bde867bcb4f755a59a2e6b69b4669d08f2bb0bb74e3fe9913f9",
+      "rows": 99,
+      "valid_rows": 91
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_pantai_luar_t3_t5\\measurements_2023.csv",
+      "sha256": "9c239debd54d486779819bef5de0d5e53ad8ed24e66b9eb205bb3375ddc7d152",
+      "rows": 120,
+      "valid_rows": 106
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_pantai_luar_t3_t5\\measurements_2024.csv",
+      "sha256": "6e610888324137f98ca32065c4ed98b67be76dc91001c502bd64e11fd0d48965",
+      "rows": 138,
+      "valid_rows": 107
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\sungai_setiu_pantai_luar_t3_t5\\measurements_2025.csv",
+      "sha256": "e6e4a581e78098c61c4e12fd464fb071479ce237b918e90a627fdba1bef7c529",
+      "rows": 102,
+      "valid_rows": 81
+    }
+  ],
+  "site_id": "sungai_setiu_pantai_luar_t3_t5",
+  "site": "Pantai Luar Sungai Setiu (T3-T5)",
+  "model": "results/shoreline_pipeline/monthly_v1/sungai_setiu_pantai_luar_t3_t5/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/sungai_setiu_pantai_luar_t3_t5/transects.geojson",
+  "geometry_sha256": "7262d031802fb1cb7d79dba57d92549bab279150942f7bb6480b76d2eb0c9cb5",
+  "transect_ids": [
+    3,
+    4,
+    5
+  ]
+}

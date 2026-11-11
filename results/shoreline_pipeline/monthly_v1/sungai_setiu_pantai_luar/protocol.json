@@ -1,0 +1,66 @@
+{
+  "version": "monthly_v1",
+  "batch": {
+    "coastsat_root": "D:/CoastSat-master",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "min_months_per_year": 6,
+    "jump_flag_m": 40
+  },
+  "site": {
+    "id": "sungai_setiu_pantai_luar",
+    "name": "Pantai Luar Sungai Setiu",
+    "input_prefix": "SUNGAI_SETIU_PANTAI_LUAR_FAST_V1",
+    "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c2_jps_016.json",
+    "reference": "data/coastsat/sungai_setiu_pantai_luar_seed_2024/reference.geojson",
+    "transects": "data/coastsat/sungai_setiu_pantai_luar_seed_2024/transects_300m.geojson",
+    "existing_inputs": {
+      "2024": "JPS_BATCH_ROI_C2_JPS_016_2024_V1"
+    }
+  },
+  "base_config": {
+    "site_id": "JPS_BATCH_ROI_C2_JPS_016",
+    "site_name": "ROI_C2_JPS_016 - Setiu",
+    "sitename": "JPS_BATCH_ROI_C2_JPS_016_2024_V1",
+    "earth_engine_project": "coastal-erosion-fyp",
+    "roi_file": "roi_c2_jps_016.geojson",
+    "dates": [
+      "2024-01-01",
+      "2025-01-01"
+    ],
+    "sat_list": [
+      "L8",
+      "S2"
+    ],
+    "output_epsg": 32648,
+    "jps_station_ids": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "source_roi_id": "ROI_C2_JPS_016",
+    "status": "draft_roi_requires_satellite_image_review",
+    "download_enabled": false,
+    "notes": "Availability check only. ROI geometry remains a draft. JPS stations locate the area; they are not CoastSat transects. This batch does not reuse or overwrite existing Merang/Bukit Keluang folders."
+  },
+  "intersection_qc": {
+    "along_dist": 25,
+    "min_points": 3,
+    "max_std": 15,
+    "max_range": 40,
+    "min_chainage": 0,
+    "multiple_inter": "nan",
+    "auto_prc": 0.1
+  },
+  "reference_sha256": "5d3f712b2b3a760b5819a582e2208a486537c3864c499aacf1e4c896c7970dc9",
+  "transects_sha256": "6f1e257ae454eb30ea5dba2cd39b9dbc65e95d9bb10fdf11557b1cdbd49d1f24"
+}

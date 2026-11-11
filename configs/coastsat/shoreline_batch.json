@@ -94,6 +94,17 @@
         "2025": "data/coastsat/sungai_setiu_pantai_luar_t3_t5/measurements_2025.csv"
       },
       "subset_reason": "Excluded transects fail the existing 6-month coverage rule in at least one required year. Selection uses coverage, not prediction error."
+    },
+    {
+      "id": "mengabang_tapah_besar_selatan",
+      "name": "Selatan Mengabang Tapah Besar",
+      "input_prefix": "MENGABANG_TAPAH_BESAR_SELATAN_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c4_jps_028.json",
+      "reference": "data/coastsat/mengabang_tapah_besar_selatan_seed_2024/reference.geojson",
+      "transects": "data/coastsat/mengabang_tapah_besar_selatan_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C4_JPS_028_2024_V1"
+      }
     }
   ]
 }

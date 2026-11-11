@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2020,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\mengabang_tapah_besar_selatan\\2020\\measurements.csv",
+    "sha256": "3fcfc29c810784f171eab2c9e08a30af13c99c47fbab4ce018fec6b987a4f71c",
+    "rows": 330,
+    "valid_rows": 281
+  },
+  {
+    "year": 2021,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\mengabang_tapah_besar_selatan\\2021\\measurements.csv",
+    "sha256": "a0b85ed25482d22aa4aa266b957651b268a86a69e964e0c58294526bcb005d59",
+    "rows": 210,
+    "valid_rows": 169
+  },
+  {
+    "year": 2022,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\mengabang_tapah_besar_selatan\\2022\\measurements.csv",
+    "sha256": "3cf13e034852c55620c45c3065cf81feed36e4d5fd8e8ba68e8f6630776a3c71",
+    "rows": 230,
+    "valid_rows": 199
+  },
+  {
+    "year": 2023,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\mengabang_tapah_besar_selatan\\2023\\measurements.csv",
+    "sha256": "ab2a858390cc9e40cb5065d8d6224b3f01571ed1870ff4fbdfc87edc38365b8c",
+    "rows": 265,
+    "valid_rows": 216
+  },
+  {
+    "year": 2024,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\mengabang_tapah_besar_selatan\\2024\\measurements.csv",
+    "sha256": "8c990c75000e82760ab80e90aaff85a0242707efa03fc4d1d2208147ccb92dc0",
+    "rows": 210,
+    "valid_rows": 187
+  },
+  {
+    "year": 2025,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\mengabang_tapah_besar_selatan\\2025\\measurements.csv",
+    "sha256": "587765d5ba8b8d688660b73b6e17e314d75e43862b40a15f1b54a72687438d0b",
+    "rows": 225,
+    "valid_rows": 205
+  }
+]

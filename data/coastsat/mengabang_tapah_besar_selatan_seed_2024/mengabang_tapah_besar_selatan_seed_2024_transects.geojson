@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "mengabang_tapah_besar_selatan_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[275746.671101793413982,610651.889892078004777],[275937.539603693818208,610819.053687651525252]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[275970.984732809534762,610481.382820592960343],[276134.805252471589483,610638.516788432025351]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[276141.491804294520989,610272.428076126030646],[276355.461462628678419,610444.606785566778854]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[276418.983704946585931,610058.458417791873217],[276607.87879394472111,610274.099714081734419]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[276656.356294661003631,609852.846949236467481],[276873.669228906626813,610073.503159393556416]]}}
+]
+}

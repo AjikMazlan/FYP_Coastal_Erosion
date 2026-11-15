@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "batu_rakit_pengkalan_maras_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[282314.69564679270843,603627.556273805792443],[283096.632050233019982,604221.143032621708699]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[282719.932760984404013,602965.478735126322135],[283701.633939026214648,603696.047053669113666]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[283638.850724151474424,602252.033111549448222],[284563.476252307125833,603096.752729864558205]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[284358.003912716987543,601407.313493234454654],[285642.206035155395512,602520.288666014326736]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[285373.950480690516997,600591.131699862424284],[286378.48191868676804,601532.879922983935103]]}}
+]
+}

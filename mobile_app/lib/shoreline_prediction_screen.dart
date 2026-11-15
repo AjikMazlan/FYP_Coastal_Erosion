@@ -304,14 +304,16 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
     }
   }
 
-  bool get _belowBaseline =>
-      _evaluation?['lr_worse_than_baseline'] == true;
+  bool get _belowBaseline => _evaluation?['lr_worse_than_baseline'] == true;
 
   Widget _modelNotes() {
     final scores = _evaluation?['scores'];
     final lr = scores is Map ? scores['LinearRegression'] : null;
     final baseline = scores is Map ? scores['NoChangeBaseline'] : null;
 
+    final lrMse = lr is Map ? lr['MSE_m2'] : null;
+    final baselineMse = baseline is Map ? baseline['MSE_m2'] : null;
+    final testCount = lr is Map ? lr['N'] : null;
     final lrMae = lr is Map ? lr['MAE_m'] : null;
     final baselineMae = baseline is Map ? baseline['MAE_m'] : null;
 
@@ -331,26 +333,40 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
           const SizedBox(height: 10),
           _notice(_qualityWarning, warning: true),
         ],
-        if (lrMae is num && baselineMae is num) ...[
+        if (lrMse is num ||
+            baselineMse is num ||
+            lrMae is num ||
+            baselineMae is num) ...[
           const SizedBox(height: 12),
           Text(
             evaluationName ?? 'Holdout evaluation',
             style: const TextStyle(fontWeight: FontWeight.w700),
           ),
-          _measurement(
-            'Linear Regression MAE',
-            '${lrMae.toStringAsFixed(2)} m',
-          ),
-          _measurement(
-            'No-change baseline MAE',
-            '${baselineMae.toStringAsFixed(2)} m',
-          ),
-          const Text(
-            'Lower MAE means lower average error in this test. '
-            'These results do not establish accuracy for every '
-            'forecast year.',
-            style: TextStyle(color: _muted, fontSize: 12, height: 1.5),
-          ),
+          if (testCount is num)
+            Text(
+              'Test observations: ${testCount.toInt()}',
+              style: const TextStyle(color: _muted, fontSize: 12),
+            ),
+          if (lrMse is num)
+            _measurement(
+              'Linear Regression MSE',
+              '${lrMse.toStringAsFixed(2)} m²',
+            ),
+          if (baselineMse is num)
+            _measurement(
+              'No-change baseline MSE',
+              '${baselineMse.toStringAsFixed(2)} m²',
+            ),
+          if (lrMae is num)
+            _measurement(
+              'Linear Regression MAE',
+              '${lrMae.toStringAsFixed(2)} m',
+            ),
+          if (baselineMae is num)
+            _measurement(
+              'No-change baseline MAE',
+              '${baselineMae.toStringAsFixed(2)} m',
+            ),
         ],
       ],
     );
@@ -1317,81 +1333,78 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
             const SizedBox(height: 8),
             Expanded(child: _buildMap()),
             if (ready)
-              ConstrainedBox(
-                constraints: BoxConstraints(
-                  maxHeight: MediaQuery.sizeOf(context).height * 0.30,
-                ),
-                child: SingleChildScrollView(
-                  child: Container(
-                    margin: const EdgeInsets.fromLTRB(16, 12, 16, 12),
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: _panel,
-                      borderRadius: BorderRadius.circular(22),
-                      border: Border.all(color: _border),
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          '$_referenceYear → $_forecastYear',
-                          style: const TextStyle(
-                            fontSize: 21,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        Text(
-                          '${_transects.length} transects · '
-                          '${_forecastYear - _referenceYear} years '
-                          'from reference',
-                          style: const TextStyle(color: _muted, fontSize: 12),
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          'Experimental · $_qcStatus',
-                          style: const TextStyle(
-                            color: _muted,
-                            fontSize: 12,
-                            height: 1.5,
-                          ),
-                        ),
-                        if (_belowBaseline)
-                          const Padding(
-                            padding: EdgeInsets.only(top: 6),
-                            child: Text(
-                              'LR performed worse than the no-change '
-                              'baseline in the holdout test.',
-                              style: TextStyle(
-                                color: Color(0xFFFACC15),
-                                fontSize: 12,
-                                height: 1.5,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(12, 6, 12, 6),
+                child: Material(
+                  color: _panel,
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14),
+                    side: const BorderSide(color: _border),
+                  ),
+                  child: InkWell(
+                    onTap: _showSummary,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 9,
+                      ),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  '$_referenceYear → $_forecastYear',
+                                  style: const TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
                               ),
-                            ),
-                          ),
-                        if (_outsideCount > 0)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 8),
-                            child: Text(
-                              '$_outsideCount of ${_transects.length} '
-                              'predictions extend beyond the '
-                              'surveyed transects.',
-                              style: const TextStyle(
-                                color: Color(0xFFFACC15),
-                                fontSize: 12,
+                              if (_belowBaseline || _outsideCount > 0) ...[
+                                Tooltip(
+                                  message: [
+                                    if (_belowBaseline)
+                                      'LR performed worse than the '
+                                          'no-change baseline in the holdout test.',
+                                    if (_outsideCount > 0)
+                                      '$_outsideCount predictions extend '
+                                          'beyond the surveyed transects.',
+                                  ].join('\n'),
+                                  child: const Icon(
+                                    Icons.warning_amber_rounded,
+                                    color: Color(0xFFFACC15),
+                                    size: 18,
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                              ],
+                              const Text(
+                                'Details',
+                                style: TextStyle(
+                                  color: _accent,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w700,
+                                ),
                               ),
-                            ),
+                              const Icon(
+                                Icons.chevron_right_rounded,
+                                color: _accent,
+                                size: 20,
+                              ),
+                            ],
                           ),
-                        const SizedBox(height: 12),
-                        SizedBox(
-                          width: double.infinity,
-                          child: FilledButton.icon(
-                            onPressed: _showSummary,
-                            icon: const Icon(Icons.table_chart_outlined),
-                            label: const Text('View comparison details'),
+                          const SizedBox(height: 3),
+                          Text(
+                            '${_transects.length} transects · '
+                            'Experimental · $_qcStatus',
+                            style: const TextStyle(color: _muted, fontSize: 11),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ),

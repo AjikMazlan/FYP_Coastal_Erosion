@@ -105,6 +105,17 @@
       "existing_inputs": {
         "2024": "JPS_BATCH_ROI_C4_JPS_028_2024_V1"
       }
+    },
+    {
+      "id": "batu_rakit_pengkalan_maras",
+      "name": "Batu Rakit - Pengkalan Maras",
+      "input_prefix": "BATU_RAKIT_PENGKALAN_MARAS_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c4_jps_029.json",
+      "reference": "data/coastsat/batu_rakit_pengkalan_maras_seed_2024/reference.geojson",
+      "transects": "data/coastsat/batu_rakit_pengkalan_maras_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C4_JPS_029_2024_V1"
+      }
     }
   ]
 }

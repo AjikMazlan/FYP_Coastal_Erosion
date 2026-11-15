@@ -1,0 +1,63 @@
+{
+  "status": "ready",
+  "model_sha256": "00197c0b5474365f176930571977b6a3f54561d5fd881f8640eae164814e9b52",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_rakit_pengkalan_maras\\2020\\measurements.csv",
+      "sha256": "465b6556206f661a5dfa407284ad9fdf33edf70e3e1163a147b3642efe39d091",
+      "rows": 255,
+      "valid_rows": 140
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_rakit_pengkalan_maras\\2021\\measurements.csv",
+      "sha256": "8a2c3b98dcd03c372a2d6ade8086edbbd882c901329e39250839bd0bf011b669",
+      "rows": 180,
+      "valid_rows": 91
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_rakit_pengkalan_maras\\2022\\measurements.csv",
+      "sha256": "5ece7168330b6a913eb748ca39f52bcfa5e28b64ca86de7a4c6fb51f01ccce61",
+      "rows": 210,
+      "valid_rows": 118
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_rakit_pengkalan_maras\\2023\\measurements.csv",
+      "sha256": "3f5d322e3319b3b3a8a1a5dc99ee808bd30a2ce402a28a1be9e1ef7dcf98236d",
+      "rows": 215,
+      "valid_rows": 116
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_rakit_pengkalan_maras\\2024\\measurements.csv",
+      "sha256": "1264bc8f74560a0d27969261467c57ab588a94bc190ec581dfe926640dc16ab9",
+      "rows": 200,
+      "valid_rows": 111
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_rakit_pengkalan_maras\\2025\\measurements.csv",
+      "sha256": "793fd2fb57239faaad6479493ddc55b63e2c71187bef6ea2c0fe22ff0dda6506",
+      "rows": 185,
+      "valid_rows": 93
+    }
+  ],
+  "site_id": "batu_rakit_pengkalan_maras",
+  "site": "Batu Rakit - Pengkalan Maras",
+  "model": "results/shoreline_pipeline/monthly_v1/batu_rakit_pengkalan_maras/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/batu_rakit_pengkalan_maras/transects.geojson",
+  "geometry_sha256": "d0b4e391332407d419068da08269a9f18094bd542263e4eda97874033fc84921",
+  "transect_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "ready",
+  "model_sha256": "ecd020091789e16df025b1b1a6a86222714bf746109e46ec9e052480aec341e8",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c7_jps_049\\2020\\measurements.csv",
+      "sha256": "2c03b71a8997d2f3d693a98864b2425fc1ccb768c6dd24cd5b5e23e6ccd01fbf",
+      "rows": 280,
+      "valid_rows": 180
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c7_jps_049\\2021\\measurements.csv",
+      "sha256": "6f28c91e4368f3647c1752e955b1bcab325eff9cf4c53627a678c5460426b13b",
+      "rows": 280,
+      "valid_rows": 169
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c7_jps_049\\2022\\measurements.csv",
+      "sha256": "9f1517078ba75af0f045d5c0c7ed02fa562ea5e7961b8b0e2163e99176f2efc7",
+      "rows": 375,
+      "valid_rows": 199
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c7_jps_049_t5_review\\measurements_2023_reviewed.csv",
+      "sha256": "535f201a221ec4600f7710d8fda33435fca7faa364c881685e53d889481b8d66",
+      "rows": 310,
+      "valid_rows": 169
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c7_jps_049\\2024\\measurements.csv",
+      "sha256": "aa35d62ffc9efef686732cb51295f067af5c19d9446cc37084d4d0085e2fb721",
+      "rows": 210,
+      "valid_rows": 120
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c7_jps_049_t5_review\\measurements_2025_reviewed.csv",
+      "sha256": "3874d3e8c25db03a5831aaf81a06e0e803826009e4c77ed46a5a6c8d777daf64",
+      "rows": 340,
+      "valid_rows": 179
+    }
+  ],
+  "site_id": "roi_c7_jps_049_t5_review",
+  "site": "Pantai Ru Sila - Taman Istiqomah (T5 manual review)",
+  "model": "results/shoreline_pipeline/monthly_v1/roi_c7_jps_049_t5_review/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/roi_c7_jps_049_t5_review/transects.geojson",
+  "geometry_sha256": "bfd2ec3f713b85f99274afc26d2715251e06e66f5c3575ae04ddc35387a3093a",
+  "transect_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "site_id": "roi_c7_jps_049_t5_review",
+  "listed": true,
+  "list_http_status": 200,
+  "predictions": [
+    {
+      "year": 2025,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2026,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2027,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2028,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2029,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2030,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2031,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2032,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2033,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    },
+    {
+      "year": 2034,
+      "http_status": 200,
+      "transect_count": 5,
+      "outside_transects": []
+    }
+  ],
+  "original_hashes_verified": true,
+  "min_months_per_year": 6,
+  "manual_review_disclosure": "The 2025 holdout includes two T5 measurements manually reviewed after identifying monthly coverage gaps. This evaluation is conditional on that review."
+}

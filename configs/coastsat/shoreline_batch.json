@@ -149,6 +149,60 @@
       "existing_inputs": {
         "2024": "JPS_BATCH_ROI_C6_JPS_039_2024_V1"
       }
+    },
+    {
+      "id": "roi_c6_jps_046",
+      "name": "Kampung Aur - Utara Tanjung Chendering",
+      "input_prefix": "ROI_C6_JPS_046_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c6_jps_046.json",
+      "reference": "data/coastsat/roi_c6_jps_046_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c6_jps_046_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C6_JPS_046_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c7_jps_048",
+      "name": "Taman Rashidah",
+      "input_prefix": "ROI_C7_JPS_048_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c7_jps_048.json",
+      "reference": "data/coastsat/roi_c7_jps_048_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c7_jps_048_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C7_JPS_048_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c7_jps_049",
+      "name": "Pantai Ru Sila - Taman Istiqomah",
+      "input_prefix": "ROI_C7_JPS_049_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c7_jps_049.json",
+      "reference": "data/coastsat/roi_c7_jps_049_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c7_jps_049_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C7_JPS_049_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c7_jps_049_t5_review",
+      "name": "Pantai Ru Sila - Taman Istiqomah (T5 manual review)",
+      "input_prefix": "ROI_C7_JPS_049_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c7_jps_049.json",
+      "reference": "data/coastsat/roi_c7_jps_049_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c7_jps_049_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C7_JPS_049_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "results/shoreline_pipeline/monthly_v1/roi_c7_jps_049/2020/measurements.csv",
+        "2021": "results/shoreline_pipeline/monthly_v1/roi_c7_jps_049/2021/measurements.csv",
+        "2022": "results/shoreline_pipeline/monthly_v1/roi_c7_jps_049/2022/measurements.csv",
+        "2023": "data/coastsat/roi_c7_jps_049_t5_review/measurements_2023_reviewed.csv",
+        "2024": "results/shoreline_pipeline/monthly_v1/roi_c7_jps_049/2024/measurements.csv",
+        "2025": "data/coastsat/roi_c7_jps_049_t5_review/measurements_2025_reviewed.csv"
+      },
+      "review_audit": "data/coastsat/roi_c7_jps_049_t5_review/contour_audit.json",
+      "review_note": "The 2025 holdout includes two T5 measurements manually reviewed after identifying monthly coverage gaps. This evaluation is conditional on that review."
     }
   ]
 }

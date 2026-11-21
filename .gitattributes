@@ -1,0 +1,9 @@
+# Preserve the exact bytes used by CoastSat protocol and build hashes.
+data/coastsat/roi_c6_jps_046_seed_2024/** -text
+data/coastsat/roi_c7_jps_048_seed_2024/** -text
+data/coastsat/roi_c7_jps_049_seed_2024/** -text
+data/coastsat/roi_c7_jps_049_t5_review/** -text
+results/shoreline_pipeline/monthly_v1/roi_c6_jps_046/** -text
+results/shoreline_pipeline/monthly_v1/roi_c7_jps_048/** -text
+results/shoreline_pipeline/monthly_v1/roi_c7_jps_049/** -text
+results/shoreline_pipeline/monthly_v1/roi_c7_jps_049_t5_review/** -text

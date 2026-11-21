@@ -1,0 +1,67 @@
+{
+  "version": "monthly_v1",
+  "batch": {
+    "coastsat_root": "D:/CoastSat-master",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "min_months_per_year": 6,
+    "jump_flag_m": 40
+  },
+  "site": {
+    "id": "batu_buruk_gong_pantai",
+    "name": "Pantai Batu Buruk - Gong Pantai",
+    "input_prefix": "BATU_BURUK_GONG_PANTAI_FAST_V1",
+    "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c6_jps_039.json",
+    "reference": "data/coastsat/batu_buruk_gong_pantai_seed_2024/reference.geojson",
+    "transects": "data/coastsat/batu_buruk_gong_pantai_seed_2024/transects_300m.geojson",
+    "existing_inputs": {
+      "2024": "JPS_BATCH_ROI_C6_JPS_039_2024_V1"
+    }
+  },
+  "base_config": {
+    "site_id": "JPS_BATCH_ROI_C6_JPS_039",
+    "site_name": "ROI_C6_JPS_039 - Kuala Terengganu",
+    "sitename": "JPS_BATCH_ROI_C6_JPS_039_2024_V1",
+    "earth_engine_project": "coastal-erosion-fyp",
+    "roi_file": "roi_c6_jps_039.geojson",
+    "dates": [
+      "2024-01-01",
+      "2025-01-01"
+    ],
+    "sat_list": [
+      "L8",
+      "S2"
+    ],
+    "output_epsg": 32648,
+    "jps_station_ids": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "source_roi_id": "ROI_C6_JPS_039",
+    "status": "draft_roi_requires_satellite_image_review",
+    "download_enabled": false,
+    "notes": "Availability check only. ROI geometry remains a draft. JPS stations locate the area; they are not CoastSat transects. This batch does not reuse or overwrite existing Merang/Bukit Keluang folders."
+  },
+  "intersection_qc": {
+    "along_dist": 25,
+    "min_points": 3,
+    "max_std": 15,
+    "max_range": 40,
+    "min_chainage": 0,
+    "multiple_inter": "nan",
+    "auto_prc": 0.1
+  },
+  "reference_sha256": "7b8e94e50397262eae031a01b87d512b22cbc2bc95754f2ab109ef9699af73e6",
+  "transects_sha256": "4d5adb6675f304078adb9d9c30a74a9feabebef2d7e5a3d451140552f90b8550"
+}

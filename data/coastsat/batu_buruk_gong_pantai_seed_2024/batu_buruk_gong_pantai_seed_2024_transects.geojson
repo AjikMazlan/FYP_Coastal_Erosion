@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "batu_buruk_gong_pantai_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[295049.783453186566476,588602.209133347030729],[296070.99075318936957,589083.711020913207904]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[295487.133712327398825,587940.805441635427997],[296339.021667251945473,588284.735361325438134]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[295735.821500410966109,587242.363143187947571],[296815.232325284334365,587644.496587748639286]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[296106.207567769510206,586512.173467538203113],[297402.558803524298128,586887.850764430477284]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[296513.632241863873787,585776.692562354844995],[297598.334296270972118,586252.903220387292095]]}}
+]
+}

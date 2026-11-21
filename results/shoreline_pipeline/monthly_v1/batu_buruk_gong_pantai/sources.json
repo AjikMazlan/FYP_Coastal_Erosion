@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2020,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_buruk_gong_pantai\\2020\\measurements.csv",
+    "sha256": "db05fe5271f4b7d5932b277ab099c48a5d3e4fc532b5976e5dc7077758ae2f34",
+    "rows": 150,
+    "valid_rows": 123
+  },
+  {
+    "year": 2021,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_buruk_gong_pantai\\2021\\measurements.csv",
+    "sha256": "cd85ea110166b9b5d82140aa0ca2ec08bc0d858bcf06cc1890d243d23d61fbb2",
+    "rows": 130,
+    "valid_rows": 107
+  },
+  {
+    "year": 2022,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_buruk_gong_pantai\\2022\\measurements.csv",
+    "sha256": "0beb13a525eb4db6fd5fcbd0fbf129012b57f184b372f09626b5ef9d7f5733ca",
+    "rows": 175,
+    "valid_rows": 131
+  },
+  {
+    "year": 2023,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_buruk_gong_pantai\\2023\\measurements.csv",
+    "sha256": "4155de60fc8ef6bdf0d9b3f3ae6000bbaba0fe1994b6bcb0c3b4900deea711b5",
+    "rows": 150,
+    "valid_rows": 125
+  },
+  {
+    "year": 2024,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_buruk_gong_pantai\\2024\\measurements.csv",
+    "sha256": "ba112576c044433b5343900bf27b32402d734dc1e67da42ec502b8db382dec2c",
+    "rows": 120,
+    "valid_rows": 91
+  },
+  {
+    "year": 2025,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\batu_buruk_gong_pantai\\2025\\measurements.csv",
+    "sha256": "28283b953d4bc154a83bd9ef45c89901c444154af0f09d23730973fded9403a5",
+    "rows": 135,
+    "valid_rows": 119
+  }
+]

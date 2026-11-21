@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "kampung_pak_tuyu_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[287017.121152457373682,599512.322748168371618],[287414.365363738324959,599848.452465406036936]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[287355.601427158340812,599206.750277952174656],[287729.340063807263505,599547.581110116327181]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[287755.196195902477484,598882.373348030494526],[288154.790964646672364,599242.008639900246635]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[288248.813263174670283,598426.365200169500895],[288591.994652802008204,598828.310526376822963]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[288763.585347615706269,598167.8038792173611],[289059.755587979045231,598529.789728550356813]]}}
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "seberang_takir_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[292612.814897564298008,592501.146813517669216],[292969.249448258487973,592601.596550531452522]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[292754.728477317839861,592216.115081212716177],[293013.254951799870469,592366.649484075722285]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[292882.355471049493644,591970.678554805694148],[293140.881945531524252,592144.120366799994372]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[293119.610779909591656,591649.974826967227273],[293443.586994766781572,591960.86109374940861]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[293527.035413745208643,591358.723482297617011],[293684.114790645660833,591746.51319402072113]]}}
+]
+}

@@ -88,6 +88,24 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
 
   bool _showReference = true;
   bool _showPrediction = true;
+  bool _showObserved = true;
+
+  static const _observedColor = Color(0xFF32D3A5);
+  static const _observedDate = '2 Nov 2026';
+
+  // Sentinel-2 waterline estimates on the existing Tapah transects.
+  static const _tapahObservation = <int, ({LatLng point, double distance})>{
+    1: (point: LatLng(5.52187621, 102.97661263), distance: 148.5705),
+    2: (point: LatLng(5.52021311, 102.97843648), distance: 154.8004),
+    3: (point: LatLng(5.51848427, 102.98029302), distance: 150.8996),
+    4: (point: LatLng(5.51650605, 102.98248020), distance: 149.0970),
+    5: (point: LatLng(5.51464068, 102.98469167), distance: 150.4070),
+  };
+
+  bool get _hasObservedShoreline => _siteId == 'mengabang_tapah_besar_selatan';
+
+  List<LatLng> get _observedPoints =>
+      _tapahObservation.values.map((observation) => observation.point).toList();
   bool _dashedPrediction = true;
   bool _loading = true;
   bool _mapReady = false;
@@ -390,6 +408,7 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
   }
 
   List<LatLng> get _allPoints => [
+    if (_hasObservedShoreline) ..._observedPoints,
     for (final row in _transects) ...[
       _mapPoint(row, 'reference_point'),
       _mapPoint(row, 'predicted_point'),
@@ -918,6 +937,43 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
     );
   }
 
+  Widget _observedComparison() {
+    final offsets = <int, double>{};
+    for (final row in _transects) {
+      final id = (row['transect_id'] as num).toInt();
+      final observation = _tapahObservation[id];
+      if (observation == null) continue;
+      offsets[id] =
+          (row['predicted_position_m'] as num).toDouble() - observation.distance;
+    }
+
+    final mean = offsets.isEmpty
+        ? null
+        : offsets.values.fold<double>(0, (sum, value) => sum + value.abs()) /
+              offsets.length;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text(
+          '2026 forecast vs observed shoreline',
+          style: TextStyle(fontWeight: FontWeight.w700, color: _observedColor),
+        ),
+        const SizedBox(height: 6),
+        const Text('Sentinel-2 waterline estimate from $_observedDate.'),
+        const SizedBox(height: 6),
+        if (mean != null) ...[
+          for (final entry in offsets.entries)
+            Text('T${entry.key}: ${_signed(entry.value)}'),
+          const SizedBox(height: 6),
+          Text('Mean absolute difference: ${mean.toStringAsFixed(1)} m'),
+          const Text('Positive means the forecast is farther out to sea.'),
+        ] else
+          const Text('No matching transect measurements.'),
+      ],
+    );
+  }
+
   void _showSummary() {
     _showInfoSheet(
       Column(
@@ -999,6 +1055,10 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
             style: TextStyle(color: _muted, fontSize: 12, height: 1.5),
           ),
           const SizedBox(height: 14),
+          if (_hasObservedShoreline && _forecastYear == 2026) ...[
+            _observedComparison(),
+            const SizedBox(height: 14),
+          ],
           _modelNotes(),
         ],
       ),
@@ -1182,6 +1242,8 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
                 child: PolylineLayer(
                   polylines: [
                     if (_showReference) _line(reference, _referenceColor),
+                    if (_hasObservedShoreline && _showObserved)
+                      _line(_observedPoints, _observedColor),
                     if (_showPrediction)
                       _line(
                         prediction,
@@ -1327,6 +1389,17 @@ class _ShorelinePredictionScreenState extends State<ShorelinePredictionScreen> {
                   children: [
                     _layerChip(reference: true),
                     _layerChip(reference: false),
+                    if (_hasObservedShoreline)
+                      FilterChip(
+                        label: const Text('Observed \u00b7 $_observedDate'),
+                        selected: _showObserved,
+                        selectedColor: _observedColor.withValues(alpha: 0.15),
+                        side: BorderSide(
+                          color: _showObserved ? _observedColor : _border,
+                        ),
+                        onSelected: (value) =>
+                            setState(() => _showObserved = value),
+                      ),
                   ],
                 ),
               ),

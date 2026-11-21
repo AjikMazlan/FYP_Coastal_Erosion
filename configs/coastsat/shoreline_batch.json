@@ -116,6 +116,39 @@
       "existing_inputs": {
         "2024": "JPS_BATCH_ROI_C4_JPS_029_2024_V1"
       }
+    },
+    {
+      "id": "kampung_pak_tuyu",
+      "name": "Pantai Kampung Pak Tuyu",
+      "input_prefix": "KAMPUNG_PAK_TUYU_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c4_jps_036.json",
+      "reference": "data/coastsat/kampung_pak_tuyu_seed_2024/reference.geojson",
+      "transects": "data/coastsat/kampung_pak_tuyu_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C4_JPS_036_2024_V1"
+      }
+    },
+    {
+      "id": "seberang_takir",
+      "name": "Kampung Seberang Takir",
+      "input_prefix": "SEBERANG_TAKIR_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c5_jps_038.json",
+      "reference": "data/coastsat/seberang_takir_seed_2024/reference.geojson",
+      "transects": "data/coastsat/seberang_takir_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C5_JPS_038_2024_V1"
+      }
+    },
+    {
+      "id": "batu_buruk_gong_pantai",
+      "name": "Pantai Batu Buruk - Gong Pantai",
+      "input_prefix": "BATU_BURUK_GONG_PANTAI_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c6_jps_039.json",
+      "reference": "data/coastsat/batu_buruk_gong_pantai_seed_2024/reference.geojson",
+      "transects": "data/coastsat/batu_buruk_gong_pantai_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C6_JPS_039_2024_V1"
+      }
     }
   ]
 }

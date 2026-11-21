@@ -1,0 +1,63 @@
+{
+  "status": "ready",
+  "model_sha256": "3c310d143e28580e17058cddfd86d6f92c40a5ae79bc9a956679b20426d51bfd",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\kampung_pak_tuyu\\2020\\measurements.csv",
+      "sha256": "18f8a805ec5116e9c3e6301b8c00ba941cf69f535009c37d0abc7d1e85a6d6a6",
+      "rows": 265,
+      "valid_rows": 215
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\kampung_pak_tuyu\\2021\\measurements.csv",
+      "sha256": "cb8274368d7fce1a2f07031adab24aae0ca13ab29cdcd11ce68918cd899987b4",
+      "rows": 200,
+      "valid_rows": 155
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\kampung_pak_tuyu\\2022\\measurements.csv",
+      "sha256": "2feddb40eb07bc5b083bfa2f9f309353d93f1bc230e94de1efea3cca9712b8fd",
+      "rows": 225,
+      "valid_rows": 184
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\kampung_pak_tuyu\\2023\\measurements.csv",
+      "sha256": "b2b6cf6165293e695fc574040a87fd96f40411eb7c8704803ad408946a6ab1f3",
+      "rows": 255,
+      "valid_rows": 189
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\kampung_pak_tuyu\\2024\\measurements.csv",
+      "sha256": "f7f5f2604fbfdb41b3b16ceeadbcedabc2165e066b1e6090c8d6be63e2b36682",
+      "rows": 220,
+      "valid_rows": 185
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\kampung_pak_tuyu\\2025\\measurements.csv",
+      "sha256": "4ce350a3b7c9ad4d507c23a99767efe49840037139a900570692289753c41b81",
+      "rows": 205,
+      "valid_rows": 160
+    }
+  ],
+  "site_id": "kampung_pak_tuyu",
+  "site": "Pantai Kampung Pak Tuyu",
+  "model": "results/shoreline_pipeline/monthly_v1/kampung_pak_tuyu/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/kampung_pak_tuyu/transects.geojson",
+  "geometry_sha256": "73d54d0fe51cd4299888cceaf97838db5188a9a0c0d2febea200f4ebb9a624d6",
+  "transect_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

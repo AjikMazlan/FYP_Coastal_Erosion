@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2020,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\seberang_takir\\2020\\measurements.csv",
+    "sha256": "c0d2061315e081adef9c71d0d492fb0b95c94b91fbe4c9188e2b3d53f7daa491",
+    "rows": 265,
+    "valid_rows": 234
+  },
+  {
+    "year": 2021,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\seberang_takir\\2021\\measurements.csv",
+    "sha256": "2c59c1de2af7a9de24500a179a710bb18bfb84fcb1f0eaf3f4332863719a2903",
+    "rows": 245,
+    "valid_rows": 183
+  },
+  {
+    "year": 2022,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\seberang_takir\\2022\\measurements.csv",
+    "sha256": "60c66a9a1cd60451c25f24d03844bdcedd45b230af6bf472fb738f8ca9a58e58",
+    "rows": 235,
+    "valid_rows": 198
+  },
+  {
+    "year": 2023,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\seberang_takir\\2023\\measurements.csv",
+    "sha256": "1112be8d89dc0f2da4686632b55017b5e105fb97d8957eca4577536559161ba6",
+    "rows": 245,
+    "valid_rows": 187
+  },
+  {
+    "year": 2024,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\seberang_takir\\2024\\measurements.csv",
+    "sha256": "73392a1d7e8d05669580f2cdbfa3ac74217cc1a3289dbc8ed5c12be6930f0201",
+    "rows": 210,
+    "valid_rows": 165
+  },
+  {
+    "year": 2025,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\seberang_takir\\2025\\measurements.csv",
+    "sha256": "f2d464601a2ac431bed939ded69a1a3685a338e753f41af1a760fe0db0942108",
+    "rows": 260,
+    "valid_rows": 184
+  }
+]

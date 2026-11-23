@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2020,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\coastsat_reviews\\roi_c8_jps_082_contour_review\\2020\\measurements_reviewed.csv",
+    "sha256": "f48c0af1b6ef0c2c7e31d7612f4d7b538279f1c9156ca9977f17dc6b8ac74c24",
+    "rows": 300,
+    "valid_rows": 218
+  },
+  {
+    "year": 2021,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\coastsat_reviews\\roi_c8_jps_082_contour_review\\2021\\measurements_reviewed.csv",
+    "sha256": "136f48e0a171797cbc4409255e21c41db02ebb6409d9a2134f10584c368b6975",
+    "rows": 225,
+    "valid_rows": 169
+  },
+  {
+    "year": 2022,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\coastsat_reviews\\roi_c8_jps_082_contour_review\\2022\\measurements_reviewed.csv",
+    "sha256": "4c734515b485b467031a3ad658ec3bc94760b26c2abd21666c5b7d7cc79ac66f",
+    "rows": 350,
+    "valid_rows": 250
+  },
+  {
+    "year": 2023,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\coastsat_reviews\\roi_c8_jps_082_contour_review\\2023\\measurements_reviewed.csv",
+    "sha256": "5177ead32878571b1da88fe2c2ac494c08c735edd4f6a3d09a1ef61b4a213542",
+    "rows": 250,
+    "valid_rows": 194
+  },
+  {
+    "year": 2024,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\coastsat_reviews\\roi_c8_jps_082_2024_v1\\measurements_reviewed_2024.csv",
+    "sha256": "2f14e173ec7ae0f5dd4ac32c1b054fe14e527dc2ce7f41b047f335c28a26c1fe",
+    "rows": 225,
+    "valid_rows": 162
+  },
+  {
+    "year": 2025,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\coastsat_reviews\\roi_c8_jps_082_contour_review\\2025\\measurements_reviewed.csv",
+    "sha256": "0c7528cefce2950a11d80d7c12d4dc7a0bfa1315401ba472f3b82c6dab84de3a",
+    "rows": 330,
+    "valid_rows": 261
+  }
+]

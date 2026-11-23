@@ -1,0 +1,518 @@
+[
+  {
+    "scene_index": 1,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti tepi jalur pasir perang. Buih ombak lebih ke laut dan boleh dibezakan daripada kontur yang dipilih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 2,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti tepi jalur pasir perang. Buih ombak lebih ke laut dan boleh dibezakan daripada kontur yang dipilih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 3,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti tepi jalur pasir perang. Buih ombak lebih ke laut dan boleh dibezakan daripada kontur yang dipilih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 4,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti tepi jalur pasir perang. Buih ombak lebih ke laut dan boleh dibezakan daripada kontur yang dipilih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 5,
+    "selected_component_ids": [],
+    "visual_reason": "Awan menutup T1–T3. Kontur selatan yang tinggal pendek dan berada di sisi ombak berbuih; sempadan pasir–air tidak jelas.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 6,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 7,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 8,
+    "selected_component_ids": [],
+    "visual_reason": "Awan dan mask menutup sebahagian besar kawasan penilaian. Cebisan di selatan tidak cukup jelas di antara buih ombak.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 9,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 10,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 11,
+    "selected_component_ids": [],
+    "visual_reason": "Cebisan laut pendek berada dalam jalur putih terang yang dikelilingi kawasan bertopeng. Tiada sempadan pasir–air yang jelas di transek.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 12,
+    "selected_component_ids": [],
+    "visual_reason": "Cebisan laut pendek berada dalam jalur putih terang yang dikelilingi kawasan bertopeng. Tiada sempadan pasir–air yang jelas di transek.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 13,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 14,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 15,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 16,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 17,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 18,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 19,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 20,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 21,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 22,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 23,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 24,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 25,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Garis pasir–laut jelas pada segmen utara. Awan dan mask di selatan kekal ditapis.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 26,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Garis pasir–laut jelas pada segmen utara. Awan dan mask di selatan kekal ditapis.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 27,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 28,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 29,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Mask di sebelah darat tidak mengaburkan garis pasir–laut yang tersimpan. Hanya bahagian pantai yang mempunyai kontur jelas diterima.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 30,
+    "selected_component_ids": [
+      3
+    ],
+    "visual_reason": "Mask di sebelah darat tidak mengaburkan garis pasir–laut yang tersimpan. Hanya bahagian pantai yang mempunyai kontur jelas diterima.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 31,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 32,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 33,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 34,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 35,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 36,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 37,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 38,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 39,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 40,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Komponen mengikuti bentuk beralun tepi pasir yang berulang pada imej berdekatan dan pada jubin bertindih. Ia berada di sisi laut jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 41,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur utara mengikuti tepi pasir. Mask dan tepi jubin menyebabkan kehilangan segmen selatan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 42,
+    "selected_component_ids": [],
+    "visual_reason": "Awan melitupi garis pantai di tengah. Cebisan utara atau selatan di tepi mask tidak menunjukkan sentuhan pasir–laut yang cukup jelas pada transek.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 43,
+    "selected_component_ids": [],
+    "visual_reason": "Awan melitupi garis pantai di tengah. Cebisan utara atau selatan di tepi mask tidak menunjukkan sentuhan pasir–laut yang cukup jelas pada transek.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 44,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Bahagian selatan yang masih terbuka menunjukkan tepi pasir yang jelas. Awan memutuskan bahagian tengah.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 45,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 46,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 47,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 48,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 49,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 50,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 51,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 52,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur tepi pasir melengkung di lokasi yang sepadan pada imej berturutan dan jubin bertindih.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 53,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 54,
+    "selected_component_ids": [
+      1,
+      7
+    ],
+    "visual_reason": "Dua komponen terpisah masing-masing mengikuti tepi jalur pasir yang kelihatan di utara dan selatan. Bahagian di sekitar mask tidak disambung.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 55,
+    "selected_component_ids": [
+      1,
+      4
+    ],
+    "visual_reason": "Dua komponen terpisah masing-masing mengikuti tepi jalur pasir yang kelihatan di utara dan selatan. Bahagian di sekitar mask tidak disambung.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 56,
+    "selected_component_ids": [],
+    "visual_reason": "C0 membelok dalam gelung di kawasan air gelap pada T5 dan berdekatan awan. Garis tersebut tidak konsisten dengan subsegmen pantai.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 57,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 58,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 59,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 60,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 61,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 62,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 63,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Jalur pasir perang masih kelihatan berasingan daripada buih ombak putih yang lebih ke laut.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 64,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Jalur pasir perang masih kelihatan berasingan daripada buih ombak putih yang lebih ke laut.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 65,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Jalur pasir perang masih kelihatan berasingan daripada buih ombak putih yang lebih ke laut.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 66,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Jalur pasir perang masih kelihatan berasingan daripada buih ombak putih yang lebih ke laut.",
+    "rejected_component_reasons": {}
+  }
+]

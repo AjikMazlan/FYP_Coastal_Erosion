@@ -1,0 +1,71 @@
+{
+  "version": "monthly_v1",
+  "batch": {
+    "coastsat_root": "D:/CoastSat-master",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "min_months_per_year": 6,
+    "jump_flag_m": 40
+  },
+  "site": {
+    "id": "roi_c8_jps_083",
+    "name": "Pantai Utara Muara Mercang",
+    "input_prefix": "ROI_C8_JPS_083_FAST_V1",
+    "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_083.json",
+    "reference": "data/coastsat/roi_c8_jps_083_seed_2024/reference.geojson",
+    "transects": "data/coastsat/roi_c8_jps_083_seed_2024/transects_300m.geojson",
+    "existing_inputs": {
+      "2024": "JPS_BATCH_ROI_C8_JPS_083_2024_V1"
+    }
+  },
+  "base_config": {
+    "site_id": "JPS_BATCH_ROI_C8_JPS_083",
+    "site_name": "ROI_C8_JPS_083 - Marang",
+    "sitename": "JPS_BATCH_ROI_C8_JPS_083_2024_V1",
+    "earth_engine_project": "coastal-erosion-fyp",
+    "roi_file": "roi_c8_jps_083.geojson",
+    "dates": [
+      "2024-01-01",
+      "2025-01-01"
+    ],
+    "sat_list": [
+      "L8",
+      "S2"
+    ],
+    "output_epsg": 32648,
+    "jps_station_ids": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ],
+    "source_roi_id": "ROI_C8_JPS_083",
+    "status": "draft_roi_requires_satellite_image_review",
+    "download_enabled": false,
+    "notes": "Availability check only. ROI geometry remains a draft. JPS stations locate the area; they are not CoastSat transects. This batch does not reuse or overwrite existing Merang/Bukit Keluang folders."
+  },
+  "intersection_qc": {
+    "along_dist": 25,
+    "min_points": 3,
+    "max_std": 15,
+    "max_range": 40,
+    "min_chainage": 0,
+    "multiple_inter": "nan",
+    "auto_prc": 0.1
+  },
+  "reference_sha256": "f359784ebee22ccedb1196dca506dd14f01060edc94de698a770a84abcb1d009",
+  "transects_sha256": "565b5c55da06945680e0d24dea8967c81c56530affb1214a7586a7863dec1035"
+}

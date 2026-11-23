@@ -1,0 +1,786 @@
+{
+  "site": "roi_c8_jps_082",
+  "year": 2023,
+  "manual_review": true,
+  "scope": "Separate CSV containing original valid measurements and added visually reviewed measurements",
+  "source_measurements": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_082\\2023\\measurements.csv",
+  "reviewed_measurements": "D:\\FYP_Coastal_Erosion\\results\\coastsat_reviews\\roi_c8_jps_082_contour_review\\2023\\measurements_reviewed.csv",
+  "scenes_with_nonempty_original_shoreline": 50,
+  "scenes_with_accepted_measurements": 44,
+  "scenes_rejected_visually": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "reviewed_rows": 250,
+  "recovered_previously_invalid_rows": 179,
+  "removed_originally_valid_rows": 0,
+  "adjusted_originally_valid_positions": 0,
+  "intersection_qc_unchanged": {
+    "along_dist": 25,
+    "min_points": 3,
+    "max_std": 15,
+    "max_range": 40,
+    "min_chainage": 0,
+    "multiple_inter": "nan",
+    "auto_prc": 0.1
+  },
+  "extraction_settings_unchanged": {
+    "reference_buffer_m": 100,
+    "cloud_threshold": 0.3,
+    "cloud_distance_m": 300,
+    "min_contour_length_m": 200,
+    "nodata_distance_m": 30,
+    "s2cloudless_probability": 40,
+    "min_beach_area_m2": 1000,
+    "pan_off": false,
+    "mndwi_threshold": "original saved per image; no retuning",
+    "transect_chainage_bounds": "0 to original endpoint length"
+  },
+  "selection_method": "Whole original surviving contour components selected visually. No point deletion within selected components, contour extensions, buffer widening, QC relaxation, interpolation, or retraining.",
+  "all_five_meet_six_months": true,
+  "coverage": [
+    {
+      "Transect_ID": "1",
+      "Year": 2023,
+      "Original_Valid_Months": 2,
+      "Reviewed_Valid_Months": 10,
+      "Original_Month_List": "2023-10;2023-12",
+      "Reviewed_Month_List": "2023-02;2023-03;2023-04;2023-05;2023-06;2023-07;2023-08;2023-10;2023-11;2023-12",
+      "Original_Valid_Image_Measurements": 3,
+      "Reviewed_Valid_Image_Measurements": 39,
+      "Minimum_Required_Months": 6,
+      "Meets_Six_Months": true
+    },
+    {
+      "Transect_ID": "2",
+      "Year": 2023,
+      "Original_Valid_Months": 5,
+      "Reviewed_Valid_Months": 10,
+      "Original_Month_List": "2023-05;2023-07;2023-10;2023-11;2023-12",
+      "Reviewed_Month_List": "2023-02;2023-03;2023-04;2023-05;2023-06;2023-07;2023-08;2023-10;2023-11;2023-12",
+      "Original_Valid_Image_Measurements": 9,
+      "Reviewed_Valid_Image_Measurements": 44,
+      "Minimum_Required_Months": 6,
+      "Meets_Six_Months": true
+    },
+    {
+      "Transect_ID": "3",
+      "Year": 2023,
+      "Original_Valid_Months": 1,
+      "Reviewed_Valid_Months": 10,
+      "Original_Month_List": "2023-08",
+      "Reviewed_Month_List": "2023-02;2023-03;2023-04;2023-05;2023-06;2023-07;2023-08;2023-10;2023-11;2023-12",
+      "Original_Valid_Image_Measurements": 1,
+      "Reviewed_Valid_Image_Measurements": 43,
+      "Minimum_Required_Months": 6,
+      "Meets_Six_Months": true
+    },
+    {
+      "Transect_ID": "4",
+      "Year": 2023,
+      "Original_Valid_Months": 0,
+      "Reviewed_Valid_Months": 9,
+      "Original_Month_List": "",
+      "Reviewed_Month_List": "2023-03;2023-04;2023-05;2023-06;2023-07;2023-08;2023-10;2023-11;2023-12",
+      "Original_Valid_Image_Measurements": 0,
+      "Reviewed_Valid_Image_Measurements": 40,
+      "Minimum_Required_Months": 6,
+      "Meets_Six_Months": true
+    },
+    {
+      "Transect_ID": "5",
+      "Year": 2023,
+      "Original_Valid_Months": 1,
+      "Reviewed_Valid_Months": 9,
+      "Original_Month_List": "2023-04",
+      "Reviewed_Month_List": "2023-03;2023-04;2023-05;2023-06;2023-07;2023-08;2023-10;2023-11;2023-12",
+      "Original_Valid_Image_Measurements": 2,
+      "Reviewed_Valid_Image_Measurements": 28,
+      "Minimum_Required_Months": 6,
+      "Meets_Six_Months": true
+    }
+  ],
+  "source_integrity": {
+    "files_checked": 9,
+    "changed_files": []
+  },
+  "scenes": [
+    {
+      "index": 1,
+      "source_file": "2023-02-24-03-36-49_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reason": "Komponen terpilih mengikuti tepi jalur pasir yang masih kelihatan dan berasingan daripada tompok buih di luar. Bahagian yang terdampak mask dibiarkan kosong."
+    },
+    {
+      "index": 2,
+      "source_file": "2023-02-24-03-36-52_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reason": "Komponen terpilih mengikuti tepi jalur pasir yang masih kelihatan dan berasingan daripada tompok buih di luar. Bahagian yang terdampak mask dibiarkan kosong."
+    },
+    {
+      "index": 3,
+      "source_file": "2023-03-11-03-36-44_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        2
+      ],
+      "valid_transects": [
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen terpilih mengikuti tepi jalur pasir yang masih kelihatan dan berasingan daripada tompok buih di luar. Bahagian yang terdampak mask dibiarkan kosong."
+    },
+    {
+      "index": 4,
+      "source_file": "2023-03-11-03-36-47_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        2
+      ],
+      "valid_transects": [
+        "3",
+        "4"
+      ],
+      "reason": "Komponen terpilih mengikuti tepi jalur pasir yang masih kelihatan dan berasingan daripada tompok buih di luar. Bahagian yang terdampak mask dibiarkan kosong."
+    },
+    {
+      "index": 5,
+      "source_file": "2023-03-26-03-21-26_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 6,
+      "source_file": "2023-03-26-03-21-50_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 7,
+      "source_file": "2023-04-05-03-36-52_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 8,
+      "source_file": "2023-04-05-03-36-55_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 9,
+      "source_file": "2023-04-10-03-36-49_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 10,
+      "source_file": "2023-04-10-03-36-52_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 11,
+      "source_file": "2023-04-11-03-21-10_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 12,
+      "source_file": "2023-04-11-03-21-34_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 13,
+      "source_file": "2023-04-20-03-36-47_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 14,
+      "source_file": "2023-04-20-03-36-50_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 15,
+      "source_file": "2023-05-13-03-20-54_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 16,
+      "source_file": "2023-05-13-03-21-18_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 17,
+      "source_file": "2023-05-15-03-36-53_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 18,
+      "source_file": "2023-05-15-03-36-55_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 19,
+      "source_file": "2023-05-30-03-36-52_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 20,
+      "source_file": "2023-05-30-03-36-55_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 21,
+      "source_file": "2023-06-14-03-21-04_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 22,
+      "source_file": "2023-06-14-03-21-28_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 23,
+      "source_file": "2023-06-14-03-36-54_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 24,
+      "source_file": "2023-06-14-03-36-57_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 25,
+      "source_file": "2023-06-19-03-36-53_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 26,
+      "source_file": "2023-06-19-03-36-56_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 27,
+      "source_file": "2023-06-29-03-36-53_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Tepi pasir\u00e2\u20ac\u201claut masih dapat diikuti pada bahagian terbuka sebelum garis terputus berhampiran awan di selatan."
+    },
+    {
+      "index": 28,
+      "source_file": "2023-06-29-03-36-56_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Tepi pasir\u00e2\u20ac\u201claut masih dapat diikuti pada bahagian terbuka sebelum garis terputus berhampiran awan di selatan."
+    },
+    {
+      "index": 29,
+      "source_file": "2023-07-04-03-36-54_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 30,
+      "source_file": "2023-07-04-03-36-57_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 31,
+      "source_file": "2023-07-16-03-21-19_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 32,
+      "source_file": "2023-07-16-03-21-43_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 33,
+      "source_file": "2023-07-24-03-36-55_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reason": "Bahagian pantai di luar mask menunjukkan garis pasir\u00e2\u20ac\u201claut yang jelas. Bahagian yang terputus tidak disambung."
+    },
+    {
+      "index": 34,
+      "source_file": "2023-07-24-03-36-58_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reason": "Bahagian pantai di luar mask menunjukkan garis pasir\u00e2\u20ac\u201claut yang jelas. Bahagian yang terputus tidak disambung."
+    },
+    {
+      "index": 35,
+      "source_file": "2023-08-01-03-21-27_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "reason": "Bahagian pantai di luar mask menunjukkan garis pasir\u00e2\u20ac\u201claut yang jelas. Bahagian yang terputus tidak disambung."
+    },
+    {
+      "index": 36,
+      "source_file": "2023-08-01-03-21-51_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "reason": "Bahagian pantai di luar mask menunjukkan garis pasir\u00e2\u20ac\u201claut yang jelas. Bahagian yang terputus tidak disambung."
+    },
+    {
+      "index": 37,
+      "source_file": "2023-09-18-03-21-41_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [],
+      "valid_transects": [],
+      "reason": "Kontur sisi laut mempunyai beberapa lonjakan tajam mengikut tompok putih di luar jalur pasir. Kontur penuh tidak konsisten dengan sentuhan pasir\u00e2\u20ac\u201claut."
+    },
+    {
+      "index": 38,
+      "source_file": "2023-09-18-03-22-05_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [],
+      "valid_transects": [],
+      "reason": "Kontur sisi laut mempunyai beberapa lonjakan tajam mengikut tompok putih di luar jalur pasir. Kontur penuh tidak konsisten dengan sentuhan pasir\u00e2\u20ac\u201claut."
+    },
+    {
+      "index": 39,
+      "source_file": "2023-10-04-03-21-44_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [],
+      "valid_transects": [],
+      "reason": "Mask panjang menutup sisi laut dari T2 ke T5. Cebisan di utara tidak cukup untuk mengesahkan sentuhan pasir\u00e2\u20ac\u201claut di transek."
+    },
+    {
+      "index": 40,
+      "source_file": "2023-10-04-03-22-08_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [],
+      "valid_transects": [],
+      "reason": "Mask memotong bahagian selatan dan komponen beralih tajam keluar daripada jalur pasir berhampiran T2\u00e2\u20ac\u201cT3."
+    },
+    {
+      "index": 41,
+      "source_file": "2023-10-12-03-36-51_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [],
+      "valid_transects": [],
+      "reason": "Komponen laut melengkung ke tompok keruh atau gelap di luar jalur pasir. Kedudukan sempadan pasir\u00e2\u20ac\u201claut tidak jelas di bahagian tengah."
+    },
+    {
+      "index": 42,
+      "source_file": "2023-10-12-03-36-53_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [],
+      "valid_transects": [],
+      "reason": "Komponen laut melengkung ke tompok keruh atau gelap di luar jalur pasir. Kedudukan sempadan pasir\u00e2\u20ac\u201claut tidak jelas di bahagian tengah."
+    },
+    {
+      "index": 43,
+      "source_file": "2023-10-20-03-21-45_L8_126056_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 44,
+      "source_file": "2023-10-20-03-22-09_L8_126057_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        0
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 45,
+      "source_file": "2023-10-22-03-36-50_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 46,
+      "source_file": "2023-10-22-03-36-53_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 47,
+      "source_file": "2023-11-06-03-36-48_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 48,
+      "source_file": "2023-11-06-03-36-51_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sempadan jalur pasir dan laut terbuka pada bahagian yang kelihatan. Garis di sebelah darat tidak digunakan."
+    },
+    {
+      "index": 49,
+      "source_file": "2023-12-31-03-36-50_S2_48NUL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reason": "Komponen mengikuti sentuhan pasir perang dengan air, di sebelah darat tompok ombak pecah luar."
+    },
+    {
+      "index": 50,
+      "source_file": "2023-12-31-03-36-53_S2_48NTL_ROI_C8_JPS_082_FAST_V1_2023_ms.tif",
+      "selected_component_ids": [
+        1
+      ],
+      "valid_transects": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reason": "Komponen mengikuti sentuhan pasir perang dengan air, di sebelah darat tompok ombak pecah luar."
+    }
+  ],
+  "review_data_sha256": "5177ead32878571b1da88fe2c2ac494c08c735edd4f6a3d09a1ef61b4a213542",
+  "visual_decisions_sha256": "5269748e605773d45a9e37dff3fe3053184229a0f279e4c22e02bc996a992980"
+}

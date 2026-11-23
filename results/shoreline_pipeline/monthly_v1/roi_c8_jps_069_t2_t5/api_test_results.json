@@ -1,0 +1,73 @@
+{
+  "site_id": "roi_c8_jps_069_t2_t5",
+  "name": "Pantai Marang (T2-T5)",
+  "listed_http": 200,
+  "transect_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "predictions": [
+    {
+      "year": 2025,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2026,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2027,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2028,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2029,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2030,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2031,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2032,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2033,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    },
+    {
+      "year": 2034,
+      "http": 200,
+      "point_count": 4,
+      "outside": []
+    }
+  ]
+}

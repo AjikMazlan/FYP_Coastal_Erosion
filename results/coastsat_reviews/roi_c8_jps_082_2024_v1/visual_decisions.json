@@ -1,0 +1,365 @@
+[
+  {
+    "scene_index": 1,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Kontur C1 mengikuti tepi jalur pasir yang bersentuhan dengan laut terbuka di timur, berterusan pada T1-T5. Kontur C0 berada di sebelah darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 2,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "Paparan bertindih Landsat tarikh sama mengesahkan C1 sebagai tepi pasir-laut sepanjang T1-T5. Kontur C0 ialah garis dalaman.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 3,
+    "selected_component_ids": [
+      2
+    ],
+    "visual_reason": "C2 ialah sempadan pasir-laut yang jelas pada bahagian tengah dan selatan. Awan di utara menyingkirkan kontur berhampiran T1-T2 melalui buffer asal.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 4,
+    "selected_component_ids": [
+      3
+    ],
+    "visual_reason": "C3 mengikuti tepi pasir-laut pada T3-T4. Bahagian utara terjejas awan dan bahagian selatan terpotong oleh tepi jubin 48NTL.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 5,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 mengikuti tepi pasir-laut yang berterusan pada T1-T4. Liputan selatan berhampiran T5 terjejas mask/nodata asal.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 6,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 sepadan dengan sempadan pasir-laut pada T1-T4 dalam jubin separa. Tiada segmen laut tersimpan yang mencukupi pada T5.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 7,
+    "selected_component_ids": [],
+    "visual_reason": "Kontur laut C1 bersentuhan dengan jalur buih ombak yang lebar dan bertompok, terutama di tengah hingga selatan. Sempadan pasir-air tidak cukup pasti pada resolusi imej ini; ditolak secara konservatif.",
+    "rejected_component_reasons": {
+      "1": "Ditolak visual: pinggir buih ombak lebar dan bertompok; sempadan pasir-air meragukan."
+    }
+  },
+  {
+    "scene_index": 8,
+    "selected_component_ids": [],
+    "visual_reason": "Imej bertindih tarikh sama menunjukkan jalur buih lebar dan bertompok yang sama. C1 mungkin mewakili pinggir buih, lalu ditolak secara konservatif.",
+    "rejected_component_reasons": {
+      "1": "Ditolak visual: pinggir buih ombak lebar dan bertompok; sempadan pasir-air meragukan."
+    }
+  },
+  {
+    "scene_index": 9,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 mengikuti sisi laut jalur pasir sepanjang T1-T5. Kontur dalaman di barat pasir diketepikan; pemisahan dua garis jelas.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 10,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 pada jubin 48NTL konsisten dengan kontur laut jubin penuh pada T1-T4. Segmen T5 terpotong dan tidak dipanjangkan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 11,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah garis sebelah laut yang berterusan dan selari jalur pasir. Kontur C0/C10 di sisi darat tidak digunakan; mask awan jauh dikekalkan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 12,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 pada imej bertindih konsisten dengan tepi pasir-laut pada T1-T5. Kontur C0/C7 berada di darat relatif kepada jalur pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 13,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah kontur pasir-laut yang jelas sepanjang T1-T5. Komponen lain mengikuti sisi darat dan menyebabkan dispersi jika digabungkan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 14,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah garis laut yang sepadan dengan jubin penuh 4 April pada T1-T4. T5 di luar liputan kontur laut jubin separa.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 15,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "C0 mengikuti sempadan pasir-laut yang kelihatan pada T3-T5. Mask/awan di barat dan utara tidak diisi semula; T1-T2 dinilai hanya daripada titik tersimpan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 16,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 mengenal pasti tepi pasir-laut yang masih jelas di utara. Bahagian tengah/selatan berhampiran awan telah dipadam oleh tapisan asal.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 17,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 pada imej bertindih yang lebih lengkap mengikuti tepi pasir-laut sepanjang T1-T5; garis darat C0 diketepikan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 18,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah tepi jalur pasir dengan laut terbuka. Awan di luar segmen kajian tidak digunakan untuk mengisi titik yang ditapis.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 19,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 konsisten dengan imej bertindih 31 Mei, mengikuti tepi pasir-laut pada lima transek.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 20,
+    "selected_component_ids": [
+      11
+    ],
+    "visual_reason": "C11 ialah cebisan kontur laut yang masih kelihatan di selatan selepas tapisan awan asal. Ia tidak mempunyai cukup titik untuk ukuran sah pada transek; tiada interpolasi dibuat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 21,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah komponen laut berterusan sepanjang lima transek. C7/C17/C20 ialah garis di sisi darat pasir.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 22,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah komponen laut bagi T1-T4 dalam jubin separa, konsisten dengan jubin penuh. T5 terpotong dan tidak diisi.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 23,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 jelas mengikuti tepi pasir-laut sepanjang T1-T5. Komponen C5/C9/C14 berada di sisi darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 24,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah sempadan laut pada T1-T4 yang sepadan dengan jubin penuh 23 Jun. T5 tiada liputan kontur laut.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 25,
+    "selected_component_ids": [
+      4
+    ],
+    "visual_reason": "C4 mengikuti tepi pasir dengan air laut pada T2-T5. Bahagian T1 terjejas awan/buffer asal; C5/C10 ialah garis darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 26,
+    "selected_component_ids": [
+      2
+    ],
+    "visual_reason": "C2 mengesahkan sempadan pasir-laut pada T2-T5 dalam imej bertindih 2 Julai. Titik yang hilang berhampiran awan T1 tidak dipulihkan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 27,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah garis sisi laut jalur pasir yang berterusan dan konsisten dengan orientasi pantai pada T1-T5. C0/C2 berada di sisi darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 28,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 pada imej bertindih 18 Julai mengekalkan garis pasir-laut yang sama. Komponen di darat ditolak.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 29,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "C0 mengikuti tepi jalur pasir dengan laut terbuka sepanjang lima transek. C3/C8 ialah garis sisi darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 30,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah tepi pasir-laut, konsisten dengan imej bertindih 3 Ogos. C2/C5 di sisi darat diketepikan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 31,
+    "selected_component_ids": [
+      2
+    ],
+    "visual_reason": "C2 ialah cebisan pasir-laut yang kelihatan berhampiran T3, tetapi mask awan memutuskan liputan; bilangan titik tidak mencukupi di bawah QC asal.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 32,
+    "selected_component_ids": [
+      2
+    ],
+    "visual_reason": "C2 ialah cebisan laut yang sama pada jubin separa; awan serta tepi jubin menghalang persilangan yang mencukupi. Tiada titik ditambah.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 33,
+    "selected_component_ids": [],
+    "visual_reason": "Awan/mask menutupi sebahagian besar transek. C0/C10 hanya cebisan laut di luar atau tidak cukup hampir dengan transek; semua calon gagal QC asal.",
+    "rejected_component_reasons": {
+      "0": "Cebisan laut terputus akibat awan/buffer; tiada ukuran transek lulus QC.",
+      "10": "Cebisan laut selatan tidak menghasilkan ukuran transek lulus QC."
+    }
+  },
+  {
+    "scene_index": 34,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah tepi pasir-laut berterusan pada T1-T5. C0/C7 ialah garis di sebelah darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 35,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 konsisten dengan kontur laut jubin penuh 22 Ogos pada T1-T4. T5 terpotong oleh tepi jubin.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 36,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah kontur laut yang jelas sepanjang T1-T5. C6/C26 di darat dikeluarkan daripada ukuran semakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 37,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 ialah tepi pasir-laut pada T1-T4, konsisten dengan jubin penuh 21 Oktober. Tiada sambungan buatan ke T5.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 38,
+    "selected_component_ids": [],
+    "visual_reason": "Awan dan kawasan gelap bersebelahan mengganggu sempadan pantai. C6 berhampiran T5 membelok keluar daripada garis pantai; tidak cukup konsisten walaupun statistik persilangan lulus.",
+    "rejected_component_reasons": {
+      "0": "Cebisan di utara tidak cukup hampir dengan transek; tidak boleh mengisi jurang.",
+      "6": "Ditolak visual: kontur T5 membelok keluar daripada pantai bersebelahan awan/kawasan gelap walaupun QC berangka lulus."
+    }
+  },
+  {
+    "scene_index": 39,
+    "selected_component_ids": [],
+    "visual_reason": "Imej bertindih mengesahkan C5 berhampiran T5 ialah cebisan yang membelok dan tidak konsisten bersebelahan awan/kawasan gelap. Ditolak walaupun QC berangka lulus.",
+    "rejected_component_reasons": {
+      "0": "Cebisan di utara tidak cukup hampir dengan transek; tidak boleh mengisi jurang.",
+      "5": "Ditolak visual: kontur T5 membelok keluar daripada pantai bersebelahan awan/kawasan gelap walaupun QC berangka lulus."
+    }
+  },
+  {
+    "scene_index": 40,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 mengikuti sentuhan pasir berwarna perang dengan laut, di sebelah darat barisan ombak pecah luar. Garis dalaman C5/C7/C8/C11 diketepikan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 41,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 mengikuti sempadan pasir-laut yang sama seperti jubin penuh 26 Oktober pada T1-T4. T5 tidak dilanjutkan melepasi jubin.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 42,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "C0 ialah garis di sisi laut jalur pasir yang berterusan pada T1-T5. Kontur C6/C7/C11/C17 berada di darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 43,
+    "selected_component_ids": [
+      0
+    ],
+    "visual_reason": "C0 mengesahkan sempadan laut imej bertindih 7 November pada T1-T5. Garis darat tidak digunakan.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 44,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 mengikuti sentuhan pasir-laut, berasingan daripada ombak pecah di luar pantai. Tapisan awan di barat dikekalkan; C0/C3 berada di darat.",
+    "rejected_component_reasons": {}
+  },
+  {
+    "scene_index": 45,
+    "selected_component_ids": [
+      1
+    ],
+    "visual_reason": "C1 pada jubin separa sepadan dengan garis pasir-laut jubin penuh pada T1-T4. T5 tiada kontur laut tersimpan yang cukup.",
+    "rejected_component_reasons": {}
+  }
+]

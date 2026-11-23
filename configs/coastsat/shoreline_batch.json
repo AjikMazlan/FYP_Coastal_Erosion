@@ -203,6 +203,132 @@
       },
       "review_audit": "data/coastsat/roi_c7_jps_049_t5_review/contour_audit.json",
       "review_note": "The 2025 holdout includes two T5 measurements manually reviewed after identifying monthly coverage gaps. This evaluation is conditional on that review."
+    },
+    {
+      "id": "roi_c8_jps_063",
+      "name": "Pantai Ru Muda - Selatan Muara Marang",
+      "input_prefix": "ROI_C8_JPS_063_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_063.json",
+      "reference": "data/coastsat/roi_c8_jps_063_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_063_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_063_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_067",
+      "name": "Pantai Pulau Kerengga - JPS 67-68",
+      "input_prefix": "ROI_C8_JPS_067_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_067.json",
+      "reference": "data/coastsat/roi_c8_jps_067_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_067_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_067_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_069",
+      "name": "Pantai Marang - JPS 70-81",
+      "input_prefix": "ROI_C8_JPS_069_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_069.json",
+      "reference": "data/coastsat/roi_c8_jps_069_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_069_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_069_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_067_t1_t2_t5",
+      "name": "Pantai Pulau Kerengga (T1, T2, T5)",
+      "input_prefix": "ROI_C8_JPS_067_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_067.json",
+      "reference": "data/coastsat/roi_c8_jps_067_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_067_t1_t2_t5/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_067_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "data/coastsat/roi_c8_jps_067_t1_t2_t5/measurements_2020.csv",
+        "2021": "data/coastsat/roi_c8_jps_067_t1_t2_t5/measurements_2021.csv",
+        "2022": "data/coastsat/roi_c8_jps_067_t1_t2_t5/measurements_2022.csv",
+        "2023": "data/coastsat/roi_c8_jps_067_t1_t2_t5/measurements_2023.csv",
+        "2024": "data/coastsat/roi_c8_jps_067_t1_t2_t5/measurements_2024.csv",
+        "2025": "data/coastsat/roi_c8_jps_067_t1_t2_t5/measurements_2025.csv"
+      },
+      "subset_reason": "Excluded transects fail the existing 6-month coverage rule in at least one required year. Selection uses coverage, not prediction error."
+    },
+    {
+      "id": "roi_c8_jps_069_t2_t5",
+      "name": "Pantai Marang (T2-T5)",
+      "input_prefix": "ROI_C8_JPS_069_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_069.json",
+      "reference": "data/coastsat/roi_c8_jps_069_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_069_t2_t5/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_069_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "data/coastsat/roi_c8_jps_069_t2_t5/measurements_2020.csv",
+        "2021": "data/coastsat/roi_c8_jps_069_t2_t5/measurements_2021.csv",
+        "2022": "data/coastsat/roi_c8_jps_069_t2_t5/measurements_2022.csv",
+        "2023": "data/coastsat/roi_c8_jps_069_t2_t5/measurements_2023.csv",
+        "2024": "data/coastsat/roi_c8_jps_069_t2_t5/measurements_2024.csv",
+        "2025": "data/coastsat/roi_c8_jps_069_t2_t5/measurements_2025.csv"
+      },
+      "subset_reason": "Excluded transects fail the existing 6-month coverage rule in at least one required year. Selection uses coverage, not prediction error."
+    },
+    {
+      "id": "roi_c8_jps_082",
+      "name": "Pantai Marang - JPS 82",
+      "input_prefix": "ROI_C8_JPS_082_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_082.json",
+      "reference": "data/coastsat/roi_c8_jps_082_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_082_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_082_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_082_contour_review",
+      "name": "Pantai Marang - JPS 82 (Semakan Kontur)",
+      "input_prefix": "ROI_C8_JPS_082_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_082.json",
+      "reference": "data/coastsat/roi_c8_jps_082_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_082_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_082_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "results/coastsat_reviews/roi_c8_jps_082_contour_review/2020/measurements_reviewed.csv",
+        "2021": "results/coastsat_reviews/roi_c8_jps_082_contour_review/2021/measurements_reviewed.csv",
+        "2022": "results/coastsat_reviews/roi_c8_jps_082_contour_review/2022/measurements_reviewed.csv",
+        "2023": "results/coastsat_reviews/roi_c8_jps_082_contour_review/2023/measurements_reviewed.csv",
+        "2024": "results/coastsat_reviews/roi_c8_jps_082_2024_v1/measurements_reviewed_2024.csv",
+        "2025": "results/coastsat_reviews/roi_c8_jps_082_contour_review/2025/measurements_reviewed.csv"
+      },
+      "review_note": "Uses visual selection of cached sand-sea contour components and original intersection QC. Original valid measurements are preserved. The 2025 holdout includes manually reviewed measurements."
+    },
+    {
+      "id": "roi_c8_jps_083",
+      "name": "Pantai Utara Muara Mercang",
+      "input_prefix": "ROI_C8_JPS_083_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_083.json",
+      "reference": "data/coastsat/roi_c8_jps_083_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_083_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_083_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_094",
+      "name": "Pantai Ru Tebal - Kampung Penarik",
+      "input_prefix": "ROI_C8_JPS_094_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_094.json",
+      "reference": "data/coastsat/roi_c8_jps_094_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_094_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_094_2024_V1"
+      }
     }
   ]
 }

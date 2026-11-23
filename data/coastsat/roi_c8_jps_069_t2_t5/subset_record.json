@@ -1,0 +1,212 @@
+{
+  "parent_site": "roi_c8_jps_069",
+  "kept_transects": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "excluded_transects": [
+    "1"
+  ],
+  "reason": "Excluded transects fail the existing 6-month coverage rule in at least one required year. Selection uses coverage, not prediction error.",
+  "min_months_per_year": 6,
+  "parent_coverage": [
+    {
+      "Year": 2020,
+      "Transect_ID": "1",
+      "Months_Covered": 3
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "2",
+      "Months_Covered": 8
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "3",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "4",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2020,
+      "Transect_ID": "5",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "1",
+      "Months_Covered": 1
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "2",
+      "Months_Covered": 8
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "3",
+      "Months_Covered": 7
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "4",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2021,
+      "Transect_ID": "5",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "1",
+      "Months_Covered": 4
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "2",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "3",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "4",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2022,
+      "Transect_ID": "5",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "1",
+      "Months_Covered": 3
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "2",
+      "Months_Covered": 8
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "3",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "4",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2023,
+      "Transect_ID": "5",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "1",
+      "Months_Covered": 0
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "2",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "3",
+      "Months_Covered": 7
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "4",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2024,
+      "Transect_ID": "5",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "1",
+      "Months_Covered": 1
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "2",
+      "Months_Covered": 10
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "3",
+      "Months_Covered": 9
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "4",
+      "Months_Covered": 8
+    },
+    {
+      "Year": 2025,
+      "Transect_ID": "5",
+      "Months_Covered": 10
+    }
+  ],
+  "source_measurements": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_069\\2020\\measurements.csv",
+      "sha256": "afede776d6dd511cb0d398ec358426490cdcac18c45d69db08a4c6d86d2ec94e",
+      "rows": 330,
+      "valid_rows": 174
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_069\\2021\\measurements.csv",
+      "sha256": "1066e1482a8f6658011e799e179666d326a341b66ca17abd52d202d5413c35a2",
+      "rows": 255,
+      "valid_rows": 140
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_069\\2022\\measurements.csv",
+      "sha256": "3ce8454e8f31ad1bba862cb5bf4807d05411fa9bf56d8ca6ad5620bd3ba58d8c",
+      "rows": 350,
+      "valid_rows": 190
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_069\\2023\\measurements.csv",
+      "sha256": "16c2c1c756940325dd1dc5f4d4de53c57a00ef9c8dd407d504ceb651fcae42ed",
+      "rows": 310,
+      "valid_rows": 124
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_069\\2024\\measurements.csv",
+      "sha256": "018f8a4901643947caa964bff95c650639be8df21f6154aa67a3624c5b532a77",
+      "rows": 225,
+      "valid_rows": 101
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_069\\2025\\measurements.csv",
+      "sha256": "84b7e8c329324c7727376af73f4e40bb8e5562aacc359c4ea74c33a00300bb94",
+      "rows": 270,
+      "valid_rows": 138
+    }
+  ],
+  "source_geometry_sha256": "2e6e163f301944b0cdf0e4643a9ed2dc9cad4b868a1f9d643721a1ae34e77382",
+  "scope_note": "Spatial coverage is limited to retained transects. The original site remains available for review."
+}

@@ -1,0 +1,61 @@
+{
+  "status": "ready",
+  "model_sha256": "9b4feda59d3ccf9528084f6469706f8299e380351ff784d0dcc951d9f7c8c605",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_067_t1_t2_t5\\measurements_2020.csv",
+      "sha256": "802abc241b32135d0be55e3cf8626ae83dc2091f2c2388d94f39dae97354a1ef",
+      "rows": 207,
+      "valid_rows": 143
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_067_t1_t2_t5\\measurements_2021.csv",
+      "sha256": "bd1cfefe6f08ab29a5746e0da0e23dff655822181cdd38223d1273d40badd899",
+      "rows": 156,
+      "valid_rows": 106
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_067_t1_t2_t5\\measurements_2022.csv",
+      "sha256": "c7ef2732a933e3ae030db802bf4dfcf1cc1a13a62b0c952f95c2a87f5f0f688e",
+      "rows": 222,
+      "valid_rows": 147
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_067_t1_t2_t5\\measurements_2023.csv",
+      "sha256": "86d948e3a7f7ae9c8dbdd6c85ce3bf7b9fc6db13af6336e0e86846f3c2c171a0",
+      "rows": 159,
+      "valid_rows": 116
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_067_t1_t2_t5\\measurements_2024.csv",
+      "sha256": "8de5ec289356bf83a8a279742deeb9644af2dbfd00947ef1e48b5e1feaae5466",
+      "rows": 135,
+      "valid_rows": 92
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_067_t1_t2_t5\\measurements_2025.csv",
+      "sha256": "e2bad5f69406d02dc2ede478c68a43be087538c09f47552ca3d00a4cf7d46c12",
+      "rows": 186,
+      "valid_rows": 144
+    }
+  ],
+  "site_id": "roi_c8_jps_067_t1_t2_t5",
+  "site": "Pantai Pulau Kerengga (T1, T2, T5)",
+  "model": "results/shoreline_pipeline/monthly_v1/roi_c8_jps_067_t1_t2_t5/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/roi_c8_jps_067_t1_t2_t5/transects.geojson",
+  "geometry_sha256": "77ea0ed894884fcb18614faf52eabdcc5bbd6359b3d90261da7a8ca8a3b51830",
+  "transect_ids": [
+    1,
+    2,
+    5
+  ]
+}

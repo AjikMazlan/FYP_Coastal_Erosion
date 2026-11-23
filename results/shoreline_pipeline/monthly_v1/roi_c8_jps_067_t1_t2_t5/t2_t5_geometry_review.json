@@ -1,0 +1,29 @@
+{
+  "reference_image": "D:\\CoastSat-master\\data\\JPS_BATCH_ROI_C8_JPS_067_2024_V1\\jpg_files\\preprocessed\\RGB\\2024-06-18-03-36-51_RGB_S2.jpg",
+  "reference_arc_length_m": 958.2075167837885,
+  "reference_endpoint_chord_m": 957.0699948780522,
+  "reference_curvature_max_deviation_m": 11.266876932351892,
+  "comparisons": {
+    "2024_reference": {
+      "chord_length_m": 965.2442805664436,
+      "median_distance_to_digitized_reference_m": 41.91754535373409,
+      "max_distance_to_digitized_reference_m": 50.340539517325034
+    },
+    "2025_forecast": {
+      "chord_length_m": 965.2249268263105,
+      "median_distance_to_digitized_reference_m": 41.53506624599647,
+      "max_distance_to_digitized_reference_m": 49.43278339851132
+    },
+    "2030_forecast": {
+      "chord_length_m": 965.3581473970114,
+      "median_distance_to_digitized_reference_m": 42.02902195942406,
+      "max_distance_to_digitized_reference_m": 49.00146977902335
+    },
+    "2034_forecast": {
+      "chord_length_m": 965.4669567858668,
+      "median_distance_to_digitized_reference_m": 42.676089253896386,
+      "max_distance_to_digitized_reference_m": 48.65623229140505
+    }
+  },
+  "scope": "Straight interpolation across T3 and T4 has no retained measurement at those transects."
+}

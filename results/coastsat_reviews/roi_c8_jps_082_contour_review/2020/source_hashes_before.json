@@ -1,0 +1,11 @@
+{
+  "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_082\\protocol.json": "1402e068ffa61f9e77d60850b6dd72a658fe9e057a3a5cc2f852e8ca0b76aa1e",
+  "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_082_seed_2024\\transects_300m.geojson": "08cbbd5dbc02707557b7cc666a65e8c2b88de0c89fcecc2d5fdfb72a98578334",
+  "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_082_seed_2024\\reference.geojson": "963a61648b47a5ec61304b2bad2a9cc9ee93bb798fe38462fc860557c38b308b",
+  "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_082\\2020\\measurements.csv": "099fe009b8b38a64d20d00b9fc20b6789f909533730b9bd840de066fb508ce33",
+  "D:\\FYP_Coastal_Erosion\\configs\\coastsat\\jps_batch_2024_v1\\roi_c8_jps_082.json": "ee69d75b5a48b58e48d48dbeda089443cb556514dda03ad80052615fde0ff82e",
+  "D:\\FYP_Coastal_Erosion\\configs\\coastsat\\shoreline_batch.json": "81302ed235809bd7080f5e32d0f780732d8272d251505af7aafaae696ebe9e19",
+  "D:\\CoastSat-master\\data\\ROI_C8_JPS_082_FAST_V1_2020\\ROI_C8_JPS_082_FAST_V1_2020_output.pkl": "ceae77de8cabd291fba1dcd4d3ed1601cfbea03d8e6ba8aa04a401fec40c9a17",
+  "D:\\CoastSat-master\\data\\ROI_C8_JPS_082_FAST_V1_2020\\ROI_C8_JPS_082_FAST_V1_2020_metadata.pkl": "12e218fee229ce8f06ee38b98be9fd0a9c046682c32f9b10b9ba393b29cfcc83",
+  "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c8_jps_082\\2020\\extraction_complete.json": "7239ce02a42496eb180b49642f4a84faa2f55644efcee5b6c7dd20ee1a077fb3"
+}

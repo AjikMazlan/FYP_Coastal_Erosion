@@ -45,3 +45,12 @@ results/shoreline_pipeline/monthly_v1/roi_c8_jps_082/** -text
 results/shoreline_pipeline/monthly_v1/roi_c8_jps_082_contour_review/** -text
 results/shoreline_pipeline/monthly_v1/roi_c8_jps_083/** -text
 results/shoreline_pipeline/monthly_v1/roi_c8_jps_094/** -text
+
+data/coastsat/roi_c8_jps_101_seed_2024/** -text
+data/coastsat/roi_c8_jps_107_seed_2024/** -text
+data/coastsat/roi_c8_jps_107_t3_t5/** -text
+data/coastsat/roi_c8_jps_108_seed_2024/** -text
+results/shoreline_pipeline/monthly_v1/roi_c8_jps_101/** -text
+results/shoreline_pipeline/monthly_v1/roi_c8_jps_107/** -text
+results/shoreline_pipeline/monthly_v1/roi_c8_jps_107_t3_t5/** -text
+results/shoreline_pipeline/monthly_v1/roi_c8_jps_108/** -text

@@ -329,6 +329,59 @@
       "existing_inputs": {
         "2024": "JPS_BATCH_ROI_C8_JPS_094_2024_V1"
       }
+    },
+    {
+      "id": "roi_c8_jps_101",
+      "name": "Pantai Kampung Jambu Bongkok",
+      "input_prefix": "ROI_C8_JPS_101_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_101.json",
+      "reference": "data/coastsat/roi_c8_jps_101_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_101_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_101_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_107",
+      "name": "Pantai Kuala Abang",
+      "input_prefix": "ROI_C8_JPS_107_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_107.json",
+      "reference": "data/coastsat/roi_c8_jps_107_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_107_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_107_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_108",
+      "name": "Pantai Kampung Teluk Bedara",
+      "input_prefix": "ROI_C8_JPS_108_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_108.json",
+      "reference": "data/coastsat/roi_c8_jps_108_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_108_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_108_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c8_jps_107_t3_t5",
+      "name": "Pantai Kuala Abang (T3-T5)",
+      "input_prefix": "ROI_C8_JPS_107_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c8_jps_107.json",
+      "reference": "data/coastsat/roi_c8_jps_107_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c8_jps_107_t3_t5/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C8_JPS_107_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "data/coastsat/roi_c8_jps_107_t3_t5/measurements_2020.csv",
+        "2021": "data/coastsat/roi_c8_jps_107_t3_t5/measurements_2021.csv",
+        "2022": "data/coastsat/roi_c8_jps_107_t3_t5/measurements_2022.csv",
+        "2023": "data/coastsat/roi_c8_jps_107_t3_t5/measurements_2023.csv",
+        "2024": "data/coastsat/roi_c8_jps_107_t3_t5/measurements_2024.csv",
+        "2025": "data/coastsat/roi_c8_jps_107_t3_t5/measurements_2025.csv"
+      },
+      "subset_reason": "Excluded transects fail the existing 6-month coverage rule in at least one required year. Selection uses coverage, not prediction error."
     }
   ]
 }

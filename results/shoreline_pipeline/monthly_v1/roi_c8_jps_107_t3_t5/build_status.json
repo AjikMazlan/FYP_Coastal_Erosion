@@ -1,0 +1,61 @@
+{
+  "status": "ready",
+  "model_sha256": "c11cb22c38934d7046a7902480e9b00f7017cbab02a43242d9ba79c0dbe70ba6",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_107_t3_t5\\measurements_2020.csv",
+      "sha256": "217c71fd2257493c36b261d96d916ed5abc4811b22438ea77d8959ccf6ebb74b",
+      "rows": 111,
+      "valid_rows": 75
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_107_t3_t5\\measurements_2021.csv",
+      "sha256": "86864d5eef560776775caa1a45ced12cbd0e3e6000c499db5f67d3f0abbd220f",
+      "rows": 63,
+      "valid_rows": 48
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_107_t3_t5\\measurements_2022.csv",
+      "sha256": "a8210ab173cbbce5cf6656402e942be01910809731c5942b8e484e24e2a446d9",
+      "rows": 90,
+      "valid_rows": 69
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_107_t3_t5\\measurements_2023.csv",
+      "sha256": "72efe3162ae56f261abbfc261d8ca05ce7c7f5de401b89205e9bad2683da97d1",
+      "rows": 90,
+      "valid_rows": 63
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_107_t3_t5\\measurements_2024.csv",
+      "sha256": "8e864569780a8e7276aec422a17f43d54a694684f7d45a4ea97f0037d2fdcc40",
+      "rows": 57,
+      "valid_rows": 50
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c8_jps_107_t3_t5\\measurements_2025.csv",
+      "sha256": "fabe85ea97c2373b296a07a17aa50130669a0b01c04bb7207b2402a2c02c3879",
+      "rows": 99,
+      "valid_rows": 71
+    }
+  ],
+  "site_id": "roi_c8_jps_107_t3_t5",
+  "site": "Pantai Kuala Abang (T3-T5)",
+  "model": "results/shoreline_pipeline/monthly_v1/roi_c8_jps_107_t3_t5/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/roi_c8_jps_107_t3_t5/transects.geojson",
+  "geometry_sha256": "2a4a1f51e0f5b70ca1d8ae1a2b82f3c12904175f191e02cc395f844d7ba50db7",
+  "transect_ids": [
+    3,
+    4,
+    5
+  ]
+}

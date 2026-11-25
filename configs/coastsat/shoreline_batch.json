@@ -382,6 +382,57 @@
         "2025": "data/coastsat/roi_c8_jps_107_t3_t5/measurements_2025.csv"
       },
       "subset_reason": "Excluded transects fail the existing 6-month coverage rule in at least one required year. Selection uses coverage, not prediction error."
+    },
+    {
+      "id": "roi_c9_jps_109",
+      "name": "Pantai Teluk Lipat",
+      "input_prefix": "ROI_C9_JPS_109_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c9_jps_109.json",
+      "reference": "data/coastsat/roi_c9_jps_109_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c9_jps_109_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C9_JPS_109_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c9_jps_113",
+      "name": "Pantai Utara Kampung Sura Atas",
+      "input_prefix": "ROI_C9_JPS_113_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c9_jps_113.json",
+      "reference": "data/coastsat/roi_c9_jps_113_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c9_jps_113_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C9_JPS_113_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c9_jps_119",
+      "name": "Pantai Utara Tanjung Gadung",
+      "input_prefix": "ROI_C9_JPS_119_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c9_jps_119.json",
+      "reference": "data/coastsat/roi_c9_jps_119_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c9_jps_119_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C9_JPS_119_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c9_jps_119_t4_review",
+      "name": "Pantai Utara Tanjung Gadung (Semakan T4)",
+      "input_prefix": "ROI_C9_JPS_119_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c9_jps_119.json",
+      "reference": "data/coastsat/roi_c9_jps_119_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c9_jps_119_seed_2024/transects_300m.geojson",
+      "existing_measurements": {
+        "2020": "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2020/measurements.csv",
+        "2021": "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2021/measurements.csv",
+        "2022": "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2022/measurements.csv",
+        "2023": "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2023/measurements.csv",
+        "2024": "data/coastsat/roi_c9_jps_119_t4_review/measurements_2024_reviewed.csv",
+        "2025": "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2025/measurements.csv"
+      },
+      "review_audit": "data/coastsat/roi_c9_jps_119_t4_review/contour_audit.json",
+      "review_note": "Two T4 measurements in 2024 use visually selected sand-sea contour components that passed original CoastSat QC. The 2025 holdout uses original measurements."
     }
   ]
 }

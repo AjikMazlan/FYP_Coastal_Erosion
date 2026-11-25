@@ -1,0 +1,4 @@
+{
+  "status": "blocked",
+  "error": "Model blocked by missing/insufficient monthly coverage:\n Year Transect_ID  Months_Covered\n 2024           4               4"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Holdout_2025",
+  "scores": {
+    "LinearRegression": {
+      "N": 5,
+      "MAE_m": 3.4152939550000783,
+      "MSE_m2": 20.337435120276066,
+      "RMSE_m": 4.509704549111401
+    },
+    "NoChangeBaseline": {
+      "N": 5,
+      "MAE_m": 6.315086849999995,
+      "MSE_m2": 48.22598277296763,
+      "RMSE_m": 6.9444929817062695
+    }
+  },
+  "lr_worse_than_baseline": false
+}

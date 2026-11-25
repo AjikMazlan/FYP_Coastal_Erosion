@@ -1,0 +1,120 @@
+{
+    "review_id":  "roi_c9_jps_119_t4_review",
+    "site_id":  "roi_c9_jps_119",
+    "reference_buffer_m":  100,
+    "intersection_qc":  {
+                            "along_dist":  25,
+                            "min_points":  3,
+                            "max_std":  15,
+                            "max_range":  40,
+                            "min_chainage":  0,
+                            "multiple_inter":  "nan",
+                            "auto_prc":  0.1
+                        },
+    "original_measurements_2024":  "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2024/measurements.csv",
+    "reviewed_measurements_2024":  "data/coastsat/roi_c9_jps_119_t4_review/measurements_2024_reviewed.csv",
+    "original_csv_sha256":  {
+                                "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2020/measurements.csv":  "754ddb4b5a390a605a61294f84ff0edc58daa1ae43417c2eac3cd7a30c8e8a31",
+                                "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2021/measurements.csv":  "476396122cdc77b1346f888ef13bf19a52792bd675373f8bf312926fc646ae3e",
+                                "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2022/measurements.csv":  "dfc1c0282af2b34d2820f8adc90f06a089a3f10ac3b9e6eccfbdaa1780e56a0d",
+                                "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2023/measurements.csv":  "f53ffa3dbf17fe3fd818c8272cd88b8e6f03046f6527fa8588756b32abdc8557",
+                                "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2024/measurements.csv":  "3597398940592ad53ec4a34bf7af91fa1d5d9b09538471261799526e7ccdbaa2",
+                                "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2025/measurements.csv":  "504369213fa0a42366b80c0009dc9340d5643f6ded8b8f9b69e42aa5dc44e80b"
+                            },
+    "reviewed_csv_sha256":  "fe16a7867b6b1d065a73513961b7576aa673a789bdaaa30563f86bc91f1c8f7a",
+    "qc_diagnostic":  "results/coastsat_diagnostics/jps_119_t4_2024_and_jps_109_chord/jps119_t4_cache_qc.json",
+    "qc_diagnostic_sha256":  "bb64a39799c5ecea9c78adc9a2fa1fa322a94a3cc398270acb86084b357fbc05",
+    "holdout_2025_source":  "results/shoreline_pipeline/monthly_v1/roi_c9_jps_119/2025/measurements.csv",
+    "t4_valid_months_before":  [
+                                   "2024-02",
+                                   "2024-04",
+                                   "2024-10",
+                                   "2024-11"
+                               ],
+    "t4_valid_months_after":  [
+                                  "2024-02",
+                                  "2024-04",
+                                  "2024-06",
+                                  "2024-07",
+                                  "2024-10",
+                                  "2024-11"
+                              ],
+    "images":  [
+                   {
+                       "date":  "2024-06-18",
+                       "transect_id":  4,
+                       "source_file":  "2024-06-18-03-36-51_S2_48NUL_JPS_BATCH_ROI_C9_JPS_119_2024_V1_ms.tif",
+                       "source_image":  "D:/CoastSat-master/data/JPS_BATCH_ROI_C9_JPS_119_2024_V1/S2/ms/2024-06-18-03-36-51_S2_48NUL_JPS_BATCH_ROI_C9_JPS_119_2024_V1_ms.tif",
+                       "selected_component":  "C0",
+                       "selected_component_qc":  {
+                                                     "id":  0,
+                                                     "length_m":  1604.846551623058,
+                                                     "n":  6,
+                                                     "std_m":  0.6758115232590242,
+                                                     "range_m":  1.547300063831159,
+                                                     "median_m":  220.02227991155996,
+                                                     "valid":  true
+                                                 },
+                       "distance_t4_m_exact":  "220.02227991155996",
+                       "selection_reason":  "Kontur C0 mengikuti sempadan pasir dengan laut pada tindihan RGB. C1 berada di sisi darat dan mempunyai hanya dua titik T4.",
+                       "other_components":  [
+                                                {
+                                                    "id":  1,
+                                                    "length_m":  235.26044431895502,
+                                                    "n":  2,
+                                                    "std_m":  3.8313813303768427,
+                                                    "range_m":  7.662762660753685,
+                                                    "median_m":  52.36178379896615,
+                                                    "valid":  false
+                                                }
+                                            ],
+                       "original_combined_qc":  {
+                                                    "n":  8,
+                                                    "std_m":  72.61089144904966,
+                                                    "range_m":  172.20296626120785,
+                                                    "median_m":  219.3797183005968,
+                                                    "valid":  false
+                                                },
+                       "overlay":  "results/coastsat_diagnostics/jps_119_t4_2024_and_jps_109_chord/2024-06-18-03-36-51_S2_119_T4.png",
+                       "cloud_fraction":  0.0
+                   },
+                   {
+                       "date":  "2024-07-18",
+                       "transect_id":  4,
+                       "source_file":  "2024-07-18-03-36-52_S2_48NUL_JPS_BATCH_ROI_C9_JPS_119_2024_V1_ms.tif",
+                       "source_image":  "D:/CoastSat-master/data/JPS_BATCH_ROI_C9_JPS_119_2024_V1/S2/ms/2024-07-18-03-36-52_S2_48NUL_JPS_BATCH_ROI_C9_JPS_119_2024_V1_ms.tif",
+                       "selected_component":  "C0",
+                       "selected_component_qc":  {
+                                                     "id":  0,
+                                                     "length_m":  1519.782610221731,
+                                                     "n":  6,
+                                                     "std_m":  1.2109365897535642,
+                                                     "range_m":  3.794054342614089,
+                                                     "median_m":  203.46173273590114,
+                                                     "valid":  true
+                                                 },
+                       "distance_t4_m_exact":  "203.46173273590114",
+                       "selection_reason":  "Kontur C0 mengikuti sempadan pasir dengan laut pada segmen yang sama. C1 berada di sisi darat walaupun lulus QC berangka.",
+                       "other_components":  [
+                                                {
+                                                    "id":  1,
+                                                    "length_m":  265.97338111447175,
+                                                    "n":  3,
+                                                    "std_m":  3.1041782977788035,
+                                                    "range_m":  7.600081300817152,
+                                                    "median_m":  54.44615106207106,
+                                                    "valid":  true
+                                                }
+                                            ],
+                       "original_combined_qc":  {
+                                                    "n":  9,
+                                                    "std_m":  70.37269330070276,
+                                                    "range_m":  155.42294570079284,
+                                                    "median_m":  202.49448939914637,
+                                                    "valid":  false
+                                                },
+                       "overlay":  "results/coastsat_diagnostics/jps_119_t4_2024_and_jps_109_chord/2024-07-18-03-36-52_S2_119_T4.png",
+                       "cloud_fraction":  0.01882790858725762
+                   }
+               ]
+}

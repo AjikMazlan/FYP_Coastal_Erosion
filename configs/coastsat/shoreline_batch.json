@@ -433,6 +433,60 @@
       },
       "review_audit": "data/coastsat/roi_c9_jps_119_t4_review/contour_audit.json",
       "review_note": "Two T4 measurements in 2024 use visually selected sand-sea contour components that passed original CoastSat QC. The 2025 holdout uses original measurements."
+    },
+    {
+      "id": "roi_c10_jps_120",
+      "name": "Pantai Selatan Muara Sungai Paka",
+      "input_prefix": "ROI_C10_JPS_120_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c10_jps_120.json",
+      "reference": "data/coastsat/roi_c10_jps_120_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c10_jps_120_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C10_JPS_120_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c10_jps_128",
+      "name": "Pantai Kertih",
+      "input_prefix": "ROI_C10_JPS_128_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c10_jps_128.json",
+      "reference": "data/coastsat/roi_c10_jps_128_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c10_jps_128_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C10_JPS_128_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c10_jps_132",
+      "name": "Pantai Selatan Tanjung Batu Lama",
+      "input_prefix": "ROI_C10_JPS_132_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c10_jps_132.json",
+      "reference": "data/coastsat/roi_c10_jps_132_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c10_jps_132_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C10_JPS_132_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c10_jps_128_t3_t5",
+      "name": "Pantai Kertih (T3-T5)",
+      "input_prefix": "ROI_C10_JPS_128_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c10_jps_128.json",
+      "reference": "data/coastsat/roi_c10_jps_128_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c10_jps_128_t3_t5/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C10_JPS_128_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2020.csv",
+        "2021": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2021.csv",
+        "2022": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2022.csv",
+        "2023": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2023.csv",
+        "2024": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2024.csv",
+        "2025": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2025.csv"
+      },
+      "subset_reason": "T1 excluded on geometry after removing T2. T2 excluded for five valid months in 2023. The retained T3-T5 connections follow the same coastal segment on the reference RGB.",
+      "review_audit": "data/coastsat/roi_c10_jps_128_t3_t5/subset_record.json"
     }
   ]
 }

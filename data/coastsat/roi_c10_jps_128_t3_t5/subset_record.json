@@ -1,0 +1,157 @@
+{
+  "parent_site": "roi_c10_jps_128",
+  "site_id": "roi_c10_jps_128_t3_t5",
+  "retained_transects": [
+    3,
+    4,
+    5
+  ],
+  "minimum_valid_months": 6,
+  "excluded_transects": {
+    "1": {
+      "reason": "Geometry: joining T1 directly to T3 cuts across land and the jetty access at T2 despite sufficient T1 coverage.",
+      "T2_observed_point_to_T1_T3_connection_m": 135.33237259120443
+    },
+    "2": {
+      "reason": "Insufficient coverage in 2023.",
+      "year": 2023,
+      "valid_months": 5
+    }
+  },
+  "coverage": {
+    "2020": {
+      "1": 12,
+      "2": 11,
+      "3": 12,
+      "4": 10,
+      "5": 10
+    },
+    "2021": {
+      "1": 10,
+      "2": 11,
+      "3": 10,
+      "4": 9,
+      "5": 9
+    },
+    "2022": {
+      "1": 10,
+      "2": 9,
+      "3": 7,
+      "4": 9,
+      "5": 9
+    },
+    "2023": {
+      "1": 8,
+      "2": 5,
+      "3": 9,
+      "4": 8,
+      "5": 9
+    },
+    "2024": {
+      "1": 7,
+      "2": 7,
+      "3": 6,
+      "4": 6,
+      "5": 7
+    },
+    "2025": {
+      "1": 9,
+      "2": 9,
+      "3": 10,
+      "4": 9,
+      "5": 9
+    }
+  },
+  "geometry_check": {
+    "assessment": "Pass for the retained segment on the seed scene. Straight connections round off two local coastal protrusions, but follow the same coastal frontage and do not span the main jetty sector.",
+    "overlay": "results/coastsat_diagnostics/jps_128_t3_t5_geometry/jps128_t3_t5_overlay.png",
+    "diagnostic": "results/coastsat_diagnostics/jps_128_t3_t5_geometry/jps128_t3_t5_geometry.json",
+    "site": "roi_c10_jps_128",
+    "source_image": "2024-06-18-03-36-51_S2_48NUL_JPS_BATCH_ROI_C10_JPS_128_2024_V1_ms.tif",
+    "reference_offset_method": "Maximum nearest distance to the corresponding section of the saved reference, sampled along the chord at intervals no larger than 1 m.",
+    "source_observed_positions_m": {
+      "3": 202.563122,
+      "4": 210.414146,
+      "5": 209.812551
+    },
+    "results": {
+      "T3-T4": {
+        "connection_length_m": 732.580619698872,
+        "max_offset_to_saved_reference_m": 65.92309061684497,
+        "median_offset_to_saved_reference_m": 57.31006734165033,
+        "max_offset_to_nearest_extracted_point_m": 30.776747860577125,
+        "median_offset_to_nearest_extracted_point_m": 9.79752902933662,
+        "maximum_reference_offset_utm": [
+          329360.41674367903,
+          506106.1349766198
+        ]
+      },
+      "T4-T5": {
+        "connection_length_m": 840.8194144895348,
+        "max_offset_to_saved_reference_m": 68.64109771257276,
+        "median_offset_to_saved_reference_m": 59.31905891862036,
+        "max_offset_to_nearest_extracted_point_m": 40.76452713246197,
+        "median_offset_to_nearest_extracted_point_m": 4.576753660956477,
+        "maximum_reference_offset_utm": [
+          329651.3951064436,
+          505478.50707838725
+        ]
+      }
+    }
+  },
+  "source_hashes": {
+    "data/coastsat/roi_c10_jps_128_seed_2024/transects_300m.geojson": "3a08ba456dd186b4a1fbee9dec241ee4aeaed7ec88cc6f6a4808d75f59512765",
+    "data/coastsat/roi_c10_jps_128_seed_2024/reference.geojson": "d45a815484170f9c29424d5ed5cbfee8ca6bd45a9e71a7637ea1b014d0adbbc8",
+    "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2020/measurements.csv": "83c38edbb79e1702557ad11f76faa52a84e372e772a8f7843fc8dfc8fd5af583",
+    "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2021/measurements.csv": "ffe2ec5d290b0e405fba55338ab288e3b9c4c8a4e480cfdc0e4e072b2083372c",
+    "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2022/measurements.csv": "d1705d78cffb839ccea70372275a58bc28b2f6f37b21d1d699a37cc4aee2f5d9",
+    "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2023/measurements.csv": "d50a2d38a30323b4ac682b80ed27d24de5ad2a3cd45177604af53f64515f3388",
+    "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2024/measurements.csv": "b17ab541794d972ecbdb4e63c474c2c1972ff9328269cc1e213905415b85dfa1",
+    "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2025/measurements.csv": "ae0a614060083954d3acd3ca891fb9b5b3302170d818f71330f52d36216976b3"
+  },
+  "measurements": {
+    "2020": {
+      "source": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2020/measurements.csv",
+      "source_sha256": "83c38edbb79e1702557ad11f76faa52a84e372e772a8f7843fc8dfc8fd5af583",
+      "rows_copied": 102,
+      "subset": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2020.csv",
+      "subset_sha256": "192d17d02b7e275a5645dfedde45b2e1bea6644e9035e0d0650eac427de71bec"
+    },
+    "2021": {
+      "source": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2021/measurements.csv",
+      "source_sha256": "ffe2ec5d290b0e405fba55338ab288e3b9c4c8a4e480cfdc0e4e072b2083372c",
+      "rows_copied": 84,
+      "subset": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2021.csv",
+      "subset_sha256": "90f490281b2569d3ba9bc8b0936ad255fb94e9dd6638380d08babe8b0173a45c"
+    },
+    "2022": {
+      "source": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2022/measurements.csv",
+      "source_sha256": "d1705d78cffb839ccea70372275a58bc28b2f6f37b21d1d699a37cc4aee2f5d9",
+      "rows_copied": 72,
+      "subset": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2022.csv",
+      "subset_sha256": "04b54d762e2a4177e801a06f213aa1e23315d8c01cf061443505b09487e58113"
+    },
+    "2023": {
+      "source": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2023/measurements.csv",
+      "source_sha256": "d50a2d38a30323b4ac682b80ed27d24de5ad2a3cd45177604af53f64515f3388",
+      "rows_copied": 84,
+      "subset": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2023.csv",
+      "subset_sha256": "eb5d2624eb9bd6aff45798aab6ab996464db16842bc4c370052690b0648c4eba"
+    },
+    "2024": {
+      "source": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2024/measurements.csv",
+      "source_sha256": "b17ab541794d972ecbdb4e63c474c2c1972ff9328269cc1e213905415b85dfa1",
+      "rows_copied": 48,
+      "subset": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2024.csv",
+      "subset_sha256": "72ae03e49e4600ced21f1b8233d88f6f6a5185c5a8b20f6a86de270542319e10"
+    },
+    "2025": {
+      "source": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128/2025/measurements.csv",
+      "source_sha256": "ae0a614060083954d3acd3ca891fb9b5b3302170d818f71330f52d36216976b3",
+      "rows_copied": 78,
+      "subset": "data/coastsat/roi_c10_jps_128_t3_t5/measurements_2025.csv",
+      "subset_sha256": "5e00c09eda7de36f12db5b1fe5327e58ec679c9179b6b0adb5e4e7c0e296c688"
+    }
+  },
+  "holdout_2025_note": "The holdout is an unchanged filter of the original 2025 data to T3-T5."
+}

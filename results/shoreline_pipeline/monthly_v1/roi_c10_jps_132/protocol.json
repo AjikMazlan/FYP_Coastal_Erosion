@@ -1,0 +1,61 @@
+{
+  "version": "monthly_v1",
+  "batch": {
+    "coastsat_root": "D:/CoastSat-master",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "min_months_per_year": 6,
+    "jump_flag_m": 40
+  },
+  "site": {
+    "id": "roi_c10_jps_132",
+    "name": "Pantai Selatan Tanjung Batu Lama",
+    "input_prefix": "ROI_C10_JPS_132_FAST_V1",
+    "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c10_jps_132.json",
+    "reference": "data/coastsat/roi_c10_jps_132_seed_2024/reference.geojson",
+    "transects": "data/coastsat/roi_c10_jps_132_seed_2024/transects_300m.geojson",
+    "existing_inputs": {
+      "2024": "JPS_BATCH_ROI_C10_JPS_132_2024_V1"
+    }
+  },
+  "base_config": {
+    "site_id": "JPS_BATCH_ROI_C10_JPS_132",
+    "site_name": "ROI_C10_JPS_132 - Kemaman",
+    "sitename": "JPS_BATCH_ROI_C10_JPS_132_2024_V1",
+    "earth_engine_project": "coastal-erosion-fyp",
+    "roi_file": "roi_c10_jps_132.geojson",
+    "dates": [
+      "2024-01-01",
+      "2025-01-01"
+    ],
+    "sat_list": [
+      "L8",
+      "S2"
+    ],
+    "output_epsg": 32648,
+    "jps_station_ids": [
+      132
+    ],
+    "source_roi_id": "ROI_C10_JPS_132",
+    "status": "draft_roi_requires_satellite_image_review",
+    "download_enabled": false,
+    "notes": "Availability check only. ROI geometry remains a draft. JPS stations locate the area; they are not CoastSat transects. This batch does not reuse or overwrite existing Merang/Bukit Keluang folders."
+  },
+  "intersection_qc": {
+    "along_dist": 25,
+    "min_points": 3,
+    "max_std": 15,
+    "max_range": 40,
+    "min_chainage": 0,
+    "multiple_inter": "nan",
+    "auto_prc": 0.1
+  },
+  "reference_sha256": "bcfee422388a662998cf030852ff77bfcb090f31d3933afc1added33843386b3",
+  "transects_sha256": "eaee781a128413941c66d08912313063aab6583cb7d20e7955be6dd3fa84937c"
+}

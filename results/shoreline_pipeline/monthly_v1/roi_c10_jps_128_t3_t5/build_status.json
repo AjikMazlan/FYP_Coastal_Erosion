@@ -1,0 +1,61 @@
+{
+  "status": "ready",
+  "model_sha256": "25bf32c42562c17812140362ba150929097429c32318af89d0f6d33d69bf6748",
+  "reference_year": 2024,
+  "holdout_year": 2025,
+  "qc_status": "UNVALIDATED",
+  "sources": [
+    {
+      "year": 2020,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c10_jps_128_t3_t5\\measurements_2020.csv",
+      "sha256": "192d17d02b7e275a5645dfedde45b2e1bea6644e9035e0d0650eac427de71bec",
+      "rows": 102,
+      "valid_rows": 63
+    },
+    {
+      "year": 2021,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c10_jps_128_t3_t5\\measurements_2021.csv",
+      "sha256": "90f490281b2569d3ba9bc8b0936ad255fb94e9dd6638380d08babe8b0173a45c",
+      "rows": 84,
+      "valid_rows": 49
+    },
+    {
+      "year": 2022,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c10_jps_128_t3_t5\\measurements_2022.csv",
+      "sha256": "04b54d762e2a4177e801a06f213aa1e23315d8c01cf061443505b09487e58113",
+      "rows": 72,
+      "valid_rows": 53
+    },
+    {
+      "year": 2023,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c10_jps_128_t3_t5\\measurements_2023.csv",
+      "sha256": "eb5d2624eb9bd6aff45798aab6ab996464db16842bc4c370052690b0648c4eba",
+      "rows": 84,
+      "valid_rows": 54
+    },
+    {
+      "year": 2024,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c10_jps_128_t3_t5\\measurements_2024.csv",
+      "sha256": "72ae03e49e4600ced21f1b8233d88f6f6a5185c5a8b20f6a86de270542319e10",
+      "rows": 48,
+      "valid_rows": 29
+    },
+    {
+      "year": 2025,
+      "file": "D:\\FYP_Coastal_Erosion\\data\\coastsat\\roi_c10_jps_128_t3_t5\\measurements_2025.csv",
+      "sha256": "5e00c09eda7de36f12db5b1fe5327e58ec679c9179b6b0adb5e4e7c0e296c688",
+      "rows": 78,
+      "valid_rows": 61
+    }
+  ],
+  "site_id": "roi_c10_jps_128_t3_t5",
+  "site": "Pantai Kertih (T3-T5)",
+  "model": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128_t3_t5/candidate_model.joblib",
+  "geometry": "results/shoreline_pipeline/monthly_v1/roi_c10_jps_128_t3_t5/transects.geojson",
+  "geometry_sha256": "ccd09cf2c1c41194abb6abee1fafe8412fd68363ad4072cf5b5c71626c54d755",
+  "transect_ids": [
+    3,
+    4,
+    5
+  ]
+}

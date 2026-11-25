@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "roi_c10_jps_132_seed_2024_transects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32648" } },
+"features": [
+{"type":"Feature","properties":{"name":"1"},"geometry":{"type":"LineString","coordinates":[[330123.429017802525777,502102.954324753663968],[330480.536577287653927,502106.598279442288913]]}},
+{"type":"Feature","properties":{"name":"2"},"geometry":{"type":"LineString","coordinates":[[330173.429931029968429,501711.22919572662795],[330587.018788188754115,501796.862130909285042]]}},
+{"type":"Feature","properties":{"name":"3"},"geometry":{"type":"LineString","coordinates":[[330342.873824050941039,501357.765590930124745],[330674.473700715694577,501488.94795972056454]]}},
+{"type":"Feature","properties":{"name":"4"},"geometry":{"type":"LineString","coordinates":[[330492.275966284563765,500986.082212690555025],[330798.368160128942691,501099.044808037870098]]}},
+{"type":"Feature","properties":{"name":"5"},"geometry":{"type":"LineString","coordinates":[[330581.500401604920626,500811.172387636615895],[331004.199145485239569,500955.108597837213892]]}}
+]
+}

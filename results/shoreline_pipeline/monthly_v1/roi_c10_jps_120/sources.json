@@ -1,0 +1,44 @@
+[
+  {
+    "year": 2020,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c10_jps_120\\2020\\measurements.csv",
+    "sha256": "37075bdcd9ca910e394631611a99e5d069acb99770ce35fdb8022626eaa52607",
+    "rows": 160,
+    "valid_rows": 122
+  },
+  {
+    "year": 2021,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c10_jps_120\\2021\\measurements.csv",
+    "sha256": "c5d3488610ac314fb0a450e5375755e33a35b39440631c1d40925ff81eaa8884",
+    "rows": 130,
+    "valid_rows": 109
+  },
+  {
+    "year": 2022,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c10_jps_120\\2022\\measurements.csv",
+    "sha256": "2491a4cefe0bf911bc9bd9231c970df8dc0b9174cfd4e0625cccfca658f36cb4",
+    "rows": 125,
+    "valid_rows": 109
+  },
+  {
+    "year": 2023,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c10_jps_120\\2023\\measurements.csv",
+    "sha256": "f1fe1370e78b4e4c16ee155f41414f004954322849b10ab63daecde8709dfa6f",
+    "rows": 155,
+    "valid_rows": 124
+  },
+  {
+    "year": 2024,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c10_jps_120\\2024\\measurements.csv",
+    "sha256": "15155f902b909ce6cbb65dcb3e830dd62cb5312a31eea3d85c89e738540e7c86",
+    "rows": 110,
+    "valid_rows": 69
+  },
+  {
+    "year": 2025,
+    "file": "D:\\FYP_Coastal_Erosion\\results\\shoreline_pipeline\\monthly_v1\\roi_c10_jps_120\\2025\\measurements.csv",
+    "sha256": "772a3bdd813df22517d681138cf8e83b8addedeff1881b763407a260992c0e84",
+    "rows": 115,
+    "valid_rows": 89
+  }
+]

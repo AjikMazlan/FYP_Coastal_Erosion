@@ -1,0 +1,150 @@
+{
+  "site_id": "roi_c11_jps_134",
+  "review_id": "roi_c11_jps_134_t5_review",
+  "year": 2022,
+  "transect": 5,
+  "reference_buffer_m": 100,
+  "extraction_clearances_m": {
+    "cloud": 300,
+    "nodata": 30,
+    "minimum_contour_length": 200
+  },
+  "intersection_qc": {
+    "along_dist": 25,
+    "min_points": 3,
+    "max_std": 15,
+    "max_range": 40,
+    "min_chainage": 0,
+    "multiple_inter": "nan",
+    "auto_prc": 0.1
+  },
+  "minimum_valid_months": 6,
+  "valid_months_before": [
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06"
+  ],
+  "valid_months_after": [
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-09",
+    "2022-10"
+  ],
+  "reviewed_csv": "data/coastsat/roi_c11_jps_134_t5_review/measurements_2022_reviewed.csv",
+  "reviewed_csv_sha256": "8eaad888fa7a7d3431a9d5103cd778daa52b2f9e173f5e1302441be8a0440025",
+  "original_files_sha256": {
+    "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2020/measurements.csv": "a0e6e09968c804830515098f21e15f88ab66ceab071db9d78102759507511a74",
+    "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2021/measurements.csv": "21fd37a3e0b378cba1983eb0afa00c2539bce3055ee9605b13db9f0d5de80a1a",
+    "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2022/measurements.csv": "32e6c0484963c254c350338996080c2091d63d65612f289f068c2f2d2d28486a",
+    "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2023/measurements.csv": "91d0deea7952550a6b717d83dca297de3026bb3aac618011d0806955260a7499",
+    "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2024/measurements.csv": "17fe54b1fce2076ff0b8e13eb7e4395e511e9a5c9f4ae0d99111114af668c68b",
+    "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2025/measurements.csv": "ed5422d6ee1e1fd2b3b9d61bf4aa2832a61bd72db0d3d819930ff25c4d153b6b",
+    "data/coastsat/roi_c11_jps_134_seed_2024/reference.geojson": "83bc1d05effe6f904b78012055e998dadd22b90d0854f58f343e635283a01b91",
+    "data/coastsat/roi_c11_jps_134_seed_2024/transects_300m.geojson": "8d4b851b3301ddcd1dc0ffb541bb9ded26fe7756600dc56f51965d1a6354567d",
+    "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/protocol.json": "a050c7fe8540ed4db1ee4a32d529380f9e3b732b7660fbe3d045b81abb49f268"
+  },
+  "diagnostic": "results/coastsat_diagnostics/jps_134_t5_2022/cache_qc.json",
+  "diagnostic_sha256": "63e42241a7e7d7f4ee9f491e0ddb0e7e79d142e2edbc582777bc9771c03de445",
+  "selected_images": [
+    {
+      "date": "2022-09-02",
+      "transect": 5,
+      "satellite": "S2",
+      "source_file": "2022-09-02-03-37-15_S2_48NUK_ROI_C11_JPS_134_FAST_V1_2022_ms.tif",
+      "image": "D:\\CoastSat-master\\data\\ROI_C11_JPS_134_FAST_V1_2022\\S2\\ms\\2022-09-02-03-37-15_S2_48NUK_ROI_C11_JPS_134_FAST_V1_2022_ms.tif",
+      "image_sha256": "2ec78e1dcffee889027d5bb5555859167a728a4aa2277c89ffc11a4bce4ed2e3",
+      "overlay": "results/coastsat_diagnostics/jps_134_t5_2022/overlays/2022-09-02-03-37-15_S2_48NUK_ROI_C11_JPS_134_FAST_V1_2022.png",
+      "overlay_sha256": "3888130f29a3384424715687d18034f9af25fd8ba0a2d3dedfc92f39ed637738",
+      "distance_m_exact": "198.75335554219782",
+      "selected_component": {
+        "id": 2,
+        "length_m": 4614.7423040975045,
+        "n": 7,
+        "std_m": 4.720515769707802,
+        "range_m": 12.917252625804394,
+        "median_m": 198.75335554219782,
+        "valid": true,
+        "distance_m": 198.75335554219782
+      },
+      "inland_component": {
+        "id": 3,
+        "length_m": 252.98778296297732,
+        "n": 7,
+        "std_m": 6.191901396610359,
+        "range_m": 18.255197612161282,
+        "median_m": 61.59367820818443,
+        "valid": true,
+        "distance_m": 61.59367820818443
+      },
+      "original_combined_qc": {
+        "n": 14,
+        "std_m": 69.88812545465316,
+        "range_m": 155.86148952291114,
+        "median_m": 130.2990729115554,
+        "valid": false
+      },
+      "selection_reason": "C2 mengikuti peralihan daripada jalur pasir cerah ke air di sisi laut. C3 memotong kawasan di belakang jalur pasir dan tidak mewakili pantai terbuka.",
+      "cloud_fraction": 0.007310797485517071,
+      "mndwi_threshold": -0.1455256641231391
+    },
+    {
+      "date": "2022-10-17",
+      "transect": 5,
+      "satellite": "L8",
+      "source_file": "2022-10-17-03-22-33_L8_126057_ROI_C11_JPS_134_FAST_V1_2022_ms.tif",
+      "image": "D:\\CoastSat-master\\data\\ROI_C11_JPS_134_FAST_V1_2022\\L8\\ms\\2022-10-17-03-22-33_L8_126057_ROI_C11_JPS_134_FAST_V1_2022_ms.tif",
+      "image_sha256": "dbb243b65be0e80997113734f8b90066f16e8e6cae4c09c1873fa666a46164b5",
+      "overlay": "results/coastsat_diagnostics/jps_134_t5_2022/overlays/2022-10-17-03-22-33_L8_126057_ROI_C11_JPS_134_FAST_V1_2022.png",
+      "overlay_sha256": "312c42349bb3d1fdb3fff8d31ca6979010b7bd0ec499a8506ec5b98044488e25",
+      "distance_m_exact": "193.8575288206921",
+      "selected_component": {
+        "id": 3,
+        "length_m": 4541.625587612185,
+        "n": 6,
+        "std_m": 7.755964317701676,
+        "range_m": 19.5113079691655,
+        "median_m": 193.8575288206921,
+        "valid": true,
+        "distance_m": 193.8575288206921
+      },
+      "inland_component": {
+        "id": 9,
+        "length_m": 259.2364511954459,
+        "n": 6,
+        "std_m": 8.581301175721787,
+        "range_m": 22.696270967426244,
+        "median_m": 61.98332611229853,
+        "valid": true,
+        "distance_m": 61.98332611229853
+      },
+      "original_combined_qc": {
+        "n": 12,
+        "std_m": 66.2822853448192,
+        "range_m": 150.8085965224309,
+        "median_m": 127.14037231437396,
+        "valid": false
+      },
+      "selection_reason": "C3 mengikuti sisi laut jalur pasir secara berterusan di sekitar T5. C9 terletak di belakang pasir pada kawasan darat yang lebih gelap.",
+      "cloud_fraction": 0.08943229931737665,
+      "mndwi_threshold": -0.07527288503741256
+    }
+  ],
+  "other_images_reviewed": [
+    {
+      "date": "2022-02-03",
+      "source_file": "2022-02-03-03-22-09_L8_126057_ROI_C11_JPS_134_FAST_V1_2022_ms.tif",
+      "reason": "Tepi air kurang jelas pada Landsat 8 dan litupan awan seluruh imej menghampiri had 30%.",
+      "overlay": "results/coastsat_diagnostics/jps_134_t5_2022/overlays/2022-02-03-03-22-09_L8_126057_ROI_C11_JPS_134_FAST_V1_2022.png"
+    },
+    {
+      "date": "2022-11-02",
+      "source_file": "2022-11-02-03-22-39_L8_126057_ROI_C11_JPS_134_FAST_V1_2022_ms.tif",
+      "reason": "Jalur buih ombak di sebelah laut T5 lebih ketara berbanding dua imej yang dipilih.",
+      "overlay": "results/coastsat_diagnostics/jps_134_t5_2022/overlays/2022-11-02-03-22-39_L8_126057_ROI_C11_JPS_134_FAST_V1_2022.png"
+    }
+  ],
+  "holdout_2025_source": "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2025/measurements.csv"
+}

@@ -487,6 +487,48 @@
       },
       "subset_reason": "T1 excluded on geometry after removing T2. T2 excluded for five valid months in 2023. The retained T3-T5 connections follow the same coastal segment on the reference RGB.",
       "review_audit": "data/coastsat/roi_c10_jps_128_t3_t5/subset_record.json"
+    },
+    {
+      "id": "roi_c11_jps_134",
+      "name": "Pantai Berhampiran Kelab Golf Petronas",
+      "input_prefix": "ROI_C11_JPS_134_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c11_jps_134.json",
+      "reference": "data/coastsat/roi_c11_jps_134_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c11_jps_134_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C11_JPS_134_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c11_jps_141",
+      "name": "Pantai Kampung Ibai",
+      "input_prefix": "ROI_C11_JPS_141_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c11_jps_141.json",
+      "reference": "data/coastsat/roi_c11_jps_141_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c11_jps_141_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C11_JPS_141_2024_V1"
+      }
+    },
+    {
+      "id": "roi_c11_jps_134_t5_review",
+      "name": "Pantai Berhampiran Kelab Golf Petronas (T5 disemak)",
+      "input_prefix": "ROI_C11_JPS_134_FAST_V1",
+      "base_config": "configs/coastsat/jps_batch_2024_v1/roi_c11_jps_134.json",
+      "reference": "data/coastsat/roi_c11_jps_134_seed_2024/reference.geojson",
+      "transects": "data/coastsat/roi_c11_jps_134_seed_2024/transects_300m.geojson",
+      "existing_inputs": {
+        "2024": "JPS_BATCH_ROI_C11_JPS_134_2024_V1"
+      },
+      "existing_measurements": {
+        "2020": "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2020/measurements.csv",
+        "2021": "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2021/measurements.csv",
+        "2022": "data/coastsat/roi_c11_jps_134_t5_review/measurements_2022_reviewed.csv",
+        "2023": "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2023/measurements.csv",
+        "2024": "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2024/measurements.csv",
+        "2025": "results/shoreline_pipeline/monthly_v1/roi_c11_jps_134/2025/measurements.csv"
+      },
+      "review_audit": "data/coastsat/roi_c11_jps_134_t5_review/contour_audit.json"
     }
   ]
 }
